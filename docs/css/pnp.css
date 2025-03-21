@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.cs_select {
+	background-color: var(--background-light);
+	border-color: var(--border-color-alternative);
+	border-radius: var(--surface-rounder-sm);
+	border-style: var(--border-style);
+	border-width: var(--border-width);
+	color: var(--color-light);
+	display: block;
+	font-size: var(--font-size-scale-up-01);
+	font-weight: var(--font-weight-medium);
+	height: var(--input-size);
+	margin-top: var(--spacing-scale-half);
+	padding-bottom: 0;
+	padding-left: var(--spacing-scale-2x);
+	padding-right: var(--spacing-scale-2x);
+	padding-top: 0;
+	width: 100%;
+}
+
+.tooltip-icon {
+	display: inline-block;
+}
+.tooltip-icon i {
+	color: #69448C;
+	cursor: pointer;
+}
+
+.tooltip-content {
+	visibility: hidden;
+	position: absolute;
+	width: 80%;
+	z-index: 1000;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 3%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	top: calc(-300%);
+}
+.tooltip-content img {
+	width: 100%;
+	height: auto;
+}
+.tooltip-content p {
+	font-size: small;
+	width: 100%;
+}
+.tooltip-content a {
+	width: 100%;
+}
+.tooltip-icon:hover .tooltip-content {
+	visibility: visible;
+}
