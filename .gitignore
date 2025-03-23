@@ -4,10 +4,10 @@
 /arquivos_dev
 
 # Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
