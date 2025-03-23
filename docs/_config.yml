@@ -1,3 +1,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Referencial metodológico PNP" # the name of your site, e.g. ACME Corp.
+title: "Guia metodológico PNP" # Nome do sistema ou plataforma
+subtitle: "" #Órgão ou entidade
+sign: "" # Assinatura
+footer: "Documentação elaborada pela Secretaria de Educação Profissional e Tecnológica (SETEC) / Página desenvolvida pela Rede DSBR."
+menu: "Todo o conteúdo deste site está publicado sob a licença MIT."

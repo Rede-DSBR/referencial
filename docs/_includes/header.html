@@ -4,7 +4,7 @@
   <div class="container-lg">
     <div class="header-top">
       <div class="header-logo"><img src="assets/img/govbr.svg" alt="logo"/><span class="br-divider vertical"></span>
-        <div class="header-sign"></div> <!--Federação-->
+        <div class="header-sign">{{ site.sign }}</div>
       </div>
       <div class="header-actions">
         <div class="header-links dropdown">
@@ -14,9 +14,9 @@
             <div class="header">
               <div class="title">Acesso Rápido</div>
             </div>
-            <a class="br-item" href="https://www.gov.br/mec/pt-br/pnp" target="_blank">Plataforma Nilo Peçanha</a>
-            <a class="br-item" href="https://app.powerbi.com/view?r=eyJrIjoiZDhkNGNiYzgtMjQ0My00OGVlLWJjNzYtZWQwYjI2OThhYWM1IiwidCI6IjllNjgyMzU5LWQxMjgtNGVkYi1iYjU4LTgyYjJhMTUzNDBmZiJ9" target="_blank">Painel PNP</a>
-            <a class="br-item" href="https://moduloextratorpnp.mec.gov.br" target="_blank">Módulo Extrator</a>
+            {% for link in site.data.header %}
+            <a class="br-item" href="{{ link.href }}" target="_blank">{{ link.title }}</a>
+            {% endfor %}
           </div>
         </div>
       </div>
@@ -28,8 +28,8 @@
           </button>
         </div>
         <div class="header-info">
-          <div class="header-title">Guia Metodológico</div> <!--Sistema ou Site-->
-          <div class="header-subtitle"></div><!--Ministério da Educação-->
+          <div class="header-title">{{ site.title }}</div>
+          <div class="header-subtitle">{{ site.subtitle }}</div>
         </div>
       </div>
     </div>
