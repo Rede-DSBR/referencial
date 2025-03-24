@@ -3,7 +3,7 @@
         <div class="menu-panel">
             <div class="menu-header">
                 <div class="menu-title">
-                    <img src="assets/img/govbr.svg" alt="Imagem ilustrativa" /><span>{{ site.title }}</span>
+                    <img src={{"assets/img/govbr.svg" | relative_url }} alt="Imagem ilustrativa" /><span>{{ site.title }}</span>
                 </div>
                 <div class="menu-close">
                     <button class="br-button circle" type="button" aria-label="Fechar o menu" data-dismiss="menu"><i
@@ -16,7 +16,7 @@
                         <div class="menu-folder active">
                             <a class="menu-item divider" href="javascript: void(0)">
                     {% else %}
-                        <a class="menu-item divider" href="{{ item.href | default: "javascript: void(0)" }}">
+                        <a class="menu-item divider" href="{{ item.href | | relative_url }}">
                     {% endif %}
                     {% if item.icon %}
                         <span class="icon">
@@ -73,7 +73,7 @@
                 {% if site.data.menu.logos %}
                 <div class="menu-logos">
                     {% for logo in site.data.menu.logos%}
-                    <img src="{{ logo.src }}" alt="{{ logo.alt }}" />
+                    <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | relative_url }}" />
                     {% endfor %}
                 </div>
                 {% endif %}
