@@ -1,0 +1,21 @@
+{% assign parent_index = include.parent_index | default: "" %}
+{% assign itens = include.itens %}
+{% for item in itens %}
+    {% assign current_index = forloop.index %}
+    {% if parent_index == "" %}
+        {% assign numbering = current_index %}
+    {% else %}
+        {% assign numbering = parent_index | append: '.' | append: current_index %}
+    {% endif %}
+    {% if item.href %}
+        <div>
+          {{ numbering }} - <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
+        </div>
+    {% else %}
+        <div>{{ numbering }} - {{ item.title }}</div>
+    {% endif %}
+
+    {% if item.children %}
+        {% include nav.html itens=item.children parent_index=numbering %}
+    {% endif %}
+{% endfor %}
