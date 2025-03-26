@@ -18,3 +18,6 @@ Sua forma resulta de contribuições de áreas como Ciência e Tecnologia da Inf
 Inevitavelmente, os pressupostos metodológicos deste processo guardam relação com inúmeros e variados campos do conhecimento científico que operam de forma orquestrada para constituir um panorama multidimensional do conjunto de instituições sob supervisão da Secretaria de Educação Profissional e Tecnológica do Ministério da Educação (Setec/MEC).
 
 Como um construto simbólico, a PNP traduz manifestações da realidade por meio de um extraordinário conjunto de indicadores e narrativas visuais. Essa expressão transcende a simples representação de métricas, pois incorpora dimensões qualitativas que assimilam a dinâmica educacional, os desafios enfrentados e os avanços conquistados pela sociedade brasileira.
+
+Teste de edição !
+![Captura de tela 2025-02-24 135611](https://github.com/user-attachments/assets/41b7401e-32b2-423c-9b7c-54441c74424d)
