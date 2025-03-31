@@ -1,100 +1,107 @@
-<div class="br-menu push active" id="main-navigation">
-    <div class="menu-container">
-        <div class="menu-panel">
-            <div class="menu-header">
-                <div class="menu-title">
-                    <img src={{"assets/img/govbr.svg" | relative_url }} alt="Imagem ilustrativa" /><span>{{ site.title }}</span>
-                </div>
-                <div class="menu-close">
-                    <button class="br-button circle" type="button" aria-label="Fechar o menu" data-dismiss="menu"><i
-                            class="fas fa-times" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <nav class="menu-body">
-                {% for item in site.data.menu.itens %} <!--1º Nível-->
-                    {% if item.children %}
+<div class="col-sm-4 col-lg-3 px-0">
+    <div class="site-menu">
+        <div class="br-menu push active" id="main-navigation">
+            <div class="menu-container">
+                <div class="menu-panel">
+                    <div class="menu-header">
+                        <div class="menu-title">
+                            <img src={{"assets/img/govbr.svg" | relative_url }} alt="Imagem ilustrativa" /><span>{{
+                                site.title }}</span>
+                        </div>
+                        <div class="menu-close">
+                            <button class="br-button circle" type="button" aria-label="Fechar o menu"
+                                data-dismiss="menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    <nav class="menu-body">
+                        {% for item in site.data.menu.itens %} <!--1º Nível-->
+                        {% if item.children %}
                         <div class="menu-folder active">
                             <a class="menu-item divider" href="javascript: void(0)">
-                    {% else %}
-                        <a class="menu-item divider" href="{{ item.href | | relative_url }}">
-                    {% endif %}
-                    {% if item.icon %}
-                        <span class="icon">
-                            <i class="{{ item.icon }}" aria-hidden="true"></i>
-                        </span>
-                    {% endif %}
-                        <span class="content">{{ item.title }}</span>
-                        </a>
-                    {% if item.children %}
-                    <ul>
-                        {% for child in item.children %} <!-- 2º Nível-->
-                        <li>
-                            {% if child.children %}
-                            <a class="menu-item" href="javascript: void(0)">
-                                {% if item.icon %}
-                                <span class="icon">
-                                    <i class="{{ child.icon }}" aria-hidden="true"></i>
-                                </span>
-                                {% endif %}
-                                <span class="content">{{ child.title }}</span>
-                            </a>
-                            <ul>
-                                {% for child2 in child.children %} <!--3º Nível-->
-                                <li>
-                                    <a class="menu-item" href="{{ child2.href | default: "javascript: void(0)" }}">
-                                        {% if item.icon %}
-                                        <span class="icon">
-                                            <i class="{{ child2.icon }}" aria-hidden="true"></i>
-                                        </span>
+                                {% else %}
+                                <a class="menu-item divider" href="{{ item.href | | relative_url }}">
+                                    {% endif %}
+                                    {% if item.icon %}
+                                    <span class="icon">
+                                        <i class="{{ item.icon }}" aria-hidden="true"></i>
+                                    </span>
+                                    {% endif %}
+                                    <span class="content">{{ item.title }}</span>
+                                </a>
+                                {% if item.children %}
+                                <ul>
+                                    {% for child in item.children %} <!-- 2º Nível-->
+                                    <li>
+                                        {% if child.children %}
+                                        <a class="menu-item" href="javascript: void(0)">
+                                            {% if item.icon %}
+                                            <span class="icon">
+                                                <i class="{{ child.icon }}" aria-hidden="true"></i>
+                                            </span>
+                                            {% endif %}
+                                            <span class="content">{{ child.title }}</span>
+                                        </a>
+                                        <ul>
+                                            {% for child2 in child.children %} <!--3º Nível-->
+                                            <li>
+                                                <a class="menu-item" href="{{ child2.href | default: " javascript:
+                                                    void(0)" }}">
+                                                    {% if item.icon %}
+                                                    <span class="icon">
+                                                        <i class="{{ child2.icon }}" aria-hidden="true"></i>
+                                                    </span>
+                                                    {% endif %}
+                                                    <span class="content">{{ child2.title }}</span>
+                                                </a>
+                                            </li>
+                                            {% endfor %} <!-- Fim 3º Nível-->
+                                        </ul>
+                                        {% else %}
+                                        <a class="menu-item" href="{{ child.href | default: " javascript: void(0)" }}">
+                                            <span class="icon">
+                                                <i class="{{ child.icon }}" aria-hidden="true"></i>
+                                            </span>
+                                            <span class="content">{{ child.title }}</span>
+                                        </a>
                                         {% endif %}
-                                        <span class="content">{{ child2.title }}</span>
-                                    </a>
-                                </li>
-                                {% endfor %} <!-- Fim 3º Nível-->
-                            </ul>
-                            {% else %}
-                            <a class="menu-item" href="{{ child.href | default: "javascript: void(0)" }}">
-                                <span class="icon">
-                                    <i class="{{ child.icon }}" aria-hidden="true"></i>
-                                </span>
-                                <span class="content">{{ child.title }}</span>
-                            </a>
-                            {% endif %}
-                        </li>
-                        {% endfor %}  <!-- Fim do 2º Nível-->
-                    </ul>
-                    {% endif %}
-                    {% if item.children %}
+                                    </li>
+                                    {% endfor %} <!-- Fim do 2º Nível-->
+                                </ul>
+                                {% endif %}
+                                {% if item.children %}
                         </div>
-                    {% endif %}
-                {% endfor %} <!--Fim do 1º Nível-->
-            </nav>
-            <div class="menu-footer">
-                {% if site.data.menu.logos %}
-                <div class="menu-logos">
-                    {% for logo in site.data.menu.logos%}
-                    <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | relative_url }}" />
-                    {% endfor %}
-                </div>
-                {% endif %}
-                {% if site.data.menu.networks %}
-                <div class="social-network">
-                    <div class="social-network-title">Redes Sociais</div>
-                    <div class="d-flex">
-                       {% for social in site.data.menu.networks %} 
-                        <a class="br-button circle" href="{{ social.href | default: "javascript: void(0)" }}" aria-label="{{ social.label }}"><i
-                                class="{{ social.class }}" aria-hidden="true"></i></a>
-                       {% endfor %}
+                        {% endif %}
+                        {% endfor %} <!--Fim do 1º Nível-->
+                    </nav>
+                    <div class="menu-footer">
+                        {% if site.data.menu.logos %}
+                        <div class="menu-logos">
+                            {% for logo in site.data.menu.logos%}
+                            <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | relative_url }}" />
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        {% if site.data.menu.networks %}
+                        <div class="social-network">
+                            <div class="social-network-title">Redes Sociais</div>
+                            <div class="d-flex">
+                                {% for social in site.data.menu.networks %}
+                                <a class="br-button circle" href="{{ social.href | default: " javascript: void(0)" }}"
+                                    aria-label="{{ social.label }}"><i class="{{ social.class }}"
+                                        aria-hidden="true"></i></a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="menu-info">
+                            <div class="text-center text-down-01">
+                                {{ site.menu }}
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {% endif %}
-                <div class="menu-info">
-                    <div class="text-center text-down-01">
-                        {{ site.menu }}
-                    </div>
-                </div>
+                <div class="menu-scrim" data-dismiss="menu" tabindex="0"></div>
             </div>
         </div>
-        <div class="menu-scrim" data-dismiss="menu" tabindex="0"></div>
     </div>
 </div>
