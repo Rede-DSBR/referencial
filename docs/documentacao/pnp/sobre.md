@@ -3,6 +3,17 @@ layout: default
 title: About Us
 ---
 
+
+<!-- Parte de Navegação
+
+Veja qual é a o nome da próxima página e da anterior e adicione abaixo no formato:
+
+[Anterior: Nome da páginas](/documentacao/caminho_do_arquivo)
+[Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
+-->
+
+[Anterior: Página Inicial](/)
+
 ## O que é a PNP?
 
 A Plataforma Nilo Peçanha (PNP) é um sistema de informação que coleta, organiza e sistematiza dados e informações da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT).
@@ -21,3 +32,6 @@ Como um construto simbólico, a PNP traduz manifestações da realidade por meio
 
 Teste de edição !
 ![Captura de tela 2025-02-24 135611](https://github.com/user-attachments/assets/41b7401e-32b2-423c-9b7c-54441c74424d)
+
+
+[Próximo: Glossário »](/documentacao/pnp/glossario)
