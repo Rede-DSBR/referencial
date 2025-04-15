@@ -21,4 +21,4 @@ Ambiente de inovação: ambientes promotores de inovação, a exemplo de incubad
 Assistência estudantil: Política pública composta por um conjunto de ações destinadas a assegurar a permanência e o êxito dos estudantes na educação pública federal. 
 
 
-<!-- [Próximo: Glossário »](/documentacao/pnp/glossario) -->
+[Próximo: Histórico »](/documentacao/pnp/historico)

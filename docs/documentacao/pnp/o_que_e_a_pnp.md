@@ -34,4 +34,4 @@ Teste de edição !
 ![Captura de tela 2025-02-24 135611](https://github.com/user-attachments/assets/41b7401e-32b2-423c-9b7c-54441c74424d)
 
 
-[Próximo: Glossário »](/documentacao/pnp/glossario)
+[Próximo: O porquê da PNP »](/documentacao/pnp/o_porque_da_pnp)
