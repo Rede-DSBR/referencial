@@ -1,0 +1,16 @@
+<div class="header-search">
+    <form method="get" id="search-google" action="https://www.google.com/search" target="_blank">
+        <div class="br-input has-icon">
+            <input type="hidden" name="sitesearch" value="{{ site.url}}" />
+            <label for="googlesearch">Texto da pesquisa</label>
+            <input id="googlesearch" name="q" type="text" placeholder="O que você procura?" autocomplete="off"
+                maxlength="30" />
+            <button class="br-button circle small" type="submit" aria-label="Pesquisar"><i class="fas fa-search"
+                    aria-hidden="true"></i>
+            </button>
+        </div>
+    </form>
+    <button class="br-button circle search-close ml-1" type="button" aria-label="Fechar Busca" data-dismiss="search"><i
+            class="fas fa-times" aria-hidden="true"></i>
+    </button>
+</div>

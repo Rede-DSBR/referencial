@@ -1,0 +1,15 @@
+<div class="header-search">
+    <form action="{{ site.baseurl}}/busca" method="get">
+        <div class="br-input has-icon">
+            <label for="lunrsearch">Texto da pesquisa</label>
+            <input id="lunrsearch" name="q" type="text" placeholder="O que você procura?" autocomplete="off"
+                maxlength="30" />
+            <button class="br-button circle small" type="submit" aria-label="Pesquisar"><i class="fas fa-search"
+                    aria-hidden="true"></i>
+            </button>
+        </div>
+    </form>
+    <button class="br-button circle search-close ml-1" type="button" aria-label="Fechar Busca" data-dismiss="search"><i
+            class="fas fa-times" aria-hidden="true"></i>
+    </button>
+</div>

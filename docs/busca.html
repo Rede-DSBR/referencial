@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+{% if site.search_engine == "lunrjs" %}
+
 <div id="lunrsearchresults"></div>
 
-{% include search-lunr.html %}
+{% include resultados_lunr.html %}
 <script>
     function getQueryText(variable) {
         var query = window.location.search.substring(1),
@@ -41,3 +43,5 @@ layout: default
     var query = escapeHTML(decodeURIComponent((getQueryText("q") || "").replace(/\+/g, "%20")));
     lunr_search(query);
 </script>
+
+{% endif %}
