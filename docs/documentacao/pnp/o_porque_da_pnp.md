@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "O porquê da PNP"
 ---
 
 <!-- Parte de Navegação
@@ -11,6 +12,9 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 -->
 
 [Anterior: O que é a PNP?](/documentacao/pnp/sobre)
+
+
+# {{ page.title }}
 
 Área Básica de Ingresso (ABI): Refere-se à formação do graduado em Educação Física, prevista na Resolução CNE 6/2018, que se dá por ingresso único, destinado tanto ao bacharelado quanto à licenciatura, se desdobrando em duas etapas: comum e específica.
 
