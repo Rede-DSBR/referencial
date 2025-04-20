@@ -44,7 +44,7 @@
                                         <ul>
                                             {% for child2 in child.children %} <!--3º Nível-->
                                             <li>
-                                                <a class="menu-item" href="{{ child2.href | default: " javascript:
+                                                <a class="menu-item" href="{{ child2.href | default: "javascript:
                                                     void(0)" }}">
                                                     {% if item.icon %}
                                                     <span class="icon">
@@ -57,7 +57,7 @@
                                             {% endfor %} <!-- Fim 3º Nível-->
                                         </ul>
                                         {% else %}
-                                        <a class="menu-item" href="{{ child.href | default: " javascript: void(0)" }}">
+                                        <a class="menu-item" href="{{ child.href | default: "javascript: void(0)" }}">
                                             <span class="icon">
                                                 <i class="{{ child.icon }}" aria-hidden="true"></i>
                                             </span>
