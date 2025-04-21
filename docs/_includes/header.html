@@ -1,46 +1,57 @@
 <nav class="br-skiplink" role="menubar">
   <a class="br-item" href="#main-content" role="menuitem" accesskey="1">
-    Ir para o conteúdo <span aria-hidden="true">(1/4)</span> 
+    Ir para o conteúdo <span aria-hidden="true">(1/4)</span>
     <span aria-hidden="true" class="br-tag text ml-1">1</span>
   </a>
   <a class="br-item" href="#header-navigation" role="menuitem" accesskey="2">
-    Ir para o menu <span aria-hidden="true">(2/4)</span> 
+    Ir para o menu <span aria-hidden="true">(2/4)</span>
     <span aria-hidden="true" class="br-tag text ml-1">2</span>
   </a>
   <a class="br-item" href="#main-searchbox" role="menuitem" accesskey="3">
-    Ir para a busca <span aria-hidden="true">(3/4)</span> 
+    Ir para a busca <span aria-hidden="true">(3/4)</span>
     <span aria-hidden="true" class="br-tag text ml-1">3</span>
   </a>
   <a class="br-item" href="#footer" role="menuitem" accesskey="4">
-    Ir para o rodapé <span aria-hidden="true">(4/4)</span> 
+    Ir para o rodapé <span aria-hidden="true">(4/4)</span>
     <span aria-hidden="true" class="br-tag text ml-1">4</span>
   </a>
 </nav>
 <header class="br-header mb-4" id="header" data-sticky="data-sticky">
   <div class="container-lg">
     <div class="header-top">
-      <div class="header-logo"><img src={{"assets/img/pnp_horizontal.png" | relative_url }} alt="logo"/><span class="br-divider vertical"></span>
+      <div class="header-logo"><img src={{"assets/img/pnp_horizontal.png" | relative_url }} alt="logo" /><span
+          class="br-divider vertical"></span>
         <div class="header-sign">{{ site.sign }}</div>
       </div>
       <div class="header-actions">
         <div class="header-links dropdown">
-          <button class="br-button circle small" type="button" data-toggle="dropdown" aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+          <button class="br-button circle small" type="button" data-toggle="dropdown"
+            aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
           </button>
           <div class="br-list">
             <div class="header">
               <div class="title">Acesso Rápido</div>
             </div>
             {% for link in site.data.header %}
-              <a class="br-item" href="{{ link.href }}" target="_blank">{{ link.title }}</a>
+            <a class="br-item" href="{{ link.href }}" target="_blank">{{ link.title }}</a>
             {% endfor %}
           </div>
+          {% if site.search_engine == "google" or site.search_engine == "lunrjs" %}
+          <span class="br-divider vertical mx-half mx-sm-1"></span>
+          <div class="header-search-trigger">
+            <button class="br-button circle" type="button" aria-label="Abrir Busca" data-toggle="search"
+              data-target=".header-search"><i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+          {% endif %}
         </div>
       </div>
     </div>
     <div class="header-bottom">
       <div class="header-menu">
         <div class="header-menu-trigger" id="header-navigation">
-          <button class="br-button small circle" type="button" aria-label="Menu" data-toggle="menu" data-target="#main-navigation" id="navigation"><i class="fas fa-bars" aria-hidden="true"></i>
+          <button class="br-button small circle" type="button" aria-label="Menu" data-toggle="menu"
+            data-target="#main-navigation" id="navigation"><i class="fas fa-bars" aria-hidden="true"></i>
           </button>
         </div>
         <div class="header-info">
@@ -48,6 +59,12 @@
           <div class="header-subtitle">{{ site.subtitle }}</div>
         </div>
       </div>
+        {% case site.search_engine %}
+          {% when "google" %}
+            {% include search_google.html %}
+          {% when "lunrjs" %}
+            {% include search_lunr.html %}
+        {% endcase %}
     </div>
   </div>
 </header>

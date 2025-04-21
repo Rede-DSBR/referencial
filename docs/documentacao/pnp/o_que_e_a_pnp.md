@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us
+title: "O que é a PNP?"
 ---
 
 
@@ -14,7 +14,8 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 [Anterior: Página Inicial](/)
 
-## O que é a PNP?
+
+# {{ page.title }}
 
 A Plataforma Nilo Peçanha (PNP) é um sistema de informação que coleta, organiza e sistematiza dados e informações da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT).
 

@@ -1,5 +1,5 @@
 <div class="col-sm-4 col-lg-3 px-0" id="menuref">
-    <div class="site-menu"> 
+    <div class="site-menu">
         <div class="br-menu push active" id="main-navigation" style="max-width: 100%;">
             <div class="menu-container">
                 <div class="menu-panel">
@@ -16,7 +16,7 @@
                     <nav class="menu-body">
                         {% for item in site.data.menu.itens %} <!--1º Nível-->
                         {% if item.children %}
-                        <div class="menu-folder active">
+                        <div class="menu-folder">
                             <a class="menu-item divider" href="javascript: void(0)">
                                 {% else %}
                                 <a class="menu-item divider" href="{{ item.href | | relative_url }}">

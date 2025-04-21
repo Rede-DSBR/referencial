@@ -32,6 +32,9 @@ itens:
   - title: "CCV - Ciclos de Coleta e Validação"
     icon: "fas fa-recycle"
     children:
+      - title: "Processo CCV"
+        href: "/documentacao/ccv/processo_ccv"
+        icon: "fas fa-sync-alt"
       - title: "Produto de Dados"
         href: "/documentacao/ccv/produto_de_dados"
         icon: "fas fa-cube"
@@ -49,6 +52,9 @@ itens:
   - title: "ODI - Observatório de Dados e Informações"
     icon: "far fa-eye"
     children:
+      - title: "Processo ODI"
+        href: "/documentacao/odi/processo_odi"
+        icon: "fas fa-clipboard-check"
       - title: "Produto Visual"
         href: "/documentacao/odi/produto_visual"
         icon: "fas fa-palette"
@@ -73,8 +79,11 @@ itens:
   - title: "Indicadores"
     icon: "fas fa-cart-arrow-down"
     children:
+      - title: "Finalidade dos indicadores"
+        href: "/documentacao/indicadores/finalidade_dos_indicadores"
+        icon: "fas fa-book-reader"
       - title: "Ampliação e melhorias"
-        href: "/documentacao/indicadores/ampliacoes_e_melhorias"
+        href: "/documentacao/indicadores/ampliacao_e_melhorias"
         icon: "fas fa-running"
       - title: "Normativos e dimensões"
         href: "/documentacao/indicadores/normativos_e_dimensoes"
