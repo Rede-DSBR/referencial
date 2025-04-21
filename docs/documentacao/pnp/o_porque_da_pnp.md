@@ -11,7 +11,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: O que é a PNP?](/documentacao/pnp/sobre)
+[Anterior: O que é a PNP?](/documentacao/pnp/o_que_e_a_pnp)
 
 
 # {{ page.title }}
