@@ -35,6 +35,7 @@ if __name__ == "__main__":
     # Create temp directory for individual PDFs
     temp_dir = "temp_pdfs"
     os.makedirs(temp_dir, exist_ok=True)
+
     
     pdf_files = []
     print(f"Found {len(urls)} URLs to process")

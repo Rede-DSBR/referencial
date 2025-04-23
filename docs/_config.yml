@@ -5,7 +5,7 @@ subtitle: "" #Órgão ou entidade
 sign: "" # Assinatura
 footer: "Documentação elaborada pela Secretaria de Educação Profissional e Tecnológica (SETEC) / Página desenvolvida pela Rede DSBR."
 menu: "Todo o conteúdo deste site está publicado sob a licença MIT."
-search_engine: "google" # Valores possíveis serão "lunrjs", "google". Outro valor irá desativar.
+search_engine: "lunrjs" # Valores possíveis serão "lunrjs", "google". Outro valor irá desativar.
 
 plugins:
   - jekyll-sitemap
