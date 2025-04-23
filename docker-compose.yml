@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  get-sites:
+    build: .
+    volumes:
+      - ./docs:/app/docs
+      - ./temp_pdfs:/app/temp_pdfs
+      - ./merged_site.pdf:/app/merged_site.pdf
+    command: ["python", "get_sites.py"]

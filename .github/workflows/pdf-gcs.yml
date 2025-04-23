@@ -1,0 +1,47 @@
+name: Build PDF and Upload to GCS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  pdf-to-gcs:
+    # If your Jekyll workflow is called 'github-pages', use this:
+    needs: github-pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Create gcs-bucket.json from secret
+        run: echo "$GCS_BUCKET_JSON" > gcs-bucket.json
+        env:
+          GCS_BUCKET_JSON: ${{ secrets.GCS_BUCKET_JSON }}
+
+      - name: Build Docker image
+        run: docker build -t referencial-get-sites .
+
+      - name: Run Docker container
+        run: |
+          mkdir -p temp_pdfs
+          docker run --rm \
+            -v ${{ github.workspace }}/docs:/app/docs \
+            -v ${{ github.workspace }}/temp_pdfs:/app/temp_pdfs \
+            -v ${{ github.workspace }}/gcs-bucket.json:/app/gcs-bucket.json \
+            -e GOOGLE_APPLICATION_CREDENTIALS=/app/gcs-bucket.json \
+            referencial-get-sites
+
+      - name: Upload merged PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged_site
+          path: merged_site.pdf

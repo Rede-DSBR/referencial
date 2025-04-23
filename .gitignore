@@ -1,7 +1,9 @@
 # This .gitignore is appropriate for repositories deployed to GitHub Pages and using
 # a Gemfile as specified at https://github.com/github/pages-gem#conventional
 
-/temp_pdfs
+# Ignore temporary PDF output and merged PDF
+/temp_pdfs/
+/merged_site.pdf
 
 /arquivos_dev
 
@@ -21,3 +23,6 @@ docs/.jekyll-metadata
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 .liquidrc
+
+# Ignore Google Cloud Storage bucket credentials
+gcs-bucket.json
