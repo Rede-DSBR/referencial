@@ -6,8 +6,6 @@ on:
 
 jobs:
   pdf-to-gcs:
-    # If your Jekyll workflow is called 'github-pages', use this:
-    needs: github-pages
     runs-on: ubuntu-latest
 
     steps:
