@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Finalidade dos Indicadores"
+title: "Indicadores INEP"
 ---
 
 <!-- Parte de Navegação
@@ -11,7 +11,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Produto de Dados](/documentacao/odi/produto_de_dados)
+[Anterior: Indicadores de Gastos](/documentacao/indicadores/indicadores_de_gastos)
 
 
 # {{ page.title }}
@@ -21,4 +21,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
 
 
-[Próximo: Ampliação e melhorias »](/documentacao/indicadores/ampliacao_e_melhorias)
+[Próximo: Situações de matrícula e matrícula atendida »](/documentacao/usuarios-especializados/situacoes_matriculas)

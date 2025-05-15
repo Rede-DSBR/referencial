@@ -85,24 +85,39 @@ itens:
       - title: "Ampliação e melhorias"
         href: "/documentacao/indicadores/ampliacao_e_melhorias"
         icon: "fas fa-running"
-      - title: "Normativos e dimensões"
+
+      - title: "Normativos e dimensões"  
         href: "/documentacao/indicadores/normativos_e_dimensoes"
         icon: "fas fa-quote-left"
-        # children:
-        #   - title: "Indicadores de Ensino"
-        #     href: "#"
-        #   - title: "Indicadores de Extensão"
-        #     href: "#"
-        #   - title: "Indicadores de Pesquisa e Inovação"
-        #     href: "#"
-        #   - title: "Indicadores dos Polos de Inovação"
-        #     href: "#"
-        #   - title: "Indicadores de Pesosal"
-        #     href: "#"
-        #   - title: "Indicadores de Gastos"
-        #     href: "#"
-        #   - title: "Indicadores INEP"
-        #     href: "#"
+
+      - title: "Indicadores de Ensino"
+        href: "/documentacao/indicadores/indicadores_de_ensino"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores de Extensão"
+        href: "/documentacao/indicadores/indicadores_de_extensao"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores de Pesquisa e Inovação"
+        href: "/documentacao/indicadores/indicadores_de_pesquisa_e_inovacao"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores dos Polos de Inovação"
+        href: "/documentacao/indicadores/indicadores_dos_polos_de_inovacao"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores de Pessoal"
+        href: "/documentacao/indicadores/indicadores_de_pessoal"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores de Gastos"
+        href: "/documentacao/indicadores/indicadores_de_gastos"
+        icon: "fas fa-quote-left"
+
+      - title: "Indicadores INEP"
+        href: "/documentacao/indicadores/indicadores_inep"
+        icon: "fas fa-quote-left"
+
   - title: "Usuários Especializados"
     icon: "fas fa-users"
     children:
