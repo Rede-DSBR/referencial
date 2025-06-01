@@ -1,46 +1,103 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "pt-BR" }}">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/img/favicon.ico" | relative_url }}/>
-    <link rel="stylesheet" href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;display=swap"/>
-    <link rel="stylesheet" href="{{ "/assets/css/core.min.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
-  </head>
-  <body>
-    <div class="template-base">
-      {% include header.html %}
-      <main class="d-flex flex-fill mb-5" id="main">
-        <div class="container-lg d-flex">
-            <div class="row">
-                {% include menu.html %}
-                <div class="col mb-5">
-                    <div class="main-content pl-sm-3 mt-4" id="main-content">
-                        {{ content }}
-                    </div>
-                  </div>
-                </div>
+<html lang="{{ site.lang | default: " pt-BR" }}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/img/favicon.ico" | relative_url }} />
+  <link rel="stylesheet"
+    href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;display=swap" />
+  <link rel="stylesheet" href="{{ " /assets/css/core.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/site.css" | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="template-base">
+    {% include header.html %}
+    <main class="d-flex flex-fill mb-5" id="main">
+      <div class="container-lg d-flex">
+        <div class="row">
+          {% include menu.html %}
+          <div class="col mb-5">
+            <div class="main-content pl-sm-3 mt-4" id="main-content">
+              {{ content }}
+              {% comment %} Normaliza a URL da página atual remove .html {% endcomment %}
+              {% assign current_url_with_html = page.url %}
+              {% assign current_url = current_url_with_html | replace: '.html', '' %}
+              {% if current_url == 'index.html' %}
+              {% assign current_url = '/' %} {# Trata o caso de index.html virar /index e deve ser / #}
+              {% endif %}
+
+              {% assign navigable_items = "" | split: "" %}
+              {% comment %} Recursão para listar todo o menu {% endcomment %}
+              {% assign menu_to_process = site.data.menu.itens %}
+              {% for item in menu_to_process %}
+              {% include flatten_menu_item.html item=item %}
+              {% endfor %}
+
+              {% assign current_index = -1 %}
+              {% for item in navigable_items %}
+              {% if item.href == current_url %}
+              {% assign current_index = forloop.index0 %}
+              {% break %} {# Sai do loop assim que encontrar a página #}
+              {% endif %}
+              {% endfor %}
+
+              <nav class="pagination">
+                {% if current_index > 0 %}
+                {% assign prev_item_index = current_index | minus: 1 %}
+                {% assign prev_item = navigable_items[prev_item_index] %}
+                <a href="{{ prev_item.href }}" class="pagination-link prev">
+                  <i class="{{ prev_item.icon }}"></i>
+                  <span>{{ prev_item.title }}</span>
+                </a>
+                {% else %}
+                <span class="pagination-link prev disabled">
+                  <i class="fas fa-arrow-left"></i>
+                  <span>Início</span>
+                </span>
+                {% endif %}
+
+                {% comment %} Verifica se a página atual foi encontrada e se não é a última {% endcomment %}
+                {% assign last_item_index = navigable_items.size | minus: 1 %} {% if
+                current_index !=-1 and current_index < last_item_index %} {% assign next_item_index=current_index |
+                  plus: 1 %} {% assign next_item=navigable_items[next_item_index] %} <a href="{{ next_item.href }}"
+                  class="pagination-link next">
+                  <span>{{ next_item.title }}</span>
+                  <i class="{{ next_item.icon }}"></i>
+                  </a>
+                  {% else %}
+                  <span class="pagination-link next disabled">
+                    <span>Fim</span>
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                  {% endif %}
+              </nav>
+            </div>
           </div>
         </div>
-      </main>
-      {% include footer.html %}
-    </div>
-    <script src="{{ "/assets/js/core-init.min.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/site.js" | relative_url }}"></script>
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
       </div>
+  </div>
+  </main>
+  {% include footer.html %}
+  </div>
+  <script src="{{ " /assets/js/core-init.min.js" | relative_url }}"></script>
+  <script src="{{ " /assets/js/site.js" | relative_url }}"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
-  </body>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
 </html>

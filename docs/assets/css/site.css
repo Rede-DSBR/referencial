@@ -4,3 +4,42 @@
     overflow-y: scroll;
     height: 84vh;
 }
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.pagination-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.pagination-link.prev {
+    justify-content: flex-start;
+}
+
+.pagination-link.next {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.pagination-link i {
+    margin: 0 10px;
+}
+
+.pagination-link.disabled {
+    color: #ccc;
+    pointer-events: none;
+}
