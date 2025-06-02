@@ -1,0 +1,14 @@
+{% comment %}
+Este include é usado para unificar recursivamente o menu.
+Adiciona itens com 'href' à 'navigable_items'.
+{% endcomment %}
+
+{% if include.item.href %}
+{% assign navigable_items = navigable_items | push: include.item %}
+{% endif %}
+
+{% if include.item.children %}
+{% for child in include.item.children %}
+{% include flatten_menu_item.html item=child %}
+{% endfor %}
+{% endif %}

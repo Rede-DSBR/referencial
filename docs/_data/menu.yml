@@ -1,6 +1,6 @@
 itens:
   - title: "Apresentação"
-    href: "index.html"
+    href: "/"
     icon: "fas fa-home"
   - title: "A PNP"
     icon: "fas fa-chart-bar"
@@ -14,6 +14,9 @@ itens:
       - title: "Histórico"
         href: "/documentacao/pnp/historico"
         icon: "fas fa-history"
+      - title: "Perspectivas"
+        icon: "fas fa-check-double"
+        href: "/documentacao/pnp/perspectivas"
       - title: "Marco regulatório"
         href: "/documentacao/pnp/marco_regulatorio"
         icon: "fas fa-gavel"
@@ -21,7 +24,7 @@ itens:
     icon: "fas fa-cog"
     children:
       - title: "Perspectivas teórico-metodológicas"
-        href: "/documentacao/metodologia/perpectivas_teorico_metodologicas"
+        href: "/documentacao/metodologia/perspectivas_teorico_metodologicas"
         icon: "fas fa-sitemap"
       - title: "Fontes e bases dos dados"
         href: "/documentacao/metodologia/fontes_e_bases_dos_dados"

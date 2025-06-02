@@ -11,14 +11,26 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Histórico](/documentacao/pnp/historico)
-
-
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O marco regulatório é um conjunto de normas balizadoras para a construção e o funcionamento da Plataforma Nilo Peçanha, a saber:
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+**Portaria Setec/MEC nº 299/2022**: Dispõe sobre os indicadores de Pesquisa e Extensão a serem utilizados pelas Instituições que compõem a Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT).
 
+<https://www.in.gov.br/en/web/dou/-/portaria-n-299-de-6-de-maio-de-2022-399680297>{:target="_blank"}
 
-[Próximo: Perspectivas teórico-metodológicas »](/documentacao/metodologia/perpectivas_teorico_metodologicas)
+**Portaria Setec/MEC nº 1/2018**: Institui a Plataforma Nilo Peçanha - PNP, a Rede de Coleta, Validação e Disseminação das Estatísticas da Rede Federal de Educação Profissional, Científica e Tecnológica – REVALIDE.
+
+<https://www.in.gov.br/en/web/dou/-/portaria-n-1-de-3-de-janeiro-de-2018-1590408>{:target="_blank"}
+
+**Portaria Setec/MEC nº 1162/2018**: Regulamenta o conceito de Aluno-Equivalente e de Relação Aluno por Professor, no âmbito da Rede Federal de Educação Profissional, Científica e Tecnológica.
+
+<https://www.in.gov.br/en/web/dou/-/portaria-no-1-162-de-9-de-novembro-de-2018-49743560>{:target="_blank"}
+
+**Portaria Setec/MEC nº 50/2018**: Institui o grupo de especialistas para o desenvolvimento dos trabalhos da Plataforma Nilo Peçanha 2019 (Ano Base 2018), com a finalidade de definir calendário anual de atividades, bem como atuar nas etapas do processo de desenvolvimento, melhorias dos módulos de coleta e validação, capacitação e disseminação
+
+<https://www.in.gov.br/en/web/dou/-/portaria-n-50-de-12-de-novembro-de-2018-50490973>{:target="_blank"}
+
+**Portaria Setec/MEC nº 146/2021**: Define conceitos e estabelece fatores para uso na Plataforma Nilo Peçanha - PNP e para cálculo dos indicadores de gestão das Instituições da Rede Federal de Educação Profissional, Científica e Tecnológica.
+
+<https://www.in.gov.br/en/web/dou/-/portaria-n-146-de-25-de-marco-de-2021-310597431>{:target="_blank"}
