@@ -16,9 +16,15 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A concepção da Plataforma Nilo Peçanha se dá a partir do reconhecimento de três perspectivas metodológicas: a construção coletiva de indicadores, o processo de recenseamento educacional e a democratização de dados públicos.
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+A primeira perspectiva se reconhece na abordagem dos Fóruns do Conselho Nacional das Instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (Conif) no debate e proposição de indicadores da formação profissional e tecnológica, pesquisa e inovação, em articulação aos esforços técnicos e científicos de supervisão realizados pela Secretaria da Educação Profissional e Tecnológica do Ministério da Educação  (Setec/MEC) para mobilização nacional em torno da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) com os órgãos, setores e representações das políticas nacionais da Educação Profissional e Tecnológica.
+
+A segunda perspectiva considera as características do processo de recenseamento educacional realizado pelas instituições da RFEPCT, que respondem ao Ciclo de Coleta e Validação (CCV). Esse ciclo é cuidadosamente conduzido pelas equipes de pesquisa institucional, responsáveis por manter fluxos contínuos de registro acadêmico. O fluxo permite identificar e corrigir incoerências, assegurando que os dados sejam consolidados e reflitam a realidade educacional da RFEPCT. Esse processo é conduzido por uma estrutura colaborativa que reúne diversos atores: os responsáveis pelo registro acadêmico, pesquisadores institucionais, diretores de unidades de ensino, dirigentes das instituições da RFEPCT e a Diretoria de Desenvolvimento da Rede Federal de Educação Profissional, Científica e Tecnológica e a Setec/Mec.
+
+A terceira se dá a partir de um esforço de produção estatística, que representa um modelo semântico de dados que organiza domínios da informação por meio de artefatos, processos e produtos digitais. Este conjunto promove a democracia de dados em um ecossistema que atua a várias mãos e em estrito compromisso com a gestão baseada no conhecimento das evidências.
+
+Neste itinerário, a capacidade de assimilar, encontrar, acessar, utilizar e reutilizar conhecimento torna-se fundante na promoção do desenvolvimento educacional e no fortalecimento da relação de confiança entre a população brasileira e o Estado.
 
 
 [Próximo: Fontes e bases dos dados »](/documentacao/metodologia/fontes_e_bases_dos_dados)
