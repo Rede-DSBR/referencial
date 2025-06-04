@@ -11,9 +11,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Fontes e bases dos dados](/documentacao/metodologia/fontes_e_bases_dos_dados)
-
-
 # {{ page.title }}
 
 A Plataforma Nilo Peçanha (PNP) organiza-se em dois processos complementares: os Ciclos de Coleta e Validação (PNP-CCV) e o Observatório de Dados e Informações (PNP-ODI).
@@ -40,6 +37,4 @@ Os dados provenientes das fontes que chegam ao PNP-CCV passam por regras de cons
 
 Os dados oriundos das fontes e bases estruturantes e institucionais que chegam à PNP-CCV passam por regras de consistência para a identificação de possíveis inconsistências. São então corrigidos e validados, consolidando as informações da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) em um conjunto coerente que subsidia o cálculo dos indicadores. Após esse processo, os dados são disponibilizados ao PNP-ODI para cálculo e disseminação dos indicadores. 
 
-A PNP também processa dados de outros domínios, como os dados orçamentários do Tesouro Gerencial e Painel do Orçamento do SIOP, sistemas estruturantes que alimentam de forma automática os panoramas visuais da PNP-ODI, bem como os dados dos sistemas setoriais certificados, a exemplo do Integra. Esses dados também passam por processos de limpeza e transformação para que o conjunto de informação disponibilizada ao público fortaleça a transparência, apoie o monitoramento e o desenvolvimento das políticas nacionais da RFEPCT.
-
-[Próximo: Produto de Dados »](/documentacao/ccv/processo_ccv)
+A PNP também processa dados de outros domínios, como os dados orçamentários do Tesouro Gerencial e Painel do Orçamento do SIOP, sistemas estruturantes que alimentam de forma automática os panoramas visuais da PNP-ODI, bem como os dados dos sistemas setoriais certificados, a exemplo do Integra. Esses dados também passam por processos de limpeza e transformação para que o conjunto de informação disponibilizado ao público fortaleça a transparência, apoie o monitoramento e o desenvolvimento das políticas nacionais da RFEPCT.
