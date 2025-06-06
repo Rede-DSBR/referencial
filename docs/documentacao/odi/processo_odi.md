@@ -11,14 +11,21 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Produto de Formação](/documentacao/ccv/produto_de_formacao)
-
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O processo do Observatório de Dados e Informações (PNP-ODI) é uma atividade centralizada na Plataforma Nilo Peçanha (PNP), que visa elevar a maturidade de dados da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT). Esta iniciativa reflete um compromisso com a governança de dados, assegurando a qualidade, a consistência e a acessibilidade das informações, tanto para subsidiar políticas públicas quanto para promover transparência e inovação tecnológica. O PNP-ODI opera por meio de um processo robusto e articulado que engloba modelagem e orquestração dos dados para a disseminação das informações em produtos de valor público.
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+A modelagem e a orquestração são etapas críticas que organizam os dados validados em estruturas dimensionais e semânticas para o cálculo dos indicadores e disseminação dos dados. Primeiramente, ocorre a modelagem semântica, na qual os dados são estruturados em tabelas e relacionamentos que asseguram sua interoperabilidade. Esse modelo semântico abrange um mapeamento detalhado das dimensões e fatos, tais como unidade, curso, ciclos, entre outros. Essa estrutura é projetada para suportar múltiplos recortes e interpretações, facilitando a análise pela equipe técnica e pelos usuários finais.
+
+Na sequência, a orquestração de dados utiliza etapas para integrar fontes diversas. É utilizada uma ferramenta para integrar e padronizar os dados de diferentes fontes que são consolidadas em um processo conhecido por Extração, Transformação e Carregamento (ETL). Os dados também são enriquecidos com fontes relevantes, como dados orçamentários e de pessoal. Esse processo garante a escalabilidade e a automatização das atualizações necessárias, minimizando a intervenção manual e maximizando a eficiência operacional.
+
+A disseminação de dados é realizada por meio da criação de três produtos principais: [Produto Visual](https://referencialpnp.dsbr.org/documentacao/odi/produto_visual){:target="_blank"}, [Produto Semântico](https://referencialpnp.dsbr.org/documentacao/odi/produto_semantico){:target="_blank"} e [Produto de Dados](https://referencialpnp.dsbr.org/documentacao/odi/produto_de_dados){:target="_blank"}. Esses produtos são distribuídos por meio do painel interativo da PNP, oferecendo uma interface intuitiva para acessar os dados em formatos gráficos e tabulares.
+
+O Produto Visual apresenta gráficos, mapas e diagramas em um dashboard interativo que é exibido em uma plataforma web. Já o Produto Semântico consolida e estrutura as diferentes fontes de dados em um modelo dimensional, com tabelas temáticas e relacionamentos, que possibilitam somas, contagem e cálculos de indicadores que são exibidos sob demanda no Produto Visual. Por fim, o Produto de Dados disponibiliza informações em formato CSV, acessíveis para manipulação direta pelos usuários (Microdados PNP e Extrator PNP) e publica os Microdados PNP como dados abertos no portal do MEC, conforme Plano de Dados Abertos (PDA). 
+
+O fluxo de trabalho do Observatório evidencia um grau de complexidade e interdependência entre as etapas. Além das ferramentas tecnológicas, o processo é suportado por uma governança eficiente, composta por um comitê central que garante a padronização e a qualidade dos dados. Essa governança é responsável por monitorar e propor melhorias contínuas no ciclo de dados, promovendo um ecossistema colaborativo.
+
+O Observatório de Dados e Informações, portanto, vai além da disseminação de indicadores, visto que cria um ambiente tecnológico e metodológico que possibilita a democratização do acesso à informação, a formulação de políticas educacionais baseadas em evidências e a transparência na gestão pública.
 
 
-[Próximo: Produto Visual »](/documentacao/odi/produto_visual)
