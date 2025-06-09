@@ -44,7 +44,7 @@ No acesso à experiência de filtros, o usuário terá a interface apresentada n
 
 ## Cálculo de indicadores
 
-O produto visual, além de apresentar de forma estruturada os elementos gráficos, também calcula variáveis e indicadores na própria plataforma. Atualmente, são organizados em Dados Educacionais  e Dados Orçamentários. Para detalhamento dos [indicadores](http://localhost:4000/documentacao/indicadores/finalidade_dos_indicadores){:target="_blank"} clique aqui .
+O produto visual, além de apresentar de forma estruturada os elementos gráficos, também calcula variáveis e indicadores na própria plataforma. Atualmente, são organizados em Dados Educacionais  e Dados Orçamentários. Para detalhamento dos indicadores [(clique aqui](http://localhost:4000/documentacao/indicadores/finalidade_dos_indicadores){:target="_blank"}.
 
 ### Dados Educacionais
 
@@ -62,17 +62,14 @@ Nessa página é possível obter as seguintes informações:
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Estruturas               | Número de estruturas.                                                                                                                                         |
 | Unidades                 | Número de unidades.                                                                                                                                           |
-| Cursos                   | Número de cursos que registraram matrículas no ano de referência.                                                                                            |
-| Matrículas               | Número de matrículas que estiveram em curso por pelo menos um dia durante o ano de referência.                                                               |
+| Cursos                   | Número de cursos que registraram matrículas no ano de referência.                                                                                             |
+| Matrículas               | Número de matrículas que estiveram em curso por pelo menos um dia durante o ano de referência.                                                                |
 | Vagas                    | Número de vagas ofertadas no ano de referência.                                                                                                               |
-| Inscritos                | Número de candidatos que concorreram às vagas ofertadas no ano de referência.                                                                                |
+| Inscritos                | Número de candidatos que concorreram às vagas ofertadas no ano de referência.                                                                                 |
 | Concluída                | Número de matrículas concluídas no ano de referência.                                                                                                         |
-| Ingressantes             | Número de matrículas cuja data de início ocorreu no ano de referência.                                                                                       |
-| Matrículas Equivalentes | Número de matrículas ajustadas por fatores de equiparação de carga horária e esforço do curso.                                                               |
-| Situação de Matrícula    | Classificação de matrículas conforme o status registrado, abrangendo três categorias principais:                                                             |
-|                          | • Em curso: matrículas em fluxo regular e retidas;                                                                                                            |
-|                          | • Concluintes: matrículas concluídas ou integralizadas no ano de referência;                                                                                  |
-|                          | • Evadidos: matrículas encerradas com status de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”.                   |
+| Ingressantes             | Número de matrículas cuja data de início ocorreu no ano de referência.                                                                                        |
+| Matrículas Equivalentes  | Número de matrículas ajustadas por fatores de equiparação de carga horária e esforço do curso.                                                                |
+| Situação de Matrícula | Classificação de matrículas conforme o status registrado, abrangendo três categorias principais:<br>• Em curso – matrículas em fluxo regular e retidas;<br>• Concluintes – matrículas concluídas ou integralizadas no ano de referência;<br>• Evadidos – matrículas encerradas com status de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”. |
 | Classificação Racial     | Número de matrículas categorizadas por grupos raciais: amarela, branca, indígena, parda, preta e não declarada.                                              |
 | Renda                    | Número de matrículas categorizadas de acordo com a faixa de renda familiar bruta per capita.                                                                 |
 | Sexo                     | Número de matrículas categorizadas por: feminino, masculino ou sem informação (S/I).                                                                         |
