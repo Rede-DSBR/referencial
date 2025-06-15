@@ -19,7 +19,7 @@ A principal estratégia para garantir o bom funcionamento dos Ciclos de Coleta e
 
 Como forma de proporcionar acesso constante a todas as informações e possibilitar a participação de todos os atores envolvidos nos Ciclos de Coleta e Validação, está disponível o Produto de Formação, um ambiente virtual de aprendizagem para o Curso de Capacitação da Plataforma Nilo Peçanha, que aborda aspectos essenciais da constituição da PNP, com acesso a documentos norteadores e a vídeos explicativos sobre a metodologia e a operação do processo PNP-CCV.
 
-A figura abaixo apresenta a tela inicial do ambiente de capacitação do PNP-CCV, disponível por meio de livre acesso ao clicar neste [endereço eletrônico](https://aberto.ava.ifrn.edu.br/course/search.php?areaids=core_course-course&q=Ambiente+de+Capacita%C3%A7%C3%A3o+PNP "Ambiente de Capacitação PNP"){:target="_blank"}.
+A figura abaixo apresenta a tela inicial do ambiente de capacitação do PNP-CCV, disponível por meio de livre acesso ao clicar neste [endereço eletrônico](https://aberto.ava.ifrn.edu.br/course/search.php?areaids=core_course-course&q=Ambiente+de+Capacita%C3%A7%C3%A3o+PNP "Ambiente de Capacitação PNP-CCV"){:target="_blank"}.
 
 ![Ambiente de capacitação do PNP-CCV](/assets/img/docs/ccv_produto_de_formacao_01.png "Ambiente de capacitação do PNP-CCV")
 
@@ -37,4 +37,4 @@ O curso utiliza uma metodologia de aprendizagem autodirigida, sem acompanhamento
 * ler os materiais e assistir aos vídeos tutoriais.
 * realizar a atividade obrigatória para obtenção da certificação.
 
-Em caso de dúvidas sobre a formação para atuar no PNP-CCV, os gestores institucionais de cada ciclo (Pesquisador Institucional, Gestor de Pessoal, Gestor de Pesquisa e Inovação e Gestor de Extensão) podem contatar a equipe de suporte da PNP da Setec/MEC pelo e-mail: [pnp.suporte@mec.gov.br](mailto:pnp.suporte@mec.gov.br "Suporte da PNP"). Um fórum exclusivo está disponível para notificações da Setec/MEC. As equipes institucionais (Registradores Acadêmicos e Executores Acadêmicos) devem dirimir as dúvidas com os próprios gestores institucionais.
+Em caso de dúvidas sobre a formação para atuar no PNP-CCV, os gestores institucionais de cada ciclo (Pesquisador Institucional, Gestor de Pessoal, Gestor de Pesquisa e Inovação e Gestor de Extensão) podem contatar a equipe de suporte da PNP da Setec/MEC pelo e-mail: [pnp.suporte@mec.gov.br](mailto:pnp.suporte@mec.gov.br). Um fórum exclusivo está disponível para notificações da Setec/MEC. As equipes institucionais (Registradores Acadêmicos e Executores Acadêmicos) devem dirimir as dúvidas com os próprios gestores institucionais.
