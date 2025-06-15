@@ -36,4 +36,4 @@ Esta dificuldade levou a Setec/MEC a adotar o Sistema Nacional de Informações 
 
 Para conhecer melhor o processo histórico de criação e evolução da PNP, [clique aqui](/documentacao/pnp/historico "Histórico").
 
-[^1]: Texto adaptado do Guia de Referência Medotológica - PNP 2020, de Moraes et. al (2020).
+[^1]: [Texto adaptado do Guia de Referência Medotológica - PNP 2020, de Moraes et. al (2020).](https://dadosabertos.mec.gov.br/images/pdf/grm-2020-isbn-revisado.pdf){:target="_blank"}

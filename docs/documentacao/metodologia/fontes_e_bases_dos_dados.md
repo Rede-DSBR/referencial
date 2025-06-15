@@ -19,7 +19,7 @@ Dentre os pressupostos da Plataforma Nilo Peçanha (PNP) está a integração e 
 ## Sistemas estruturantes:
 
 São sistemas desenvolvidos e mantidos pelo Governo Federal para gerir, de forma centralizada, dados e informações do sistema público federal.
-Dentre esses sistemas, estão o Sistema Nacional de Informações da Educação Profissional e Tecnológica ([Sistec](https://sistec.mec.gov.br)), o Sistema Integrado de Administração Financeira ([Siafi](https://www.gov.br/tesouronacional/pt-br/siafi)) e o Sistema de Gestão de Pessoas ([Sigepe](https://www.gov.br/servidor)).
+Dentre esses sistemas, estão o Sistema Nacional de Informações da Educação Profissional e Tecnológica ([Sistec](https://sistec.mec.gov.br){:target="_blank"}), o Sistema Integrado de Administração Financeira ([Siafi](https://www.gov.br/tesouronacional/pt-br/siafi){:target="_blank"}) e o Sistema de Gestão de Pessoas ([Sigepe](https://www.gov.br/servidor){:target="_blank"}).
 
 ## Sistemas setoriais certificados:
 
