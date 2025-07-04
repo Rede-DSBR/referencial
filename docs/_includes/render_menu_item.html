@@ -1,0 +1,64 @@
+{% assign is_active = false %}
+{% capture current_url %}{{ page.url | relative_url | replace: ".html" ""}}{% endcapture %}
+
+{% if item.href == current_url %}
+    {% assign is_active = true %}
+{% endif %}
+
+{% if item.children %}
+    {% for child in item.children %}
+      {% if child.href == current_url %}
+        {% assign is_active = true %}
+      {% endif %}
+    {% endfor %}
+{% endif %}
+    
+{% if item.children %}
+    {% if include.root_folder == "true" %}
+        <div class="menu-folder drop-menu {% if is_active %}active{% endif %}">
+    {% endif %}
+            <a class="menu-item divider" href="javascript: void(0)">
+                {% if item.icon %}
+                    <span class="icon">
+                        <i class="{{ item.icon }}" aria-hidden="true"></i>
+                    </span>
+                {% endif %}
+                <span class="content">{{ item.title }}</span>
+            </a>
+            <ul>
+                {% for child in item.children %}
+                    <li>
+                        {% if child.children %}
+                            <a class="menu-item {% if child.href == current_url %}active{% endif %}" href="javascript: void(0)">
+                                {% if item.icon %}
+                                    <span class="icon">
+                                        <i class="{{ child.icon }}" aria-hidden="true"></i>
+                                    </span>
+                                {% endif %}
+                                <span class="content">{{ child.title }}</span>
+                            </a>
+                            {% include render_menu_item.html item=child root_folder="false" %}
+                        {% else %}
+                            <a class="menu-item {% if child.href == current_url %}active{% endif %}" href="{{ child.href | default: "javascript: void(0)" }}">
+                                <span class="icon">
+                                    <i class="{{ child.icon }}" aria-hidden="true"></i>
+                                </span>
+                                <span class="content">{{ child.title }}</span>
+                            </a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+    {% if include.root_folder == "true" %}
+        </div>
+    {% endif %}
+{% else %}
+    <a class="menu-item divider {% if is_active %}active{% endif %}" href="{{ item.href | | relative_url }}">
+        {% if item.icon %}
+            <span class="icon">
+                <i class="{{ item.icon }}" aria-hidden="true"></i>
+            </span>
+        {% endif %}
+        <span class="content">{{ item.title }}</span>
+    </a>
+{% endif %}
