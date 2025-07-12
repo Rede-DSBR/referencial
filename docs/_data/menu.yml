@@ -177,7 +177,7 @@ itens:
         #     href: "#"
         #   - title: "Indicadores INEP"
         #     href: "#"
-  - title: "Listas de termos"
+  - title: "Lista de termos"
     href: "/documentacao/termos/termos"
     icon: "fas fa-sort-alpha-down"
   - title: "Referências"
