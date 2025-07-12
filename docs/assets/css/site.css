@@ -45,7 +45,7 @@ p {
 }
 
 @media (min-width: 576px) {
-  li {
+  .main-content li {
     text-align: justify;
     font-size: var(--font-size-scale-up-01);
   }
