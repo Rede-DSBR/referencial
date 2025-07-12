@@ -33,8 +33,8 @@ A estrutura do curso reflete a lógica da plataforma, proporcionando uma formaç
 
 O curso utiliza uma metodologia de aprendizagem autodirigida, sem acompanhamento de um professor. Para tanto, o participante deve:
 
-* acessar o ambiente de capacitação (AVA PNP-CCV )
-* ler os materiais e assistir aos vídeos tutoriais.
+* acessar o ambiente de capacitação (AVA PNP-CCV);
+* ler os materiais e assistir aos vídeos tutoriais;
 * realizar a atividade obrigatória para obtenção da certificação.
 
 Em caso de dúvidas sobre a formação para atuar no PNP-CCV, os gestores institucionais de cada ciclo (Pesquisador Institucional, Gestor de Pessoal, Gestor de Pesquisa e Inovação e Gestor de Extensão) podem contatar a equipe de suporte da PNP da Setec/MEC pelo e-mail: [pnp.suporte@mec.gov.br](mailto:pnp.suporte@mec.gov.br). Um fórum exclusivo está disponível para notificações da Setec/MEC. As equipes institucionais (Registradores Acadêmicos e Executores Acadêmicos) devem dirimir as dúvidas com os próprios gestores institucionais.

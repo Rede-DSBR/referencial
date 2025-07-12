@@ -13,13 +13,13 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 # {{ page.title }}
 
-O Produto de Dados do CCV é uma solução tecnológica projetada com base em uma arquitetura robusta e flexível, incorporando as melhores práticas das engenharias de software e dados. Essa modernização visa garantir maior interoperabilidade, escalabilidade e eficiência, considerando a diversidade dos sistemas de gestão de dados existentes na Rede Federal. Dentro dessa solução tecnológica, destaca-se o Coletor PNP-CCV.
+O Produto de Dados do CCV é uma solução tecnológica projetada com base em uma arquitetura robusta e flexível, incorporando as melhores práticas das engenharias de software e dados. Essa modernização visa garantir mais interoperabilidade, escalabilidade e eficiência, considerando a diversidade dos sistemas de gestão de dados existentes na Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT). Dentro dessa solução tecnológica, destaca-se o Coletor PNP-CCV.
 
 Concebido para dar suporte à coleta, ajuste, complementação e validação de todos os dados necessários para a PNP, o Produto de Dados do CCV sustenta os subprocessos de coleta e processamento de dados e de conferência, ajuste e validação de dados.
 
 ## Coleta e processamento de dados
 
-O subprocesso de coleta e processamento de dados objetiva sistematizar a coleta de dados da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT), por meio da disponibilização de ferramentas tecnológicas responsáveis pela incorporação de dados oriundos de fontes governamentais e pela extração de dados padronizados de bases institucionais e de sistemas certificados pela Setec/MEC. Esse subprocesso é composto pelas etapas de carga de dados; processamento e validação preliminar dos dados; e *merge* de dados.
+O subprocesso de coleta e processamento de dados objetiva sistematizar a coleta de dados da RFEPCT, por meio da disponibilização de ferramentas tecnológicas responsáveis pela incorporação de dados oriundos de fontes governamentais e pela extração de dados padronizados de bases institucionais e de sistemas certificados pela Setec/MEC. Esse subprocesso é composto pelas etapas de carga de dados; processamento e validação preliminar dos dados; e *merge* de dados.
 
 ## Carga de dados
 
@@ -35,7 +35,7 @@ A etapa de processamento e validação preliminar dos dados consiste na qualific
 
 ## Merge dos dados
 
-Com os dados processados, é realizada a etapa de *merge* dos dados, que consiste na combinação dos dados carregados no ciclo atual com os já validados em ciclos de edições anteriores da PNP. Anualmente, os novos dados lançados no Sistec se somam aos registros já existentes, mas nem sempre esses dados são devidamente atualizados após a publicação da PNP, o que pode comprometer a precisão e a consistência das informações divulgadas. Essa situação criaria a obrigação de a PNP-CCV refazer toda a validação a cada ano, o que geraria um (re)trabalho gigantesco e desnecessário. Com a criação de regras de comparação entre a base extraída do Sistec e a base final da PNP do ciclo anterior, as correções e complementações realizadas anteriormente são aproveitadas, evitando retrabalho dos atores institucionais. Assim, quando um dado é informado numa edição da PNP, as edições subsequentes já incorporam essa informação, sem demandar uma nova intervenção da instituição. Cabe destacar que na versão atual da PNP, o processo de *merge* se aplica a situação da matrícula do estudante, de forma que seja refletido a situação mais atual, comparando os dados do SISTEC e da PNP. A figura abaixo ilustra o fluxo da etapa de *merge*.
+Com os dados processados, é realizada a etapa de *merge* dos dados, que consiste na combinação dos dados carregados no ciclo atual com os já validados em ciclos de edições anteriores da PNP. Anualmente, os novos dados lançados no Sistec se somam aos registros já existentes, mas nem sempre esses dados são devidamente atualizados após a publicação da PNP, o que pode comprometer a precisão e a consistência das informações divulgadas. Essa situação criaria a obrigação de a PNP-CCV refazer a validação a cada ano, o que resultaria em retrabalho excessivo e desnecessário. Com a criação de regras de comparação entre a base extraída do Sistec e a base final da PNP do ciclo anterior, as correções e complementações realizadas anteriormente são aproveitadas, evitando retrabalho dos atores institucionais. Assim, quando um dado é informado numa edição da PNP, as edições subsequentes já incorporam essa informação, sem demandar uma nova intervenção da instituição. Cabe destacar que na versão atual da PNP, o processo de *merge* se aplica à situação da matrícula do estudante, de forma que seja refletida a situação mais atual, comparando os dados do Sistec e da PNP. A figura abaixo ilustra o fluxo da etapa de *merge*.
 
 ![Fluxo da etapa de merge](/assets/img/docs/ccv_produto_de_dados_01.png "Fluxo da etapa de merge")
 
