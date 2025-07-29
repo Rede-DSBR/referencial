@@ -11,14 +11,24 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Indicadores dos Polos de Inovação](/documentacao/indicadores/indicadores_dos_polos_de_inovacao)
-
-
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
-
-
-[Próximo: Indicadores de Gastos »](/documentacao/indicadores/indicadores_de_gastos)
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="1" style="width: 50%; text-align: center">Indicador</th>
+      <th colspan="1" style="width: 50%; text-align: center">Normatização</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" style="text-align: center">Indicadores de acompanhamento obrigatório</th>
+    </tr>
+    <tr><td>Relação Matrículas Presenciais por Professor (RAP Presencial)</td><td>Meta estabelecida considerando as estratégias 11.11 e 12.3, previstas na Lei 13.005/2014.</td></tr>
+    <tr><td>Índice de Titulação do Corpo Docente (ITCD)</td><td>Meta definida a partir do estabelecido pela Meta 13 da Lei 13.005/2014. </td></tr>
+    <tr>
+       <th colspan="2" style="text-align: center">Indicadores de monitoramento</th>
+    </tr>
+    <tr><td>Relação Matrículas por Professor (RAP)</td><td>Monitoramento em normatização pela Setec/MEC.</td></tr>
+  </tbody>
+</table>

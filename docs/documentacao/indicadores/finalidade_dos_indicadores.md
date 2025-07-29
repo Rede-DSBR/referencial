@@ -11,14 +11,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Produto de Dados](/documentacao/odi/produto_de_dados)
-
-
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
-
-
-[Próximo: Ampliação e melhorias »](/documentacao/indicadores/ampliacao_e_melhorias)
+O conjunto de indicadores elaborado para a Plataforma Nilo Peçanha objetiva oferecer à sociedade um conjunto de informações que permita conhecer as atividades realizadas pela Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT). O conhecimento avaliativo, sintetizado na forma de indicadores mensuráveis, constitui-se em valioso insumo para a pesquisa educacional sobre a RFEPCT, além de subsidiar os processos decisórios, aproximando cada unidade acadêmica, Instituição e a RFEPCT como um todo das finalidades e dos objetivos consagrados na Lei de criação dos Institutos Federais (Lei 11.892/2008). Os indicadores são estabelecidos a partir de normativos nacionais e outros de natureza infralegal (portarias, acórdãos, instruções normativas, dentre outros).
