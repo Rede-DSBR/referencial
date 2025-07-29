@@ -85,9 +85,6 @@ itens:
       - title: "Finalidade dos indicadores"
         href: "/documentacao/indicadores/finalidade_dos_indicadores"
         icon: "fas fa-book-reader"
-      - title: "Ampliação e melhorias"
-        href: "/documentacao/indicadores/ampliacao_e_melhorias"
-        icon: "fas fa-running"
 
       - title: "Normativos e dimensões"  
         href: "/documentacao/indicadores/normativos_e_dimensoes"

@@ -11,14 +11,24 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Indicadores de Pesquisa e Inovação](/documentacao/indicadores/indicadores_de_pesquisa_e_inovacao)
-
-
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
-
-
-[Próximo: Indicadores de Pesosal »](/documentacao/indicadores/indicadores_de_pessoal)
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="1" style="width: 50%; text-align: center">Indicador</th>
+      <th colspan="1" style="width: 50%; text-align: center">Normatização</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Número de Contratos de Parcerias (NCP)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Empresas com Acordo de Parceria (NEAP)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Valor de Recurso Captado (VRC)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Propriedades Intelectuais Depositadas (NPID)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Eventos e Treinamentos Realizados (NETR)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Estudantes Bolsistas (NEB)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Docentes Bolsistas (NDoB)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Técnicos-Administrativos Bolsistas (NTaeB)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+    <tr><td>Número de Colaboradores Externos Bolsistas (NCEB)</td><td>Monitoramento estabelecido pela Portaria Setec/MEC nº 646/2022.</td></tr>
+  </tbody>
+</table>
