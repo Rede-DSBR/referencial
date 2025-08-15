@@ -25,6 +25,7 @@
           {% include menu.html %}
           <div class="col mb-5">
             <div class="main-content pl-sm-3 mt-4" id="main-content">
+              {% include share_buttons.html %}
               {{ content }}
               {% comment %} Normaliza a URL da página atual remove .html {% endcomment %}
               {% assign current_url_with_html = page.url %}
