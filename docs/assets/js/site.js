@@ -15,4 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
           menuRef.classList.add("d-none");
         }
       });
+
+      // lógica para implementar cópia da URL
+      const copyUrlButton = document.getElementById("copyUrlButton");
+      // cria listener para o botao de copiar e escreve url atual para área de transferência
+      copyUrlButton.addEventListener("click", function() {
+        navigator.clipboard.writeText(window.location.href);
+      })
   });
