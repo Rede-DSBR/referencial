@@ -1,8 +1,10 @@
-.site-menu {
-    position: sticky;
-    top: 88px;
-    overflow-y: scroll;
-    height: 84vh;
+@media (min-width: 576px) {
+    .site-menu {
+        position: sticky;
+        top: 88px;
+        overflow-y: scroll;
+        height: 84vh;
+    }
 }
 
 p {
@@ -45,13 +47,13 @@ p {
 }
 
 @media (min-width: 576px) {
-  .main-content li {
-    text-align: justify;
-    font-size: var(--font-size-scale-up-01);
-  }
+    .main-content li {
+        text-align: justify;
+        font-size: var(--font-size-scale-up-01);
+    }
 }
 
-#main .social-links{
+#main .social-links {
     white-space: nowrap;
     line-height: 42px;
     padding: 0;
