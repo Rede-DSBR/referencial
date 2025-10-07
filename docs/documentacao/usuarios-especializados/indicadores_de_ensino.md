@@ -5,10 +5,12 @@ title: "Indicadores de Ensino"
 
 # {{ page.title }}
 
+## Matrículas por Classificação Racial (MCR)
+
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th colspan="2" style="text-align: center; background-color: #f2f2f2;">Matrículas por Classificação Racial (MCR)</th>
+      <th colspan="2" style="background-color: #f2f2f2;"><strong>Matrículas por Classificação Racial (MCR)</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -34,7 +36,7 @@ title: "Indicadores de Ensino"
       </td>
     </tr>
     <tr>
-      <th colspan="2" style="text-align: center; background-color: #f2f2f2;">Variáveis</th>
+      <th colspan="2" style="text-align: center;">Variáveis</th>
     </tr>
     <tr>
       <td colspan="2">
