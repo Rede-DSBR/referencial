@@ -43,14 +43,12 @@ title: "Indicadores de Ensino"
         <strong>Classificação Racial</strong><br><br>
         <strong>Fonte:</strong> PNP (CCV).<br><br>
         <strong>Definição:</strong> A classificação racial desdobra-se em seis categorias, conforme informado nos registros dos estudantes.<br><br>
-        <ul style="list-style-type: none; margin: 0; padding: 0;">
-          <li><em>M<sub>A</sub></em>: número de matrículas de estudantes amarelos.</li>
-          <li><em>M<sub>B</sub></em>: número de matrículas de estudantes brancos.</li>
-          <li><em>M<sub>I</sub></em>: número de matrículas de estudantes indígenas.</li>
-          <li><em>M<sub>Pa</sub></em>: número de matrículas de estudantes pardos.</li>
-          <li><em>M<sub>Pr</sub></em>: número de matrículas de estudantes pretos.</li>
-          <li><em>M<sub>ND</sub></em>: número de matrículas de estudantes que não declararam.</li>
-        </ul>
+        <em>M<sub>A</sub></em>: número de matrículas de estudantes amarelos.<br>
+        <em>M<sub>B</sub></em>: número de matrículas de estudantes brancos.<br>
+        <em>M<sub>I</sub></em>: número de matrículas de estudantes indígenas.<br>
+        <em>M<sub>Pa</sub></em>: número de matrículas de estudantes pardos.<br>
+        <em>M<sub>Pr</sub></em>: número de matrículas de estudantes pretos.<br>
+        <em>M<sub>ND</sub></em>: número de matrículas de estudantes que não declararam.<br>
       </td>
     </tr>
   </tbody>
