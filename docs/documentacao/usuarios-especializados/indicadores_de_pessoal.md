@@ -129,3 +129,74 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
 </table>
 
 ### Gastos Correntes por Matrícula Equivalente (GCMeq)
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="background-color: #f2f2f2; text-align: center;">
+        <strong>Gastos Correntes por Matrícula Equivalente (GCMeq)</strong>
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td colspan="2">
+        Este indicador apresenta o valor médio investido para cada matrícula equivalente na Rede Federal. 
+        Em virtude da impossibilidade de segregar os dados financeiros das Escolas Técnicas Vinculadas às 
+        Universidades Federais (ETV-UF), este indicador não considera os dados das ETV-UF.
+      </td>
+    </tr>
+
+   <tr>
+      <td colspan="2"><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
+  </tr>
+
+  <tr>
+      <td colspan="2"><strong>Polaridade:</strong> Quanto menor, melhor.</td>
+  </tr>
+
+  <tr>
+      <td><strong>Agregação Máxima:</strong> Rede Federal.</td>
+      <td><strong>Agregação Mínima:</strong> Instituição.</td>
+    </tr>
+
+  <tr>
+      <td colspan="2">
+        <strong>Modelo Matemático:</strong><br>
+        <p style="text-align: center; margin: 10px 0;">
+          <em>GC/Meq = </em>
+    <span style="display:inline-block; text-align:center; min-width:220px;">
+            <span style="display:block; border-bottom:1px solid #000; padding:2px 6px;">GC</span>
+            <span style="display:block; padding-top:2px;">Meq</span>
+          </span>
+        </p>
+      </td>
+    </tr>
+
+  <tr>
+      <th colspan="2" style="text-align:center;">Variáveis</th>
+    </tr>
+
+  <tr>
+      <td style="vertical-align: top; width: 50%;">
+        <strong>GC – Gasto Corrente</strong><br><br>
+        <strong>Fonte:</strong> SIAFI.<br><br>
+        <strong>Definição:</strong> Valor do Gasto Total com as Instituições que compõem a Rede Federal no ano de referência, 
+        excetuando-se gastos com:<br>
+        • Inativos e Pensionistas;<br>
+        • Investimentos;<br>
+        • Inversões Financeiras; e<br>
+        • Precatórios.
+  </td>
+      <td style="vertical-align: top; width: 50%;">
+        <strong>Meq – Matrículas Equivalentes</strong><br><br>
+        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
+        <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano de referência, 
+        ponderadas pelos fatores de equivalência previstos, exceto as matrículas das Escolas Técnicas Vinculadas às 
+        Universidades Federais.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
