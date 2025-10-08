@@ -61,15 +61,15 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
   <tr>
       <td style="vertical-align: top; width: 90%;">
         <strong>NCc - Nota dos Concluintes no Enade do curso de graduação<br><br>
-        <strong>NIDDc - Nota do Indicador da Diferença entre os Desempenhos Observado e Esperado do curso de graduação.<br>
-       <strong>NMc – Nota de Proporção de Mestres do curso de graduação.<br>
-       <strong>NDc – Nota de Proporção de Doutores do curso de graduação.<br>
-       <strong>NRc – Nota de Regime de Trabalho do curso de graduação.<br>
-       <strong>NOc – Nota referente à organização didático-pedagógica do curso de graduação.<br>
-       <strong>NFc – Nota referente à infraestrutura e instalações físicas do curso de graduação.<br>
-       <strong>NAc – Nota referente às oportunidades de ampliação da formação acadêmica e profissional do curso de graduação.<br><br>
-       <strong>Fonte:</strong> INEP..<br><br>
-      <strong>Definição:</strong>  Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.
+        NIDDc - Nota do Indicador da Diferença entre os Desempenhos Observado e Esperado do curso de graduação.<br>
+       NMc – Nota de Proporção de Mestres do curso de graduação.<br>
+       NDc – Nota de Proporção de Doutores do curso de graduação.<br>
+       NRc – Nota de Regime de Trabalho do curso de graduação.<br>
+       NOc – Nota referente à organização didático-pedagógica do curso de graduação.<br>
+       NFc – Nota referente à infraestrutura e instalações físicas do curso de graduação.<br>
+       NAc – Nota referente às oportunidades de ampliação da formação acadêmica e profissional do curso de graduação.<br><br>
+            <strong>Fonte:</strong>INEP..<br><br>
+        <strong>Definição:</strong> Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES. <br>
     </td>
     </tr>
   </tbody>
@@ -80,3 +80,78 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
 </table>
 
 ### Índice Geral de Cursos (IGC - INEP) 
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr
+      </tr>
+     <th colspan="2" style="background-color: #f2f2f2; text-align: center;">
+   <strong>Índice Geral de Cursos (IGC - INEP) </strong>
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td colspan="2">
+    Este indicador de qualidade que avalia as instituições de ensino superior é realizado anualmente. É calculado com base na média ponderada das notas contínuas dos Conceitos Preliminares de Cursos (NCPCc) dos cursos de graduação e os conceitos Capes dos cursos de programas de pós-graduação stricto sensu das Instituições de Educação Superior. É expresso em valores contínuos (que variam entre 0 e 500) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 5/2023/CEI/CGGI/DAES.
+      </td>
+    </tr>
+
+   <tr>
+      <td colspan="2"><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
+  </tr>
+
+  <tr>
+      <td colspan="2"><strong>Polaridade:</strong> Quanto maior, melhor.</td>
+  </tr>
+
+  <tr>
+      <td><strong>Agregação Máxima:</strong>  Instituição.</td>
+      <td><strong>Agregação Mínima:</strong> Instituição.</td>
+    </tr>
+
+  <tr>
+      <td colspan="2">
+        <strong>Modelo Matemático:</strong><br>
+        <p style="text-align: center; margin: 10px 0;">
+          <em>IGC = </em>
+    <span style="display:inline-block; text-align:center; min-width:220px;">
+            <span style="display:block; border-bottom:1px solid #000; padding:2px 6px;">IGC</span>
+            <span style="display:block; padding-top:2px;">(α×GIES)+(β×MIES)+(γ×DIES)</span>
+          </span>
+        </p>
+      </td>
+    </tr>
+
+  <tr>
+      <th colspan="2" style="text-align:center;">Variáveis</th>
+    </tr>
+
+  <tr>
+      <td colspan="2">
+        <strong>α - Proporção de matrículas na graduação.<br>
+β - Proporção relativa às matrículas nos cursos de Mestrado da IES.<br>
+γ - Proporção relativa às matrículas nos cursos de Doutorado da IES.<br>
+TG – Número de matriculados dos cursos de graduação da IES para as quais foi possível calcular o CPC de 2019 a 2022.<br>
+TM – Número de matriculados dos cursos de mestrado da IES, informado pela Capes, e multiplicado por fator conforme Tabela 3 da Nota Técnica nº 5/2023/CEI/CGGI/DAES.<br>
+TD – Número de matriculados dos cursos de doutorado da IES, informado pela Capes, e multiplicado por fator conforme Tabela 4 da Nota Técnica nº 5/2023/CEI/CGGI/DAES</strong><br><br>
+        <strong>Fonte:</strong> INEP..<br><br>
+        <strong>Definição:</strong>Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES. <br>
+    </tr>
+     <td colspan="2">
+       <strong>GIES – Nota média da graduação da IES.<br>
+MIES – Nota média de mestrado da IES.<br>
+DIES – Nota média de doutorado da IES.<br>
+CPCc – Nota contínua do Conceito Preliminar de Curso (CPC) do curso de graduação c da IES.<br>
+Φc – Razão entre o número de matriculados no curso de graduação c nos respectivos anos de cálculo do NCPC e o total de matriculados em todos os cursos da IES para os quais foi possível calcular o CPC entre 2018 e 2021.<br>
+Mj - Nota do curso de Mestrado j da IES.<br>
+ϴj - Proporção de matrículas no curso de Mestrado j da IES.<br>
+Dj - Nota do curso de Doutorado j da IES.<br>
+Γj - Proporção de matrículas no curso de Doutorado j da IES.</strong><br><br>
+        <strong>Fonte:</strong> INEP..<br><br>
+        <strong>Definição:</strong>Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES. <br>
+    </tr>
+    </tbody>
+</table
+
