@@ -59,17 +59,17 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
     </tr>
 
   <tr>
-      <td style="vertical-align: top; width: 90%;">
-        <strong>NCc - Nota dos Concluintes no Enade do curso de graduação<br><br>
-        NIDDc - Nota do Indicador da Diferença entre os Desempenhos Observado e Esperado do curso de graduação.<br>
-       NMc – Nota de Proporção de Mestres do curso de graduação.<br>
-       NDc – Nota de Proporção de Doutores do curso de graduação.<br>
-       NRc – Nota de Regime de Trabalho do curso de graduação.<br>
-       NOc – Nota referente à organização didático-pedagógica do curso de graduação.<br>
-       NFc – Nota referente à infraestrutura e instalações físicas do curso de graduação.<br>
-       NAc – Nota referente às oportunidades de ampliação da formação acadêmica e profissional do curso de graduação.<br><br>
-            <strong>Fonte:</strong>INEP..<br><br>
-        <strong>Definição:</strong> Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES. <br>
+      <td colspan="2">
+        <strong>NCc - Nota dos Concluintes no Enade do curso de graduação.<br>
+NIDDc - Nota do Indicador da Diferença entre os Desempenhos Observado e Esperado do curso de graduação.<br>
+NMc – Nota de Proporção de Mestres do curso de graduação.<br>
+NDc – Nota de Proporção de Doutores do curso de graduação.<br>
+NRc – Nota de Regime de Trabalho do curso de graduação.<br>
+NOc – Nota referente à organização didático-pedagógica do curso de graduação.<br>
+NFc – Nota referente à infraestrutura e instalações físicas do curso de graduação.<br>
+NAc – Nota referente às oportunidades de ampliação da formação acadêmica e profissional do curso de graduação</strong><br><br>
+        <strong>Fonte:</strong> INEP..<br><br>
+        <strong>Definição:</strong>Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES. <br>
     </td>
     </tr>
   </tbody>
