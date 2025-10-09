@@ -254,56 +254,65 @@ Dj - Nota do curso de Doutorado j da IES.<br>
 
   <p style="text-indent: 40px;"><strong>Gastos:</strong> definições específicas utilizadas para os cálculos dos indicadores de gestão da Rede Federal de Educação Profissional, Científica e Tecnológica. Tratam-se dos gastos liquidados no ano de exercício, extraídos do SIAFI por meio do Tesouro Gerencial.</p>
 
-  <p style="text-indent: 40px;"><strong>Gasto corrente:</strong> representa todos os gastos, exceto investimento, capital, precatórios, inativos e pensionistas. Sua apuração ocorre pela subtração das despesas realizadas nos GND 4 e 5 e das despesas específicas de precatórios, inativos e pensionistas.</p>
+  <p style="text-indent: 40px;"><strong>Gasto corrente:</strong> representa todos os gastos, exceto investimento, capital, precatórios, inativos e pensionistas. Sua apuração ocorre a partir da subtração das despesas realizadas nos GND 4 e 5 e das despesas realizadas nas ações orçamentárias específicas para pagamentos de precatórios, inativos e pensionistas dos Gastos Totais.</p>
 
-   <p style="text-indent: 40px;"><strong>Gastos com investimento:</strong> despesas nos Grupos de Natureza 4 e 5 (GND 4 - INVESTIMENTOS e GND 5 - INVERSÇÕES FINANCEIRAS), relativas a obras, aquisições de bens de capital, imóveis e títulos representativos de capital de empresas.</p>
+   <p style="text-indent: 40px;"><strong>Gastos com investimento:</strong> são extraídos pelos Grupos de Natureza de Despesas 4 e 5 (GND 4 - INVESTIMENTOS e GND 5 - INVERSÕES FINANCEIRAS), permitem apurar o total de despesas realizadas com investimentos e inversões financeiras, assim definidos: Investimentos:despesas destinadas ao planejamento e à execução de obras, inclusive às relacionadas à aquisição de imóveis considerados necessários à realização de obras; Inversões Financeiras: despesas com aquisição de imóveis ou bens de capital já em utilização e também, com aquisição de títulos representativos do capital de empresas ou entidades de qualquer espécie já constituídas. </p>
 
    <p style="text-indent: 40px;"><strong>Gastos com outros custeios:</strong> gastos totais liquidados deduzindo-se pessoal, benefícios, Pis/Pasep, investimentos e inversões financeiras.</p>
 
-   <p style="text-indent: 40px;"><strong>Gastos com pessoal:</strong> despesas com servidores ativos, inativos, pensionistas, sentenças judiciais e precatórios, apuradas no GND 1 e em ações específicas.</p>
+   <p style="text-indent: 40px;"><strong>Gastos com pessoal:</strong>são aqueles definidos como Gastos com servidores ativos, inativos, pensionistas, sentenças judiciais e precatórios. A apuração destas despesas nos relatórios extraídos ocorre a partir do Grupo de Natureza de Despesas 1 (GND 1 - PESSOAL E ENCARGOS SOCIAIS), bem como despesas em outras GNDs em ações orçamentárias caracterizadas como Sentenças Judiciais Transitadas em Julgado (Precatórios). Também, conforme explicitado adiante, são consideradas despesas em outras GNDs referentes ao pagamento de benefícios assistenciais aos servidores previstos na legislação, em suas ações orçamentárias específicas e no recolhimento da contribuição para o Pis/Pasep, destacados na classificação 33914712.</p>
    
-  <p style="text-indent: 40px;"><strong>Gastos totais:</strong> todas as despesas realizadas pelas unidades da Rede Federal, acrescidas das descentralizações do MEC destinadas à educação profissional e tecnológica.</p>
+  <p style="text-indent: 40px;"><strong>Gastos totais:</strong> são definidos a partir de todas as despesas realizadas no exercício pelas unidades orçamentárias da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT), acrescidos das despesas realizadas com créditos descentralizados da unidade orçamentária do Ministério da Educação, em ações orçamentarias típicas da educação profissional e tecnológica, e créditos descentralizados para o atendimento ao Programa Nacional de Alimentação Escolar.</p>
 
-  <p style="text-indent: 40px;"><strong>Ingressantes:</strong> matrículas de estudantes que ingressaram em curso no ano de referência e estão registradas no Sistec.</p>
+  <p style="text-indent: 40px;"><strong>Ingressantes:</strong>corresponde às matrículas dos estudantes que ingressaram em um curso no ano de referência e têm seu registro no Sistema Nacional de Informações da Educação Profissional e Tecnológica (Sistec).</p>
 
-   <p style="text-indent: 40px;"><strong>Indicadores:</strong> instrumentos de gestão essenciais ao monitoramento e avaliação de desempenho institucional.</p>
+   <p style="text-indent: 40px;"><strong>Indicadores:</strong>são instrumentos de gestão essenciais nas atividades de monitoramento e avaliação do desempenho das instituições, assim como de seus projetos, programas e políticas.</p>
 
-  <p style="text-indent: 40px;"><strong>Inscritos:</strong> número de inscrições de candidatos que concorreram às vagas disponíveis na fase inicial de um curso.</p>
+  <p style="text-indent: 40px;"><strong>Inscritos:</strong>  corresponde ao número de inscrições de candidatos que concorreram às vagas disponibilizadas para a fase inicial de um curso.</p>
 
-   <p style="text-indent: 40px;"><strong>Instituição:</strong> unidade integrante da RFEPCT. Cada escola técnica vinculada a universidade federal é considerada instituição (Portaria nº 1/2018).</p>
+   <p style="text-indent: 40px;"><strong>Instituição:</strong> Instituição de Ensino integrante da RFEPCT. Para efeitos da Portaria nº 1, de 3 de janeiro de 2018, cada escola técnica vinculada a universidade federal será compreendida como uma instituição.
+.</p>
 
-   <p style="text-indent: 40px;"><strong>Integralizados:</strong> matrículas de estudantes que concluíram a carga horária do curso, mas com pendências (estágio, TCC, Enade). Na PNP, são incluídos entre os concluintes.</p>
+   <p style="text-indent: 40px;"><strong>Integralizados:</strong> mcorresponde às matrículas dos estudantes que concluíram a carga horária das unidades curriculares de um curso no ano de referência, mas apresentam pendências, como estágio obrigatório, defesa de TCC, prova do Enade, entre outros. Na PNP, as matrículas com esse estado são consideradas no grupo de concluintes. Logo, mesmo que o estado da matrícula seja atualizado para CONCLUÍDA em anos posteriores, ela não será contabilizada novamente na PNP.</p>
 
    <p style="text-indent: 40px;"><strong>Matrícula:</strong> vínculo de um estudante com a instituição.</p>
 
-   <p style="text-indent: 40px;"><strong>Matrícula-equivalente (MEq):</strong> matrícula ponderada pelos fatores de equiparação de carga horária e esforço de curso (Portaria Setec/MEC nº 146/2021).</p>
+   <p style="text-indent: 40px;"><strong>Matrícula-equivalente (MEq):</strong> corresponde à matrícula ponderada pelo Fator de Equiparação de Carga Horária de Curso e pelo Fator de Esforço de Curso (Portaria Setec/MEC nº 146/2021)..</p>
 
-   <p style="text-indent: 40px;"><strong>Matrícula atendida:</strong> matrículas ativas em pelo menos um dia no ano de referência. Um estudante pode ter mais de uma matrícula.</p>
+   <p style="text-indent: 40px;"><strong>Matrícula atendida:</strong> são as matrículas que estiveram ativas em pelo menos um dia no ano de referência. Um estudante pode ter mais de uma matrícula nesse período, caso tenha se matriculado em mais de um curso. Clique aqui para mais detalhes sobre esse conceito.</p>
 
-   <p style="text-indent: 40px;"><strong>Microdados:</strong> conjuntos de dados desagregados que contêm informações detalhadas sobre matrículas, servidores e gastos, disponibilizados de forma anonimizada.</p>
+   <p style="text-indent: 40px;"><strong>Microdados:</strong>  conjuntos de dados desagregados que contêm informações detalhadas sobre unidades individuais, como vínculos de matrícula, servidores e gastos. São disponibilizados para permitir análises aprofundadas e personalizadas às informações contidas na Plataforma Nilo Peçanha. Diferem dos dados agregados (Extrator PNP), ao preservar características individuais das observações, passando por técnicas de anonimização.</p>
 
-  <p style="text-indent: 40px;"><strong>Modalidade de ensino:</strong> modo de desenvolvimento do curso, podendo ser presencial ou a distância.</p>
+  <p style="text-indent: 40px;"><strong>Modalidade de ensino:</strong> modo de desenvolvimento do curso quanto ao acompanhamento das atividades acadêmicas, podendo ser presencial ou a distância.</p>
 
-  <p style="text-indent: 40px;"><strong>Polos de Inovação:</strong> unidades voltadas à pesquisa, desenvolvimento e inovação, vinculadas a campus ou Reitoria (Portaria MEC nº 713/2021).</p>
+  <p style="text-indent: 40px;"><strong>Polos de Inovação:</strong> unidade vinculada administrativamente a um campus ou a uma Reitoria e destinado ao atendimento de demandas das cadeias produtivas por Pesquisa, Desenvolvimento e Inovação - PD&I e à formação profissional para os setores de base tecnológica (Portaria MEC nº 713/2021).
+</p>
         
-   <p style="text-indent: 40px;"><strong>Portal Integra:</strong> sistema dos Institutos Federais e Cefets para gestão da inovação, currículos, projetos e parcerias.</p>
+   <p style="text-indent: 40px;"><strong>Portal Integra:</strong>sistema disponível em todos os Institutos Federais e Cefets para Gestão da Inovação, apresentando o currículo de servidores, projetos institucionais, grupos de pesquisa e gerenciando ambiente de inovação, laboratórios, tecnologias, eventos, prestação de serviços, organizações, relacionamentos e parcerias.
 
-   <p style="text-indent: 40px;"><strong>Rede Integra:</strong> rede de ICTs que utilizam o Portal Integra para gestão da inovação.</p>
 
- <p style="text-indent: 40px;"><strong>Retidos:</strong> matrículas de estudantes que permanecem no curso por período superior ao tempo previsto.</p>
+   <p style="text-indent: 40px;"><strong>Rede Integra:</strong> rede composta por Instituições de Ciência e Tecnologia que utilizam o Portal Integra como plataforma de Gestão da Inovação.
+</p>
 
-   <p style="text-indent: 40px;"><strong>Tipo de curso:</strong> categorização que diferencia os cursos da Educação Profissional, Científica e Tecnológica por nível e grau (FIC, Técnico, Licenciatura, Bacharelado, etc.).</p>
+ <p style="text-indent: 40px;"><strong>Retidos:</strong> corresponde às matrículas que permaneceram em curso por um período superior ao tempo previsto para integralização de um curso.</p>
 
-   <p style="text-indent: 40px;"><strong>Tipo de Oferta:</strong> define a forma de oferta dos cursos técnicos e FIC (Integrado, Subsequente, Concomitante, PROEJA – Concomitante ou Integrado).</p>
+   <p style="text-indent: 40px;"><strong>Tipo de curso:</strong>categorização utilizada para diferenciar os cursos da Educação Profissional, Científica e Tecnológica em seus diversos níveis e graus. Estão previstas as seguintes categorias: Educação Infantil, Ensino Fundamental I, Ensino Fundamental II, Ensino Médio, Qualificação Profissional (FIC), Técnico, Especialização Técnica, Tecnologia, Licenciatura, Bacharelado, Especialização (Lato Sensu), Mestrado Profissional, Mestrado, Doutorado Profissional e Doutorado.
+.</p>
 
-   <p style="text-indent: 40px;"><strong>Titulação:</strong> maior título acadêmico apresentado pelos servidores da RFEPCT (Ensino Fundamental até Doutorado).</p>
+   <p style="text-indent: 40px;"><strong>Tipo de Oferta:</strong> categorização utilizada para diferenciar as formas de ofertas dos Cursos Técnicos e de Qualificação Profissional (FIC). Estão previstas as seguintes categorias: Integrado, Subsequente, Concomitante, PROEJA - Concomitante e PROEJA - Integrado.
+</p>
 
-   <p style="text-indent: 40px;"><strong>Turno:</strong> período em que o estudante cursa a maior parte das aulas: matutino, vespertino, noturno ou integral. Não se aplica ao ensino a distância.</p>
+   <p style="text-indent: 40px;"><strong>Titulação:</strong> maior título acadêmico apresentado pelos servidores da RFEPCT podendo ser: Ensino Fundamental, Ensino Médio, Técnico, Graduação, Aperfeiçoamento, Especialização, Mestrado e Doutorado.
+</p>
 
-   <p style="text-indent: 40px;"><strong>Uned:</strong> Unidade de Ensino Descentralizada dos Cefets.</p>
+   <p style="text-indent: 40px;"><strong>Turno:</strong>  período em que o estudante cursa a maior parte das aulas, podendo ser matutino, vespertino, noturno ou integral. Não se aplica aos cursos com Modalidade de Ensino a Distância.
+</p>
 
-  <p style="text-indent: 40px;"><strong>Unidade:</strong> estrutura com portaria de autorização de funcionamento (Campus, Campus Avançado, ETV, Polo de Inovação, Sede, Uned).</p>
-   <p style="text-indent: 40px;"><strong>Vagas:</strong> número de vagas ofertadas para ingresso em curso, por processo seletivo, vestibular, sorteio, SISU ou outras formas.</p>
+   <p style="text-indent: 40px;"><strong>Uned:</strong> Unidade de Ensino Descentralizada dos Centros Federais de Educação Tecnológica (Cefet).</p>
+
+  <p style="text-indent: 40px;"><strong>Unidade:</strong> estrutura que possui portaria de autorização de funcionamento. São consideradas unidades:  Campus, Campus Avançado, Escola Técnica Vinculada a Universidade Federal, Polo de Inovação, Sede e Uned.</p>
+   <p style="text-indent: 40px;"><strong>Vagas:</strong> corresponde às vagas disponibilizadas para a fase inicial de um curso, por meio de processo seletivo, vestibular, sorteio, SISU ou outras formas de ingresso, no ano de referência.
+</p>
    </td>
     </tr>
   </tbody>
