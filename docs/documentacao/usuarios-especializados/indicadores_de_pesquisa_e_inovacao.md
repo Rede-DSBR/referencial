@@ -37,7 +37,7 @@ Entende-se por pesquisa aplicada a investigação realizada com o objetivo de po
         <strong>Modelo matemático:</strong>
         <p style="text-align: center; margin: 10px 0; font-family: 'Times New Roman', Times, serif; font-size: 1.2em;">
           <i>PPA [%] = ( <sup>NPPA</sup> &frasl; <sub>(NPPB + NPPA)</sub> ) x 100</i>
-        p>
+        </p>
       </td>
     </tr>
     <tr>
@@ -57,6 +57,8 @@ Entende-se por pesquisa aplicada a investigação realizada com o objetivo de po
     </tr>
   </tbody>
 </table>
+
+<br><br>
 
 ## Percentual de servidores e servidoras desenvolvendo projetos de pesquisa (NSPP [%])
 
@@ -272,11 +274,12 @@ Entende-se por pesquisa aplicada a investigação realizada com o objetivo de po
         <i>RELATORIO-DE-PESQUISA:</i> Relatórios de pesquisa.<br>
         <i>PATENTE:</i> Patentes.<br>
         <i>MARCA:</i> Marca.<br>
-        <i>DESENHO-INDUSTRIAL:</strong> Desenho industrial.
+        <i>DESENHO-INDUSTRIAL:</i> Desenho industrial.
       </td>
     </tr>
   </tbody>
 </table>
+<br><br>
 
 ## Percentual de investimento realizado em pesquisa, pós-graduação e inovação, oriundo de capital e custeio (TAFPPI [%])
 
