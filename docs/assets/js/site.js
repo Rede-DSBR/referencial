@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const menuButton = document.getElementById("navigation");
   const menuContainer = document.getElementById("menuref");
+  const menuCloseButton = document.getElementById("close-menu");
   const menu = document.getElementById("main-navigation");
 
   // Armazena as classes originais APENAS se o menu não estiver oculto por padrão (no desktop)
@@ -22,22 +23,21 @@ document.addEventListener("DOMContentLoaded", function () {
     if (menuContainer.classList.contains("d-none")) {
       // Restaura as classes originais (mostra o menu)
       menuContainer.className = originalClasses;
+      menu.classList.add("active");
     } else {
-      // Armazena as classes atuais ANTES de ocultar, para que sejam as "originais"
-      // quando o usuário clicar em mostrar novamente. Isso garante que o estado correto
-      // seja restaurado, caso o menu comece VISÍVEL no desktop.
-      originalClasses = menuContainer.className;
-      // Oculta a div superior do menu
+      // Oculta a div superior e remove menu ativo
       menuContainer.className = "";
+      menu.classList.remove("active");
       menuContainer.classList.add("d-none");
     }
-    // lógica para empurrar o menu à tela.
-    if (menu.classList.contains("active")) {
-      menu.classList.remove("active");
-    } else {
-      menu.classList.add("active");
-    }
   });
+
+  menuCloseButton.addEventListener("click", function () {
+    // Oculta a div superior do menu
+    menuContainer.className = "";
+    menu.classList.remove("active");
+    menuContainer.classList.add("d-none");
+  })
 
   // lógica para implementar cópia da URL
   const copyUrlButton = document.getElementById("copyUrlButton");
