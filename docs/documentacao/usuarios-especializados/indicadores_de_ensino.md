@@ -114,6 +114,58 @@
 </table>
 
 
+<h3 align="center"><em>Reserva de Vagas (RV)</em></h3>
+
+<table>
+  <tr>
+    <th colspan="2">Matrículas por Renda (MRPC)</th>
+  </tr>
+  <tr>
+    <th colspan="2">Este indicador apresenta o percentual de vagas ofertadas por cotas nos cursos técnicos e de graduação, conforme classificações definidas na Lei das Cotas (Lei 11.711/2012) e alterações.</th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left">
+    <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pelas Leis 14.723/2023 e 14.945/2024.
+    </th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left"><strong>Polaridade:</strong> Não se aplica.</th>
+  </tr>
+  <tr>
+    <th><strong>Agregação Máxima:</strong> Rede Federal.</th>
+    <th><strong>Agregação Mínima:</strong> Rede Federal.</th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left">
+      <strong>Modelo Matemático:</strong><br><br>
+<div align="center">
+
+$$
+RV = \left( \frac{VC}{VAC + VC} \right) \times 100
+$$
+
+</div>
+
+  </tr>
+  <tr>
+  <th colspan="2" align="center">Variáveis</th>
+</tr>
+
+<tr>
+  <th align="left" style="vertical-align: top; width: 50%;">
+    <strong>VC - Vagas de Cotas</strong><br><br>
+    <strong>Fonte:</strong> PNP (CCV).<br><br>
+    <strong>Definição:</strong> Número de vagas disponibilizadas para a fase inicial dos cursos e reservadas para que estudantes de escolas públicas, estudantes negros, pardos, indígenas, quilombolas, pessoas com deficiência e estudantes oriundos de famílias com renda per capita inferior a 1 salário mínimo tenham acesso ao ensino técnico e de graduação, conforme disposto na Lei 11.711/2012 e alterações.
+  </th>
+
+  <th align="left" style="vertical-align: top; width: 50%;">
+    <strong>VAC - Vagas de Ampla Concorrência</strong><br><br>
+    <strong>Fonte:</strong> PNP (CCV).<br><br>
+    <strong>Definição:</strong> Número de vagas disponibilizadas para a fase inicial dos cursos e destinadas para acesso ao público geral, no ano de referência. Consideram-se apenas as vagas nos cursos técnicos e de graduação.
+  </th>
+</tr>>
+</table>
+
 
 
 
