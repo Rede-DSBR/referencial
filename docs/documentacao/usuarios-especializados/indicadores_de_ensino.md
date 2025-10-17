@@ -1,10 +1,54 @@
----
-layout: default
-title: "Indicadores de Ensino"
----
+<h3 align="center"><em>Matrículas por Classificação Racial (MCR)</em></h3>
 
-# {{ page.title }}
+<table>
+  <tr>
+    <th colspan="2">Matrículas por Classificação Racial (MCR)</th>
+  </tr>
+  <tr>
+    <th colspan="2">Este indicador apresenta o número de matrículas classificadas por raça, conforme categorias.</th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left">
+    <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left"><strong>Polaridade:</strong> Não se aplica.</th>
+  </tr>
+  <tr>
+    <th><strong>Agregação Máxima:</strong> Rede Federal.</th>
+    <th><strong>Agregação Mínima:</strong> Rede Federal.</th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left">
+      <strong>Modelo Matemático:</strong><br><br>
+      <div align="center">
+      <em>MCR</em> = M<sub>A</sub> + M<sub>B</sub> + M<sub>I</sub> + M<sub>Pa</sub> + M<sub>Pr</sub> + M<sub>ND</sub>
+      </div>
+    </th>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">Variáveis</th>
+  </tr>
+  <tr>
+    <th colspan="2" align="left"><strong>Classificação Racial</strong>
+    <br><strong>Fonte:</strong> PNP (CCV).</th>
+  </tr>
+</table>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br>
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+<table>
+  <tr>
+    <th align="left">
+      <strong>Definição:</strong> A classificação racial desdobra-se em seis categorias, conforme informado nos registros dos estudantes.
+      <br><br>
+      <strong>MA:</strong> número de matrículas de estudantes amarelos.<br>
+      <strong>MB:</strong> número de matrículas de estudantes brancos.<br>
+      <strong>MI:</strong> número de matrículas de estudantes indígenas.<br>
+      <strong>MPa:</strong> número de matrículas de estudantes pardos.<br>
+      <strong>MPr:</strong> número de matrículas de estudantes pretos.<br>
+      <strong>MND:</strong> número de matrículas de estudantes que não declararam.
+    </th>
+  </tr>
+</table>
