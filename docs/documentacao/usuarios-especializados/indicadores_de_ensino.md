@@ -291,16 +291,14 @@ $$
     <th align="left"><strong>Agregação Mínima:</strong> Estrutura.</th>
   </tr>
   <tr>
-    <th colspan="2" align="left">
-      <strong>Modelo Matemático:</strong><br><br>
-      <div align="center">
+  <th colspan="2" align="left">
+    <strong>Modelo Matemático:</strong><br><br>
+    <div align="center">
+      $$Técnicos = \dfrac{MeqCT}{Meq} \times 100$$
+    </div>
+  </th>
+</tr>
 
-  $$
-  \textit{Técnicos} = \left( \frac{MeqCT}{Meq} \right) \times 100
-  $$
-      </div>
-    </th>
-  </tr>
   <tr>
     <th colspan="2" align="center">Variáveis</th>
   </tr>
@@ -308,12 +306,12 @@ $$
     <th align="left" style="vertical-align:top; width:50%;">
       <strong>MeqCT — Matrículas Equivalentes em Cursos Técnicos</strong><br><br>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
-      <strong>Definição:</strong> Matrículas em cursos técnicos ativas por pelo menos um dia no ano de referência, ponderadas pelos fatores de equivalência.
+      <strong>Definição:</strong> Número de matrículas em cursos técnicos que estiveram ativas em pelo menos um dia no ano de referência, ponderada pelos fatores de equivalência previstos.
     </th>
     <th align="left" style="vertical-align:top; width:50%;">
       <strong>Meq — Matrículas Equivalentes</strong><br><br>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
-      <strong>Definição:</strong> Matrículas ativas por pelo menos um dia no ano de referência, ponderadas pelos fatores de equivalência.
+      <strong>Definição:</strong>Número de matrículas que estiveram ativas em pelo menos um dia no ano de referência, ponderada pelos fatores de equivalência previstos.
     </th>
   </tr>
 </table>
