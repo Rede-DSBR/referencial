@@ -334,10 +334,9 @@ $$
   <th colspan="2" align="left">
     <strong>Modelo Matemático:</strong><br><br>
     <div align="center">
-$$
-\textit{Formação\ de\ Professores} = \left( \frac{MeqFP}{Meq} \right) \times 100
-$$
-    </div>
+  $$Formação\ de\ Professores = \dfrac{MeqFP}{Meq} \times 100$$
+  </div>
+
   </th>
 </tr>
   <tr><th colspan="2" align="center">Variáveis</th></tr>
