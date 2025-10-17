@@ -1,24 +1,30 @@
----
-layout: default
-title: "Fichas técnicas dos indicadores"
----
+## Ficha Técnica do Indicador
 
-<!-- Parte de Navegação
+Cada indicador é descrito por uma ficha técnica composta por elementos descritivos e técnicos, sintetizados no quadro abaixo.
 
-Veja qual é a o nome da próxima página e da anterior e adicione abaixo no formato:
+<table>
+  <tr>
+    <th colspan="2">Nome do indicador e da sigla que o representa.</th>
+  </tr>
+  <tr>
+    <th colspan="2">Objetivo do indicador, informações complementares e considerações sobre a meta (quando for o caso).</th>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Meta:</strong> Resultado nominal previsto considerando o marco regulatório existente, quando houver.</th>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Polaridade:</strong> Indica de forma objetiva a “direção” esperada na busca pela melhoria do resultado (ex.: Quanto maior melhor).</th>
+  </tr>
+  <tr>
+    <th><strong>Agregação máxima:</strong> Apresenta a esfera máxima de como o dado foi agregado na PNP.</th>
+    <th><strong>Agregação mínima:</strong> Apresenta a esfera mínima de como o dado foi agregado na PNP.</th>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Modelo matemático:</strong> Empregado para apurar o resultado.</th>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Variáveis:</strong> Detalhamento das informações empregadas no modelo matemático, incluindo as fontes da informação e as observações sobre os registros que deverão ser considerados.</th>
+  </tr>
+</table>
 
-[Anterior: Nome da páginas](/documentacao/caminho_do_arquivo)
-[Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
--->
-
-[Anterior: Tabelas de apoio](/documentacao/usuarios-especializados/tabelas_de_apoio)
-
-
-# {{ page.title }}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
-
-
-[Próximo: Listas de termos »](/documentacao/termos/termos)
+O conceito de matrícula atendida, utilizada na maioria dos indicadores, está detalhado [aqui](#).
