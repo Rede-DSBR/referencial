@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Indicadores de Ensino"
+---
+
+# {{ page.title }}
+
+</br>
+</br>
+</br>
+
+
 <h3>Matrículas Equivalentes em Educação de Jovens e Adultos (Proeja)</h3>
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
@@ -51,6 +63,7 @@
 </br>
 </br>
 </br>
+
 
 <h3>Oferta de Vagas Noturnas para Graduação (OVNG)</h3>
 
