@@ -1,6 +1,6 @@
 <h3 align="center"><em>Matrículas por Classificação Racial (MCR)</em></h3>
 
-<table align="center">
+<table>
   <tr>
     <th colspan="2">Matrículas por Classificação Racial (MCR)</th>
   </tr>
@@ -687,3 +687,345 @@ $$
 </table>
 
 
+
+### Eficiência Acadêmica (IEA [%])
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="background-color: #f2f2f2;">
+        <strong>Eficiência Acadêmica (IEA [%])</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        As matrículas para o cálculo do indicador Eficiência Acadêmica diferem das matrículas utilizadas em outros indicadores, pois não são considerados apenas os dados do ano base, mas sim os dados reunidos por “ciclos de matrícula”. Um ciclo de matrícula envolve a oferta de um curso com uma carga horária definida, com mesma data de início e mesma previsão de término, visando englobar um conjunto de matrículas para obtenção de uma mesma certificação ou diploma. A análise dos indicadores “por ciclo” será realizada considerando a situação de matrícula com fim de ciclo previsto para o ano anterior ao de referência.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Definição das Situações de Matrícula:</strong><br><br>
+        Considerando o conjunto de estudantes ingressantes no início de um determinado ciclo no momento de análise, cada um poderá se enquadrar em apenas uma das três situações de matrícula:
+        <ul>
+          <li><strong>Evadido:</strong> estudante que perdeu o vínculo com a instituição antes da conclusão do curso.</li>
+          <li><strong>Retido:</strong> estudante que permaneceu com situação de matrícula “em curso” por período superior ao tempo previsto para a integralização do curso.</li>
+          <li><strong>Concludente:</strong> estudante que concluiu com êxito todos os componentes curriculares do curso ou com situação de matrícula “integralizada”, ou seja, que concluiu a carga horária das unidades curriculares, mas ainda não pode obter a certificação por não ter concluído estágio, Trabalho de Conclusão de Curso, não ter realizado o Exame Nacional de Desempenho dos Estudantes (Enade), entre outros.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Exemplo de Cálculo da Eficiência Acadêmica
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="background-color: #f2f2f2;">
+        <strong>Exemplo de Aplicação do Indicador</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        Um curso Técnico em Edificações Integrado ao Ensino Médio com duração prevista para quatro anos teve quarenta ingressantes em janeiro de 2020 e, portanto, seu “ciclo encerrado” em dezembro de 2023. Neste caso, o método de análise da PNP prevê que, em 31 de dezembro de 2024 (um ano após o término do ciclo iniciado em 2020), seja realizada a análise da situação de matrícula dos quarenta estudantes ingressantes em janeiro/2020.
+        <br><br>
+        Realizada esta análise, os estudantes apresentaram as seguintes situações de matrícula:
+        <ul>
+          <li><strong>dezesseis</strong> (40%): concluíram todos os componentes curriculares (<em>Formados</em>);</li>
+          <li><strong>quatro</strong> (10%): todas as unidades curriculares concluídas, mas ainda não poderiam receber a certificação (<em>Integralizados</em>);</li>
+          <li><strong>oito</strong> (20%): perderam o vínculo com a instituição (<em>Evadidos</em>);</li>
+          <li><strong>doze</strong> (30%): ainda estavam matriculados em alguma das unidades curriculares (<em>Retidos</em>).</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Exemplo de Aplicação — Eficiência Acadêmica (IEA [%])
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="background-color: #f2f2f2; text-align: center;">
+        <strong>Exemplo de Cálculo do Indicador de Eficiência Acadêmica</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: justify;">
+        Com base neste exemplo, a PNP apresentaria os seguintes resultados no ano base 2024:
+        <ul style="margin-top: 10px; margin-bottom: 10px;">
+          <li><strong>Conclusão por Ciclo:</strong> 50% (matrículas concluídas + integralizadas)</li>
+          <li><strong>Evasão por Ciclo:</strong> 20%</li>
+          <li><strong>Retenção por Ciclo:</strong> 30%</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: justify;">
+        O cálculo do indicador de Eficiência Acadêmica deve avaliar a capacidade de a Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPECT) atingir os resultados previstos em termos de “estudantes certificados” ou “com potencial de certificação” em relação à quantidade total de matrículas, considerando um determinado ciclo de matrículas.
+        <br><br>
+        Para fazer esta projeção, a PNP identificou o quanto representam os “concluintes (50%)” no total de “concluintes mais evadidos (50% + 20%)”, criando um ponderador que busca projetar o percentual de retidos que provavelmente concluirão seu curso, multiplicando pela quantidade de retidos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="background-color: #f2f2f2; text-align: center;">
+        <strong>Eficiência Acadêmica (IEA [%])</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        Este indicador mede o percentual de estudantes que concluíram o curso com êxito dentro do período previsto (+ 1 ano), acrescido de um percentual (projeção) dos estudantes retidos no ano de referência que poderão concluir o curso. São considerados apenas os estudantes matriculados em ciclos de matrícula com término previsto para o ano anterior ao Ano de Referência. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
+      <td><strong>Polaridade:</strong> Quanto maior, melhor.</td>
+    </tr>
+    <tr>
+      <td><strong>Agregação Máxima:</strong> Rede Federal.</td>
+      <td><strong>Agregação Mínima:</strong> Curso.</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Modelo Matemático:</strong><br>
+        <p style="text-align: center; margin: 10px 0;">
+          <em>
+            IEA [%] = CCiclo + 
+            &#91;
+              (CCiclo / (CCiclo + EvCiclo)) × RCiclo
+            &#93; × 100
+          </em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align:center;">Variáveis</th>
+    </tr>
+    <tr>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>CCiclo [%] - Conclusão por Ciclo</strong><br><br>
+        <strong>Fonte:</strong> PNP.<br><br>
+        <strong>Definição:</strong> Percentual de CONCLUINTES (definido pelos status “Concluído” ou “Integralizado em fase escolar”), em relação às matrículas vinculadas aos ciclos concluídos no ano anterior ao ano de referência.
+      </td>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>EvCiclo [%] - Evasão por Ciclo</strong><br><br>
+        <strong>Fonte:</strong> PNP.<br><br>
+        <strong>Definição:</strong> Percentual de EVADIDOS, em relação às matrículas vinculadas aos ciclos concluídos no ano anterior ao ano de referência.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Variável Adicional — Retenção por Ciclo (RCiclo [%])
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="background-color: #f2f2f2; text-align: center;">
+        <strong>RCiclo [%] - Retenção por Ciclo</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: justify;">
+        <strong>Fonte:</strong> PNP.<br><br>
+        <strong>Definição:</strong> Percentual de matriculados que são classificados como <strong>RETIDOS</strong> por terem ultrapassado o período previsto para integralização do curso (acrescido de um ano), em relação às matrículas vinculadas aos ciclos concluídos no ano anterior ao Ano de Referência.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Índice de Verticalização (IV)
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="background-color: #f2f2f2; text-align: center;">
+        <strong>Índice de Verticalização (IV)</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: justify;">
+        O indicador é calculado em nível de <strong>Eixo Tecnológico</strong>, com seu modelo matemático expresso na ficha a seguir de acordo com essa configuração.  
+        A representação do Índice de Verticalização em formas agregadas superiores (Unidade, Instituição) na PNP é baseada no cálculo da média das formas agregadas imediatamente inferiores.
+        <br><br>
+        <span style="color: red; font-weight: bold;">Nesse indicador, avalia-se a verticalização sobre dois aspectos:</span>
+        <ol type="a" style="margin-top: 10px; margin-bottom: 10px;">
+          <li>
+            <strong>Análise vertical:</strong> Verifica se uma mesma unidade ofereceu vagas, no ano de referência, em cursos de diferentes “níveis” dentro do mesmo Eixo Tecnológico;
+          </li>
+          <li>
+            <strong>Análise horizontal:</strong> Verifica se a unidade ofereceu mais vagas nos “níveis mais básicos” quando se analisam as quatro categorias duas a duas.
+          </li>
+        </ol>
+        <span style="color: red; font-weight: bold;">A partir destas possibilidades, emprega-se um percentual de prioridades:</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Índice de Verticalização (IV)
+
+<!-- Tabela de Categorias, Prioridades e Classificações -->
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%; text-align: center;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="color: red;">Categoria</th>
+      <th style="color: red;">Prioridade</th>
+      <th style="color: red;">Classificação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Qualificação Profissional – Técnico</td>
+      <td>39,7%</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Técnico – Graduação</td>
+      <td>36,5%</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Graduação – Pós-graduação</td>
+      <td>9,5%</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Qualificação Profissional – Graduação</td>
+      <td>8,9%</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Técnico – Pós-graduação</td>
+      <td>2,8%</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Qualificação Profissional – Pós-Graduação</td>
+      <td>2,6%</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<!-- Descrição do Indicador -->
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="background-color: #f2f2f2; text-align: center;">
+        <strong>Índice de Verticalização (IV)</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: justify;">
+        Este indicador busca verificar a condição de verticalização dos cursos oferecidos por uma mesma unidade acadêmica em um mesmo eixo tecnológico, considerando vagas de ingresso ofertadas em 04 categorias possíveis:
+        Curso de Qualificação Profissional (QP); Curso Técnico (CT); Curso de Graduação (CG); e Curso de Pós-Graduação (PG).
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
+    </tr>
+    <tr>
+      <td><strong>Polaridade:</strong> Quanto maior, melhor.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Agregação Máxima:</strong> Eixo Tecnológico.<br>
+        <strong>Agregação Mínima:</strong> Eixo Tecnológico.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Seção do Modelo Matemático -->
+<h3>Modelo Matemático:</h3>
+
+<p style="text-align: center;">
+  <strong>
+    IV = 
+    [
+    (V<sub>QP</sub> / V<sub>CT</sub>) × 0,397
+    ] +
+    [
+    (V<sub>CT</sub> / V<sub>CG</sub>) × 0,365
+    ] +
+    [
+    (V<sub>CG</sub> / V<sub>PG</sub>) × 0,095
+    ] +
+    [
+    (V<sub>CT</sub> / V<sub>PG</sub>) × 0,089
+    ] +
+    [
+    (V<sub>QP</sub> / V<sub>PG</sub>) × 0,026
+    ] +
+    [
+    (V<sub>QP</sub> / V<sub>CG</sub>) × 0,028
+    ]
+  </strong>
+</p>
+
+<br>
+
+<!-- Tabela de Variáveis -->
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color: #f2f2f2; text-align: center;">
+      <th colspan="2"><strong>Variáveis</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>VQP - Vagas Qualificação Profissional</strong><br><br>
+        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
+        <strong>Definição:</strong> Número de Vagas de Ingresso ofertadas em cursos de Qualificação Profissional.
+      </td>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>VCG - Vagas Curso Graduação</strong><br><br>
+        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
+        <strong>Definição:</strong> Número de Vagas de Ingresso ofertadas em cursos de Graduação, considerando os cursos de Graduação Tecnológica, Bacharelados e Licenciaturas.
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>VCT - Vagas Cursos Técnicos</strong><br><br>
+        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
+        <strong>Definição:</strong> Número de Vagas de Ingresso ofertadas em cursos Técnicos, considerando os cursos Integrados, Subsequentes e Concomitantes.
+      </td>
+      <td style="width: 50%; vertical-align: top;">
+        <strong>VPG - Vagas Pós-Graduação</strong><br><br>
+        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br><br>
+        <strong>Definição:</strong> Número de Vagas de Ingresso ofertadas em cursos de Pós-Graduação, considerando cursos de Especialização, Mestrados e Doutorados.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<!-- Nota final -->
+<p style="font-style: italic; color: #004080;">
+  <strong>Taxa de Ocupação</strong><br><br>
+  Este indicador foi removido da PNP para reanálise de seu modelo matemático.
+</p>
