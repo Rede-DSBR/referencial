@@ -86,8 +86,6 @@ Dimensão Curso
   </tr>
 </table>
 
-</body>
-</html>
 
 Dimensão Ciclos
 
@@ -132,8 +130,7 @@ Dimensão Ciclos
   </tr>
 </table>
 
-</body>
-</html>
+
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -344,8 +341,7 @@ Dimensão Matrículas
     </tr>
 </table>
 
-</body>
-</html>
+
 
 
 <!-- Tabela 1 -->
@@ -458,8 +454,6 @@ Dimensão Matrículas
     </tr>
 </table>
 
-</body>
-</html>
 
 
 <!-- Tabela 1 -->
@@ -545,8 +539,6 @@ Dimensão Matrículas
     </tr>
 </table>
 
-</body>
-</html>
 
 Dimensão Unidade Organizacional
 
@@ -575,8 +567,7 @@ Dimensão Unidade Organizacional
     </tr>
 </table>
 
-</body>
-</html>
+
 
 Dimensão Servidor
 
@@ -689,8 +680,7 @@ Dimensão Servidor
     </tr>
 </table>
 
-</body>
-</html>
+
 
 <!-- Tabela 1 -->
 <table>
@@ -780,7 +770,6 @@ Dimensão Servidor
     </tr>
 </table>
 
-</body>
-</html>
+
 
 [Próximo: Tabelas de apoio »](/documentacao/usuarios-especializados/tabelas_de_apoio)

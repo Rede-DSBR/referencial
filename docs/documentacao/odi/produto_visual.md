@@ -44,7 +44,7 @@ No acesso à experiência de filtros, o usuário terá a interface apresentada n
 
 ## Cálculo de indicadores
 
-O produto visual, além de apresentar de forma estruturada os elementos gráficos, também calcula variáveis e indicadores na própria plataforma. Atualmente, são organizados em Dados Educacionais  e Dados Orçamentários. Para detalhamento dos indicadores [(clique aqui](http://localhost:4000/documentacao/indicadores/finalidade_dos_indicadores){:target="_blank"}.
+O produto visual, além de apresentar de forma estruturada os elementos gráficos, também calcula variáveis e indicadores na própria plataforma. Atualmente, são organizados em Dados Educacionais  e Dados Orçamentários. Para detalhamento dos indicadores [(clique aqui]({{ site.baseurl }}/documentacao/indicadores/finalidade_dos_indicadores){:target="_blank"}.
 
 ### Dados Educacionais
 

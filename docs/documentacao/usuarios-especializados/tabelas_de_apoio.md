@@ -16,13 +16,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 # {{ page.title }}
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Duração dos ciclos</title>
-
-
 <h3>Duração dos ciclos</h3>
 
 <table>
@@ -50,13 +43,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Técnico</td><td>300</td><td>1460</td></tr>
   <tr><td>Tecnologia</td><td>670</td><td>1460</td></tr>
 </table>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-
-</head>
-<body>
 
 <h3>Fontes de Financiamento (antigo Programas Associados)</h3>
 
@@ -132,49 +118,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
       Sem Programa Associado
     </td>
   </tr>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Cor / Raça</title>
-<style>
-  body {
-    font-family: "Times New Roman", Times, serif;
-    margin: 40px;
-    color: #000;
-    background-color: #fff;
-  }
-
-  h3 {
-    font-size: 13pt;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 6px;
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 350px;
-    font-size: 11pt;
-    background-color: #fff;
-  }
-
-  th, td {
-    border: 1px solid #000;
-    padding: 6px 10px;
-  }
-
-  th {
-    text-align: left;
-    font-weight: bold;
-  }
-
-  td {
-    text-align: left;
-  }
-</style>
-</head>
-<body>
+</table>
 
 <h3>Cor / Raça</h3>
 
@@ -189,14 +133,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Preta</td></tr>
   <tr><td>Não declarada</td></tr>
 </table>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-
-
-</head>
-<body>
 
 <h3>Renda familiar per capita</h3>
 
@@ -211,42 +147,17 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>2,5 &lt; RFP ≤ 3,5</td></tr>
   <tr><td>RFP &gt; 3,5</td></tr>
   <tr><td>Não declarada</td></tr>
+</table>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Forma de Ingresso</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Forma de Ingresso</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 200px;
-        }
-        th, td {
-            border: 1px solid #000;
-            padding: 6px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Forma de Ingresso</th>
-            </tr>
-        </thead>
-        <tbody>
+<h3>Forma de Ingresso</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Forma de Ingresso</th>
+        </tr>
+    </thead>
+    <tbody>
             <tr><td>AC</td></tr>
             <tr><td>L1</td></tr>
             <tr><td>L2</td></tr>
