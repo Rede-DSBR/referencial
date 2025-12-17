@@ -20,7 +20,7 @@ O visual da interface é um projeto constituído por botões com seus respectivo
 
 O [Manual da Marca](https://www.gov.br/mec/pt-br/pnp/manualdamarca){:target="_blank"} traz detalhamentos importantes, como as versões monocromáticas, caixas de proteção, tipografia, marca vertical, limites de redução, aplicações em fundos instáveis claros e escuros, paleta de cores e usos indevidos. Além do Manual, na página também é possível salvar os arquivos. A figura abaixo apresenta uma imagem ilustrativa da página inicial da Plataforma Nilo Peçanha.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_01.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_01.png)
 
 ## Atualização dos Dados
 
@@ -36,11 +36,11 @@ A área denominada Mapa da Rede, que apresenta as unidades, os campi em expansã
 
 A interface do painel interativo é organizada por zoneamento, conforme apresentado na figura abaixo. Nessa imagem, a primeira zona (Z01) indica o título da Seção. No lado esquerdo, a segunda zona (Z02) mostra botões para as outras áreas do painel, já mencionadas. Na terceira zona (Z03), são apresentadas abas e sub-abas para navegação entre os indicadores. Também, é possível selecionar ano base de anos anteriores para atualizar as informações e acessar a experiência de filtros. Na quarta zona (Z04) são apresentadas as tabelas, mapas e cartões numéricos com resumo dos dados. Nessa zona também há opções para detalhamento das tabelas, quando aplicável.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_02.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_02.png)
 
 No acesso à experiência de filtros, o usuário terá a interface apresentada na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_03.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_03.png)
 
 ## Cálculo de indicadores
 
@@ -54,7 +54,7 @@ Os Dados Educacionais incluem Dados Acadêmicos, Percentuais Legais, Indicadores
 
 A aba “Dados Acadêmicos” da página de “Dados Educacionais” se apresenta conforme observado na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_04.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_04.png)
 
 Nessa página é possível obter as seguintes informações:
 
@@ -79,7 +79,7 @@ Nessa página é possível obter as seguintes informações:
 
 A aba “Percentuais Legais” da página de “Dados Educacionais” se apresenta conforme observado na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_05.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_05.png)
 
 As Matrículas Equivalentes são filtradas para análise dos percentuais legais dos Institutos Federais, em observância à missão de atender às necessidades educacionais e de formação profissional, de acordo com os critérios legais estabelecidos pelo Lei 18.892/2008, Art. 8º e Decreto 5.840/2006, Art. 2º.
 
@@ -103,7 +103,7 @@ Nessa página é possível obter as seguintes informações:
 
 A aba “Indicadores Acadêmicos” da página de “Dados Educacionais” se apresenta conforme observado na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_06.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_06.png)
 
 Nessa página é possível obter as seguintes informações:
 
@@ -120,7 +120,7 @@ Nessa página é possível obter as seguintes informações:
 
 A aba “Indicadores de Pessoal” da página de “Dados Educacionais” se apresenta conforme observado na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_07.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_07.png)
 
 Nessa página é possível obter as seguintes informações:
 
@@ -140,7 +140,7 @@ Os Dados Orçamentários incluem Gastos Totais da Rede, Panorama Orçamentário,
 
 A aba “Gastos Totais da Rede” da página de “Dados Orçamentários” se apresenta conforme observado na figura abaixo.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/ode_produto_visual_08.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_08.png)
 
 Nessa página é possível obter as seguintes informações:
 

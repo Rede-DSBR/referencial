@@ -31,7 +31,7 @@ Por fim, a sustentação tecnológica garante a continuidade e a escalabilidade 
 
 A figura abaixo ilustra o fluxo geral de dados e informações e a relação entre os processos que compõem a PNP. Nesse fluxo, os dados oriundos de sistemas estruturantes (Sistec, Siape e Siafi) são integrados pela PNP-CCV àqueles extraídos de sistemas setoriais certificados (Rede Integra, Sissa e Observatório de Egressos) e os sistemas institucionais (notadamente Suap e Sigaa). Os dados provenientes das fontes que chegam ao PNP-CCV passam por regras de consistência. Em seguida, são corrigidos e validados, consolidando as informações em um conjunto coerente que subsidia o cálculo dos indicadores. Em seguida, os dados são disponibilizados ao PNP-ODI para cálculo e disseminação dos indicadores, permitindo o monitoramento da RFEPCT, apoiando a tomada de decisões estratégicas e promovendo a transparência.
 
-![Fluxo geral de dados da PNP](/assets/img/docs/metodologia_fluxo_geral_01.png)
+![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/metodologia_fluxo_geral_01.png)
 
 Os dados provenientes das fontes que chegam ao PNP-CCV passam por regras de consistência. Em seguida, são corrigidos e validados, consolidando as informações em um conjunto coerente que subsidia o cálculo dos indicadores.
 

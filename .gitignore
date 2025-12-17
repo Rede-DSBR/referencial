@@ -9,6 +9,7 @@
 
 /arquivos_dev
 
+/_site/
 # Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
 docs/_site/
 docs/.sass-cache/
