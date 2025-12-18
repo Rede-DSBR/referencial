@@ -1,5 +1,8 @@
 url: "https://referencialpnp.dsbr.org" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/juifehwfh893sidjfiwe" # the subpath of your site, e.g. /blog
+
+# baseurl: "/juifehwfh893sidjfiwe" # the subpath of your site, e.g. /blog
+baseurl: ""
+
 title: "Guia metodológico PNP" # Nome do sistema ou plataforma
 subtitle: "" #Órgão ou entidade
 sign: "" # Assinatura
