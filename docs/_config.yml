@@ -1,5 +1,5 @@
 url: "https://referencialpnp.dsbr.org" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/juifehwfh893sidjfiwe" # the subpath of your site, e.g. /blog
 title: "Guia metodológico PNP" # Nome do sistema ou plataforma
 subtitle: "" #Órgão ou entidade
 sign: "" # Assinatura
@@ -8,5 +8,4 @@ menu: "Todo o conteúdo deste site está publicado sob a licença MIT."
 search_engine: "lunrjs" # Valores possíveis serão "lunrjs", "google". Outro valor irá desativar.
 share_buttons: true
 
-plugins:
-  - jekyll-sitemap
+plugins: []
