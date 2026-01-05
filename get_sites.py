@@ -98,8 +98,8 @@ def upload_to_gcs(bucket_name, source_file, destination_blob, credentials_path):
     print(f"Uploaded {source_file} to gs://{bucket_name}/{destination_blob}")
 
 if __name__ == "__main__":
-    #sitemap_url = "https://referencialpnp.dsbr.org/sitemap.xml"
-    base_site = "https://referencialpnp.dsbr.org/"
+    #sitemap_url = "https://referencialpnp-jf934uf9jfijsdfiw.dsbr.org/sitemap.xml"
+    base_site = "https://referencialpnp-jf934uf9jfijsdfiw.dsbr.org/"
     #urls = get_urls_from_sitemap(sitemap_url)
     urls = get_urls_from_navbar(base_site)
     

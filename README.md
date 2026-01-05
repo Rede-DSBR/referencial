@@ -8,7 +8,7 @@ Conteúdo do referencial metodológico da Plataforma Nilo Peçanha e hospedagem 
 
 The site is configured to be served at a random subpath (`/juifehwfh893sidjfiwe`) to prevent accidental indexing before production. To access the site, use the full URL:
 
-**https://referencialpnp.dsbr.org/juifehwfh893sidjfiwe/**
+**https://referencialpnp-jf934uf9jfijsdfiw.dsbr.org/juifehwfh893sidjfiwe/**
 
 ### SEO Configuration (Pre-production)
 
@@ -35,4 +35,4 @@ When the site is ready for production, update the following:
 
 3. In `docs/robots.txt`:
    - Change `Disallow: /` to `Allow: /`
-   - Re-add the sitemap reference: `Sitemap: https://referencialpnp.dsbr.org/sitemap.xml`
+   - Re-add the sitemap reference: `Sitemap: https://referencialpnp-jf934uf9jfijsdfiw.dsbr.org/sitemap.xml`
