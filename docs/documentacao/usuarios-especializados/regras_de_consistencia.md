@@ -13,7 +13,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 [Anterior: Situações de matrícula e matrícula atendida](/documentacao/usuarios-especializados/situacoes_matriculas)
 
-Dimensão Curso
+## Dimensão Curso
 
 <!-- TABELA 1 -->
 <table>
@@ -82,12 +82,73 @@ Dimensão Curso
   <tr>
     <td>Fazer a correspondência com o respectivo curso no Catálogo/Guia e justificar a sua permanência.</td>
     <td class="small">Sim</td>
+    <td class="small">Não</td>
+  </tr>
+</table>
+
+
+<!-- TABELA 3 -->
+<table>
+  <tr>
+    <td class="header-cell" colspan="3">
+      <strong>Identificação da Regra</strong><br>
+      <span class="subtitle">Código e-MEC</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="rule-text" colspan="3">
+      <strong>Regra</strong><br>
+      Para permitir a correta correlação entre a base da PNP e do INPE, é necessário informar o código e-MEC dos cursos de graduação.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Ações</th>
+    <th>Justificativa</th>
+    <th>Corte estatístico</th>
+  </tr>
+
+
+  <tr>
+    <td>Informar o código e-MEC do respectivo curso de graduação.</td>
+    <td class="small">Não</td>
+    <td class="small">Não</td>
+  </tr>
+</table>
+
+<!-- TABELA 3 -->
+<table>
+  <tr>
+    <td class="header-cell" colspan="3">
+      <strong>Identificação da Regra</strong><br>
+      <span class="subtitle">Formação de Professores</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="rule-text" colspan="3">
+      <strong>Regra</strong><br>
+      Para permitir a correta identificação dos cursos para formação de professores, é necessário identificar de forma explícita quais cursos são de formação de professores. Essa inconsistência é aplicada apenas para cursos FIC e de pós-graduação. Os cursos de Licenciatura são automaticamente marcados como de formação de professores.
+    </td>
+  </tr>
+
+  <tr>
+    <th>Ações</th>
+    <th>Justificativa</th>
+    <th>Corte estatístico</th>
+  </tr>
+
+
+  <tr>
+    <td>Identificar se o curso é ou não de formação de professores</td>
+    <td class="small">Não</td>
     <td class="small">Sim</td>
   </tr>
 </table>
 
 
-Dimensão Ciclos
+## Dimensão Ciclos
 
 
 <table>
@@ -126,13 +187,13 @@ Dimensão Ciclos
   <tr>
     <td>Confirmar a situação de TODAS as matrículas, mantendo a evasão igual a 0%.</td>
     <td class="small"><strong>Sim</strong></td>
-    <td class="small">Sim</td>
+    <td class="small">Não</td>
   </tr>
 </table>
 
 
 
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table >
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Carga Horária Insuficiente</td>
   </tr>
@@ -152,7 +213,7 @@ Dimensão Ciclos
   <tr>
     <td>Corrigir a carga horária.</td>
     <td>Não</td>
-    <td>Sim</td>
+    <td>Não</td>
   </tr>
   <tr>
     <td>Manter carga horária do ciclo.</td>
@@ -163,12 +224,12 @@ Dimensão Ciclos
 
 <br>
 
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table >
   <tr>
-    <td colspan="3"><b>Identificação da Regra</b><br>Fonte de Financiamento – antigo Programa Associado</td>
+    <td colspan="3"><b>Identificação da Regra</b><br>Programa Associado e  Fonte de Financiamento</td>
   </tr>
   <tr>
-    <td colspan="3"><b>Regra</b><br>Identificar a fonte de financiamento conforme programa específico de financiamento ou outra fonte. Ofertas sem fomento externo devem ser associadas à Fonte “Sem Programa Associado”.</td>
+    <td colspan="3"><b>Regra</b><br>Identificar o programa e a respectiva fonte de financiamento. Programas como UAB, E-TEC, Bolsa Formação, dentre outros automaticamente tem a fonte de financiamento determinada como Recursos Externos. Ofertas sem fomento externo devem ser associadas ao programa “Sem Programa Associado”, indicando explicitamente que não possuem Fomento Externo.</td>
   </tr>
   <tr>
     <th style="width: 60%;">Ações</th>
@@ -176,7 +237,7 @@ Dimensão Ciclos
     <th style="width: 20%;">Corte Estatístico</th>
   </tr>
   <tr>
-    <td>Editar conforme a Tabela “Fontes de Financiamento”.</td>
+    <td>Editar conforme a Tabela “Programa Associado" e escolhendo a fonte de financiamento, quando aplicável</td>
     <td>Não</td>
     <td>Sim</td>
   </tr>
@@ -184,7 +245,7 @@ Dimensão Ciclos
 
 <br>
 
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table >
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Duração de ciclo Imprópria</td>
   </tr>
@@ -208,7 +269,7 @@ Dimensão Ciclos
   </tr>
 </table>
 
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table>
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Detalhamento do número de vagas</td>
   </tr>
@@ -241,7 +302,7 @@ Dimensão Ciclos
 </table>
 
 <!-- Tabela 1 -->
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table>
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Ingressantes &gt; Inscritos</td>
   </tr>
@@ -270,7 +331,7 @@ Dimensão Ciclos
 <br>
 
 <!-- Tabela 2 -->
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table >
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Turno de Oferta do Ciclo</td>
   </tr>
@@ -294,7 +355,7 @@ Dimensão Ciclos
 <br>
 
 <!-- Tabela 3 -->
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<table>
   <tr>
     <td colspan="3"><b>Identificação da Regra</b><br>Tipo de curso</td>
   </tr>
@@ -315,14 +376,14 @@ Dimensão Ciclos
   </tr>
 </table>
 
-Dimensão Matrículas
+## Dimensão Matrículas
 
 <table>
     <tr>
-        <td colspan="3"><span class="bold">Identificação da Regra</span><br>Data da Matrícula Anterior a data de Início do Ciclo</td>
+        <td colspan="3"><b>Identificação da Regra</b><br>Data da Matrícula Anterior a data de Início do Período PNP</td>
     </tr>
     <tr>
-        <td colspan="3"><span class="bold">Regra</span><br>O mês da data de ocorrência da matrícula não deve ser anterior ao mês do início do ciclo.</td>
+        <td colspan="3"><b>Regra</b><br>O mês da data de ocorrência da matrícula não deve ser anterior a 01 de janeiro do ano base da PNP</td>
     </tr>
     <tr>
         <th>Ações</th>
@@ -347,10 +408,10 @@ Dimensão Matrículas
 <!-- Tabela 1 -->
 <table>
     <tr>
-        <td colspan="3"><span class="bold">Identificação da Regra</span><br>Matrícula posterior à ocorrência da situação</td>
+        <td colspan="3"><b>Identificação da Regra</b><br>Matrícula posterior à ocorrência da situação</td>
     </tr>
     <tr>
-        <td colspan="3"><span class="bold">Regra</span><br>A data de ocorrência da matrícula não deve ser superior à data da ocorrência.</td>
+        <td colspan="3"><b>Regra</b><br>A data de ocorrência da matrícula não deve ser superior à data da ocorrência.</td>
     </tr>
     <tr>
         <th>Ações</th>
@@ -387,10 +448,10 @@ Dimensão Matrículas
 <!-- Tabela 3 -->
 <table>
     <tr>
-        <td colspan="3"><span class="bold">Identificação da Regra</span><br>Retenção Crítica</td>
+        <td colspan="3"><b>Identificação da Regra</b><br>Retenção Crítica</td>
     </tr>
     <tr>
-        <td colspan="3"><span class="bold">Regra</span><br>O período de retenção do aluno não é desejado que seja superior a 365 dias da data do fim previsto do ciclo.</td>
+        <td colspan="3"><b>Regra</b><br>O período de retenção do aluno não é desejado que seja superior a 365 dias da data do fim previsto do ciclo.</td>
     </tr>
     <tr>
         <th>Ações</th>
@@ -412,10 +473,10 @@ Dimensão Matrículas
 <!-- Tabela 4 -->
 <table>
     <tr>
-        <td colspan="3"><span class="bold">Identificação da Regra</span><br>Retenção FIC</td>
+        <td colspan="3"><b>Identificação da Regra</b><br>Retenção FIC</td>
     </tr>
     <tr>
-        <td colspan="3"><span class="bold">Regra</span><br>Nos cursos FIC – Formação Inicial e Formação Continuada não é prevista a retenção de alunos.</td>
+        <td colspan="3"><b>Regra</b><br>Nos cursos FIC – Formação Inicial e Formação Continuada não é prevista a retenção de alunos.</td>
     </tr>
     <tr>
         <th>Ações</th>
@@ -430,17 +491,17 @@ Dimensão Matrículas
     <tr>
         <td>Justificar informando o motivo.</td>
         <td>Sim</td>
-        <td>??</td>
+        <td>Não</td>
     </tr>
 </table>
 
 <!-- Tabela 5 -->
 <table>
     <tr>
-        <td colspan="3"><span class="bold">Identificação da Regra</span><br>Cor/raça</td>
+        <td colspan="3"><b>Identificação da Regra</b><br>Cor/raça</td>
     </tr>
     <tr>
-        <td colspan="3"><span class="bold">Regra</span><br>Informar Cor/Raça de cada matrícula.</td>
+        <td colspan="3"><b>Regra</b><br>Informar Cor/Raça de cada matrícula.</td>
     </tr>
     <tr>
         <th>Ações</th>
@@ -460,13 +521,13 @@ Dimensão Matrículas
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Renda <i>per capita</i> familiar
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Informar a renda <i>per capita</i> familiar de cada matrícula.
         </td>
     </tr>
@@ -486,13 +547,13 @@ Dimensão Matrículas
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Turno
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Informar o turno de cada matrícula.
         </td>
     </tr>
@@ -512,13 +573,13 @@ Dimensão Matrículas
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Forma de Ingresso
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Informar ou justificar a forma de ingresso de cada matrícula, conforme listas/categorias definidas na Lei das Cotas (Lei 11.711/2012) e alterações.
         </td>
     </tr>
@@ -540,18 +601,96 @@ Dimensão Matrículas
 </table>
 
 
-Dimensão Unidade Organizacional
+<!-- Tabela 4 -->
+<table>
+    <tr>
+        <td colspan="3">
+            <b>Identificação da Regra</b><br>
+            Identidade de Gênero
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <b>Regra</b><br>
+            Informar a identidade de gênero associada a matrícula.
+        </td>
+    </tr>
+    <tr>
+        <th>Ações</th>
+        <th>Justificativa</th>
+        <th>Corte Estatístico</th>
+    </tr>
+    <tr>
+        <td>Selecionar opção na lista conforme a Tabela “Identidade de Gênero”.</td>
+        <td>Não</td>
+        <td>Não</td>
+    </tr>
+</table>
+
+<!-- Tabela 5 -->
+<table>
+    <tr>
+        <td colspan="3">
+            <b>Identificação da Regra</b><br>
+            Tipo de Deficiência
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <b>Regra</b><br>
+            Informar o tipo de deficiência associada a matrícula. Pode ser selecionado a opção Não Deficiente. Para os alunos que ingressaram em cota PCD, é obrigatório escolhar um tipo de deficiência.
+        </td>
+    </tr>
+    <tr>
+        <th>Ações</th>
+        <th>Justificativa</th>
+        <th>Corte Estatístico</th>
+    </tr>
+    <tr>
+        <td>Selecionar opção na lista conforme a Tabela “Tipo de Deficiência”.</td>
+        <td>Não</td>
+        <td>Não</td>
+    </tr>
+</table>
+
+<!-- Tabela 6 -->
+<table>
+    <tr>
+        <td colspan="3">
+            <b>Identificação da Regra</b><br>
+            Necessidade Educacional Específica
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <b>Regra</b><br>
+            Informar o tipo necessidade educacional específica associada a matrícula. Pode ser selecionado a opção Não Declarada.
+        </td>
+    </tr>
+    <tr>
+        <th>Ações</th>
+        <th>Justificativa</th>
+        <th>Corte Estatístico</th>
+    </tr>
+    <tr>
+        <td>Selecionar opção na lista conforme a Tabela “Necessidade Educacional Específica”.</td>
+        <td>Não</td>
+        <td>Não</td>
+    </tr>
+</table>
+
+## Dimensão Unidade Organizacional
 
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             UORG não vinculada
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando a UORG não está relacionada a uma unidade da instituição, aplicável apenas para os 38 institutos, os 2 Cefets e o Colégio Pedro II.
         </td>
     </tr>
@@ -569,19 +708,19 @@ Dimensão Unidade Organizacional
 
 
 
-Dimensão Servidor
+## Dimensão Servidor
 
 <!-- Tabela 1 -->
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Divergência entre Escolaridade e Titulação
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando a titulação do servidor é inferior à escolaridade cadastrada ou quando a escolaridade é muito inferior à titulação informada.
         </td>
     </tr>
@@ -601,13 +740,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Escolaridade não informada
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando a escolaridade não é informada.
         </td>
     </tr>
@@ -627,13 +766,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Divergência entre Escolaridade e Cargo
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando a escolaridade do servidor é insuficiente para os requisitos do cargo ocupado.
         </td>
     </tr>
@@ -658,13 +797,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Titulação não informada
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando a titulação do servidor não foi informada no SIAPE e consequentemente ainda não está na PNP.
         </td>
     </tr>
@@ -686,13 +825,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Cargo sem Descrição
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando o código do cargo do servidor não tem correspondência com a lista de cargos Federais.
         </td>
     </tr>
@@ -712,13 +851,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Duplicidade de Lotação
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando o servidor possui mais de uma matrícula SIAPE ativa na Rede Federal de Educação Profissional, Científica e Tecnológica.
         </td>
     </tr>
@@ -743,13 +882,13 @@ Dimensão Servidor
 <table>
     <tr>
         <td colspan="3">
-            <span class="bold">Identificação da Regra</span><br>
+            <b>Identificação da Regra</b><br>
             Docente Lotado em Reitoria
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <span class="bold">Regra</span><br>
+            <b>Regra</b><br>
             Esta inconsistência aparece quando o servidor ocupante de cargo de docência está lotado em uma UORG que foi associada à Reitoria.
         </td>
     </tr>

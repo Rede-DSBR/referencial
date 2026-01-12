@@ -149,6 +149,53 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Não declarada</td></tr>
 </table>
 
+
+<h3>Identidade de Gênero</h3>
+
+<table>
+  <tr>
+    <th>Identidade de Gênero</th>
+  </tr>
+  <tr><td>Mulher Cisgênero</td></tr>
+  <tr><td>Homem Cisgênero</td></tr>
+  <tr><td>Mulher Transgênero</td></tr>
+  <tr><td>Homem Transgênero</td></tr>
+  <tr><td>Pessoa Não Binária</td></tr>
+  <tr><td>Não declarada</td></tr>
+</table>
+
+<h3>Tipo de Deficiência</h3>
+
+<table>
+  <tr>
+    <th>Tipo de Deficiência</th>
+  </tr>
+  <tr><td>Pessoa com Deficiência Física</td></tr>
+  <tr><td>Pessoa com Deficiência Auditiva</td></tr>
+  <tr><td>Pessoa com Deficiência Visual</td></tr>
+  <tr><td>Pessoa com Deficiência Intelectual</td></tr>
+  <tr><td>Pessoa com Deficiência Múltipla</td></tr>
+  <tr><td>Não deficiente</td></tr>
+  <tr><td>Não declarada</td></tr>
+</table>
+
+<h3>Necessidade Educacional Específica</h3>
+
+<table>
+  <tr>
+    <th>Necessidade Educacional Específica</th>
+  </tr>
+  <tr><td>Transtorno do Espectro Autista (TEA)</td></tr>
+  <tr><td>Transtorno de Déficit de Atenção e Hiperatividade (TDAH)</td></tr>
+  <tr><td>Transtornos Específicos de Aprendizagem</td></tr>
+  <tr><td>Transtornos Globais do Desenvolvimento (TGD)</td></tr>
+  <tr><td>Pessoa com Deficiência Múltipla</td></tr>
+  <tr><td>Altas Habilidades/Superdotação (AH/SD)</td></tr>
+  <tr><td>Outras Necessidades Educacionais Específicas</td></tr>
+  <tr><td>Não possuie NEE</td></tr>
+  <tr><td>Não declarada</td></tr>
+</table>
+
 <h3>Forma de Ingresso</h3>
 
 <table>
