@@ -82,7 +82,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>Fazer a correspondência com o respectivo curso no Catálogo/Guia e justificar a sua permanência.</td>
     <td class="small">Sim</td>
-    <td class="small">Sim</td>
+    <td class="small">Não</td>
   </tr>
 </table>
 
@@ -187,7 +187,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>Confirmar a situação de TODAS as matrículas, mantendo a evasão igual a 0%.</td>
     <td class="small"><strong>Sim</strong></td>
-    <td class="small">Sim</td>
+    <td class="small">Não</td>
   </tr>
 </table>
 
@@ -213,7 +213,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>Corrigir a carga horária.</td>
     <td>Não</td>
-    <td>Sim</td>
+    <td>Não</td>
   </tr>
   <tr>
     <td>Manter carga horária do ciclo.</td>
@@ -491,7 +491,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
     <tr>
         <td>Justificar informando o motivo.</td>
         <td>Sim</td>
-        <td>??</td>
+        <td>Não</td>
     </tr>
 </table>
 
