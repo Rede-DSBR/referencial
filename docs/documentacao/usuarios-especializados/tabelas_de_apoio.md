@@ -16,7 +16,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 # {{ page.title }}
 
-<h3>Duração dos ciclos</h3>
+## Duração dos ciclos
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Tecnologia</td><td>670</td><td>1460</td></tr>
 </table>
 
-<h3>Fontes de Financiamento (antigo Programas Associados)</h3>
+## Programas e Fontes de Financiamento
 
 <table>
   <tr>
@@ -120,7 +120,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   </tr>
 </table>
 
-<h3>Cor / Raça</h3>
+## Cor / Raça
 
 <table>
   <tr>
@@ -134,7 +134,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Não declarada</td></tr>
 </table>
 
-<h3>Renda familiar per capita</h3>
+## Renda familiar per capita
 
 <table>
   <tr>
@@ -150,7 +150,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 </table>
 
 
-<h3>Identidade de Gênero</h3>
+## Identidade de Gênero 
 
 <table>
   <tr>
@@ -164,7 +164,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Não declarada</td></tr>
 </table>
 
-<h3>Tipo de Deficiência</h3>
+## Tipo de Deficiência
 
 <table>
   <tr>
@@ -179,7 +179,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Não declarada</td></tr>
 </table>
 
-<h3>Necessidade Educacional Específica</h3>
+## Necessidade Educacional Específica
 
 <table>
   <tr>
@@ -196,7 +196,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Não declarada</td></tr>
 </table>
 
-<h3>Forma de Ingresso</h3>
+## Forma de Ingresso
 
 <table>
     <thead>
@@ -224,7 +224,10 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
             <tr><td>LI_Q</td></tr>
         </tbody>
     </table>
-<table border="1" cellspacing="0" cellpadding="5">
+
+## Níveis e Tipos de Curso
+
+<table>
   <thead>
     <tr>
       <th>Nível de Curso</th>
