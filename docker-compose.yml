@@ -5,5 +5,5 @@ services:
     volumes:
       - ./docs:/app/docs
       - ./temp_pdfs:/app/temp_pdfs
-      - ./merged_site.pdf:/app/merged_site.pdf
+      - .:/app/output
     command: ["python", "get_sites.py"]

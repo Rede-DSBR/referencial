@@ -99,7 +99,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td class="rule-text" colspan="3">
       <strong>Regra</strong><br>
-      Para permitir a correta correlação entre a base da PNP e do INPE, é necessário informar o código e-MEC dos cursos de graduação.
+      Para permitir a correta correlação entre a base da PNP e do INEP, é necessário informar o código e-MEC dos cursos de graduação.
     </td>
   </tr>
 
