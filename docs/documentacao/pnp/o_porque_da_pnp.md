@@ -34,6 +34,6 @@ Embora inúmeros estudos sejam permitidos por meio da pesquisa aos Censos Educac
 
 Esta dificuldade levou a Setec/MEC a adotar o Sistema Nacional de Informações da Educação Profissional e Tecnológica (Sistec) como base de dados estatísticos para a RFEPCT. Entretanto, essa escolha administrativa, que foi necessária e comprometida com a Educação Profissional e Tecnológica, passou a encontrar questões de ordem técnica, teórica e metodológica que poderiam comprometer a confiabilidade dos números produzidos. A Plataforma Nilo Peçanha surge, então, neste contexto como uma iniciativa inovadora de coleta, validação e disseminação de dados e informações da Rede Federal de Educação Profissional, Científica e Tecnológica.
 
-Para conhecer melhor o processo histórico de criação e evolução da PNP, [clique aqui](/documentacao/pnp/historico "Histórico").
+Para conhecer melhor o processo histórico de criação e evolução da PNP, [clique aqui]({{site.baseUrl}}/documentacao/pnp/historico "Histórico").
 
 [^1]: [Texto adaptado do Guia de Referência Medotológica - PNP 2020, de Moraes et. al (2020).](https://dadosabertos.mec.gov.br/images/pdf/grm-2020-isbn-revisado.pdf){:target="_blank"}
