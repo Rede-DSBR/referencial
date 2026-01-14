@@ -13,7 +13,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 # {{ page.title }}
 
-A história da PNP iniciou em 2012, quando uma auditoria realizada pela Controladoria Geral da União (CGU) recomendou que as instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) utilizassem somente o Sistema Nacional de Informações da Educação Profissional e Tecnológica (Sistec) – instituído pela Resolução CNE/CEB nº 3, de 30 de setembro de 2009 –, para a apresentação dos indicadores, em razão deste sistema armazenar os dados primários com o registro individual de cada matrícula [(MEC, 2022)](https://www.gov.br/mec/pt-br/pnp/historico "PNP: Histórico"){:target="_blank"}.
+A história da PNP iniciou em 2012, quando uma auditoria realizada pela Controladoria Geral da União (CGU) recomendou que as instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) utilizassem somente o Sistema Nacional de Informações da Educação Profissional e Tecnológica (Sistec) – instituído pela Resolução CNE/CEB n 3, de 30 de setembro de 2009 –, para a apresentação dos indicadores, em razão deste sistema armazenar os dados primários com o registro individual de cada matrícula [(MEC, 2022)](https://www.gov.br/mec/pt-br/pnp/historico "PNP: Histórico"){:target="_blank"}.
 
 Nesse contexto, a partir do exercício de 2012, o processo de padronização e automatização da geração de indicadores da Rede Federal adotou a extração centralizada de dados primários do Sistec, do Sistema Integrado de Administração de Recursos Humanos (Siape) e do Sistema Integrado de Administração Financeira (Siafi). A partir desse mesmo ano, os indicadores de cada instituição passaram a ser calculados pela Secretaria de Educação Profissional e Tecnológica do Ministério da Educação (Setec/MEC) e enviados às referidas instituições para validação (MEC, 2022).
 
@@ -58,3 +58,6 @@ Para acessar as versões anteriores do Guia Metodológico da PNP, clique em uma 
 * [Guia de Referência Metodológica 2017](https://dadosabertos.mec.gov.br/pnp/item/65-2017-guia-de-referencia-metodologica){:target="_blank"}
 * [Guia de Referência Metodológica 2018](https://dadosabertos.mec.gov.br/images/conteudo/pnp/2019/guia-referencia-2019.pdf){:target="_blank"}
 * [Guia de Referência Metodológica 2020](https://dadosabertos.mec.gov.br/images/pdf/grm-2020-isbn-revisado.pdf){:target="_blank"}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQyMzAxODUwM119
+-->
