@@ -69,7 +69,7 @@ __Matrícula:__ vínculo de um estudante com a instituição.
 
 __Matrícula-equivalente (MEq):__ corresponde à matrícula ponderada pelo Fator de Equiparação de Carga Horária de Curso e pelo Fator de Esforço de Curso (Portaria Setec/MEC nº 146/2021).
 
-__Matrícula atendida:__ são as matrículas que estiveram ativas em pelo menos um dia no ano de referência. Um estudante pode ter mais de uma matrícula nesse período, caso tenha se matriculado em mais de um curso. Clique [aqui](/documentacao/usuarios-especializados/situacoes_matriculas){:target="_blank"} para mais detalhes sobre esse conceito.
+__Matrícula atendida:__ são as matrículas que estiveram ativas em pelo menos um dia no ano de referência. Um estudante pode ter mais de uma matrícula nesse período, caso tenha se matriculado em mais de um curso. Clique [aqui]({{site.baseUrl}}/documentacao/usuarios-especializados/situacoes_matriculas){:target="_blank"} para mais detalhes sobre esse conceito.
 
 __Microdados:__ conjuntos de dados desagregados que contêm informações detalhadas sobre unidades individuais, como vínculos de matrícula, servidores e gastos. São disponibilizados para permitir análises aprofundadas e personalizadas às informações contidas na Plataforma Nilo Peçanha. Diferem dos dados agregados (Extrator PNP), ao preservar características individuais das observações, passando por técnicas de anonimização.
 
