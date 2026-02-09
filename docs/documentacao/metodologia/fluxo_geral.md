@@ -33,8 +33,6 @@ A figura abaixo ilustra o fluxo geral de dados e informações e a relação ent
 
 ![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/metodologia_fluxo_geral_01.png)
 
-Os dados provenientes das fontes que chegam ao PNP-CCV passam por regras de consistência. Em seguida, são corrigidos e validados, consolidando as informações em um conjunto coerente que subsidia o cálculo dos indicadores.
-
 Os dados oriundos das fontes e bases estruturantes e institucionais que chegam à PNP-CCV passam por regras de consistência para a identificação de possíveis inconsistências. São então corrigidos e validados, consolidando as informações da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) em um conjunto coerente que subsidia o cálculo dos indicadores. Após esse processo, os dados são disponibilizados ao PNP-ODI para cálculo e disseminação dos indicadores. 
 
 A PNP também processa dados de outros domínios, como os dados orçamentários do Tesouro Gerencial e Painel do Orçamento do SIOP, sistemas estruturantes que alimentam de forma automática os panoramas visuais da PNP-ODI, bem como os dados dos sistemas setoriais certificados, a exemplo do Integra. Esses dados também passam por processos de limpeza e transformação para que o conjunto de informação disponibilizado ao público fortaleça a transparência, apoie o monitoramento e o desenvolvimento das políticas nacionais da RFEPCT.
