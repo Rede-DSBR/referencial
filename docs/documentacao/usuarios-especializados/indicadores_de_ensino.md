@@ -1,4 +1,52 @@
-<h3 align="center"><em>Matrículas por Classificação Racial (MCR)</em></h3>
+---
+layout: default
+title: "Indicadores de Ensino"
+---
+
+# {{ page.title }}
+
+{:toc}
+
+## Número de Concluintes (*ENCT*)
+<table>
+  <tr>
+    <th colspan="2"><strong>Número de concluintes (<i>ENCT</i>)</strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">Este indicador apresenta o número total de matrículas concluídas ou integralizadas no ano base.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Polaridade:</strong> Quanto maior, melhor. </td>
+  </tr>
+  <tr>
+    <td><strong>Agregação Máxima:</strong> RFEPCT.</td>
+    <td><strong>Agregação Mínima:</strong> Ciclo.</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left">
+      <strong>Modelo Matemático:</strong><br><br>
+      <div align="center">
+      \[
+        ENCT = \sum Concluintes, \text{ nos diferentes níveis de agregação}
+      \]
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Variáveis</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left"><strong>Concluintes</strong>
+    <br/><strong>Fonte:</strong> PNP (SISTEC/CCV).
+    <br/><strong>Definição:</strong> Matrículas concluídas ou integralizadas no ano base.</td>
+  </tr>
+</table>
+<hr/>
+
+## Matrículas por Classificação Racial (MCR)
 
 <table>
   <tr>
