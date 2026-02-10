@@ -23,8 +23,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Ensino
 
-| Categoria | Item | Indicador |
-| :--- | :--- | :--- |
+| **Categoria** | **Item** | **Indicador** |
+| :--- | :---: | :--- |
 | Geral | I | Número de concluintes (ENCT) |
 | Geral | II | Número de cursos (ENC) |
 | Geral | III | Número de evadidos (ENEV) |
@@ -47,8 +47,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Pesquisa e Inovação
 
-| Item | Indicador |
-| :--- | :--- |
+| **Item** | **Indicador** |
+| :---: | :--- |
 | I | Número de acordos de parceria para pesquisa, desenvolvimento e inovação (PIPDI) |
 | II | Número de ativos de propriedade industrial, programas de computador e proteções sui generis (PIPROT) |
 | III | Número de ativos de propriedade industrial, programas de computador e proteções sui generis transferidos (PIPROTR) |
@@ -61,8 +61,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Extensão
 
-| Item | Indicador |
-| :--- | :--- |
+| **Item** | **Indicador** |
+| :---: | :--- |
 | I    | Número de pessoas atendidas pelas ações de extensão (EXPAE) |
 | II   | Percentual de ações de extensão com parcerias institucionais vigentes (EXPAR) |
 | III  | Percentual de ações de extensão destinadas à inclusão de população vulnerável (EXINC) |
@@ -73,8 +73,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Polos de Inovação
 
-| Item | Indicador |
-| :--- | :--- |
+| **Item** | **Indicador** |
+| :---: | :--- |
 | I    | Número de contratos de parcerias (POP) |
 | II   | Número de docentes bolsistas (PODOB) |
 | III  | Número de empresas com acordo de parceria (POEMP) |
@@ -89,7 +89,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 ## Indicadores - Dimensão de Pessoal
 
 | Item | Indicador |
-| :--- | :--- |
+| :---: | :--- |
 | I    | Índice de titulação do corpo docente efetivo (PETCD) |
 | II   | Número de docentes (PEDO) |
 | III  | Número de docentes efetivos (PEDE) |
@@ -98,8 +98,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - DImensão de Gastos
 
-| Item | Indicador |
-| :--- | :--- |
+| **Item** | **Indicador** |
+| :---: | :--- |
 | I    | Gastos com inativos e pensionistas (GAIP) |
 | II   | Gasto com precatórios (GAPRE) |
 | III  | Gastos correntes (GAC) |
@@ -111,8 +111,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Acompanhamento Legal
 
-| Categoria | Item | Indicadores |
-| :--- | :--- | :--- |
+| **Categoria** | **Item** | **Indicador** |
+| :--- | :---: | :--- |
 | Lei nº 11.892/2008 | I | Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica |
 | Lei nº 11.892/2008 | II | Percentual de matrículas equivalentes em cursos de educação profissional técnica de nível médio |
 | Lei nº 11.892/2008 | III | Percentual de matrículas equivalentes em cursos de formação de professores |
@@ -131,24 +131,25 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 | Lei nº 14.723/2023 | V | Número de vagas regulares em cursos técnicos e de graduação |
 | Lei nº 14.723/2023 | VI | Número de vagas regulares reservadas em cursos técnicos e de graduação |
 
+
 A PNP também disponibiliza informações diretamente de outras plataformas de dados da administração pública, a exemplo do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP) e do Tesouro Gerencial, como demonstrado nos seguintes quadros. 
 
 ## Indicadores INEP
 
-| Indicador |
-| :---: |
-| Conceito Preliminar de Curso (CPC - INEP) |
-| Índice Geral de Cursos (IGC - INEP) |
-| Conceito Enade (Enade – INEP) |
-| Indicador de Diferença entre os Desempenhos Observado e Esperado (IDD – INEP) |
+| **Item** | **Indicador** |
+| :---: | :--- |
+| I | Conceito Preliminar de Curso (CPC - INEP) |
+| II | Índice Geral de Cursos (IGC - INEP) |
+| III | Conceito Enade (Enade – INEP) |
+| IV | Indicador de Diferença entre os Desempenhos Observado e Esperado (IDD – INEP) |
 
 ## Indicadores do Tesouro Gerencial
 
-| Indicador |
-| :---: |
-| Dotação atualizada |
-| Despesa empenhada |
-| Despesa liquidada |
-| Despesa paga |
-| Empenho a liquidar |
-| Crédito disponível |
+| **Item** | **Indicador** |
+| :---: | :--- |
+| I | Dotação atualizada |
+| II | Despesa empenhada |
+| III | Despesa liquidada |
+| IV | Despesa paga |
+| V | Empenho a liquidar |
+| VI | Crédito disponível |
