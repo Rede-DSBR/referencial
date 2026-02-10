@@ -226,7 +226,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 <table >
   <tr>
-    <td colspan="3"><b>Identificação da Regra</b><br>Programa Associado e  Fonte de Financiamento</td>
+    <td colspan="3"><b>Identificação da Regra</b><br>Programa Associado e Fonte de Financiamento</td>
   </tr>
   <tr>
     <td colspan="3"><b>Regra</b><br>Identificar o programa e a respectiva fonte de financiamento. Programas como UAB, E-TEC, Bolsa Formação, dentre outros automaticamente tem a fonte de financiamento determinada como Recursos Externos. Ofertas sem fomento externo devem ser associadas ao programa “Sem Programa Associado”, indicando explicitamente que não possuem Fomento Externo.</td>

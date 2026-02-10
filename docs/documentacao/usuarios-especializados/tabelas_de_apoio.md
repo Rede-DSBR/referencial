@@ -124,29 +124,31 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 <table>
   <tr>
+    <th>Item</th>
     <th>Cor / Raça</th>
   </tr>
-  <tr><td>Amarela</td></tr>
-  <tr><td>Branca</td></tr>
-  <tr><td>Indígena</td></tr>
-  <tr><td>Parda</td></tr>
-  <tr><td>Preta</td></tr>
-  <tr><td>Não declarada</td></tr>
+  <tr><td>1</td><td>Amarela</td></tr>
+  <tr><td>2</td><td>Branca</td></tr>
+  <tr><td>3</td><td>Indígena</td></tr>
+  <tr><td>4</td><td>Parda</td></tr>
+  <tr><td>5</td><td>Preta</td></tr>
+  <tr><td>6</td><td>Não declarada</td></tr>
 </table>
 
 ## Renda familiar per capita
 
 <table>
   <tr>
+    <th>Item</th>
     <th>Renda familiar per capita</th>
   </tr>
-  <tr><td>RFP ≤ 0,5</td></tr>
-  <tr><td>0,5 &lt; RFP ≤ 1</td></tr>
-  <tr><td>1 &lt; RFP ≤ 1,5</td></tr>
-  <tr><td>1,5 &lt; RFP ≤ 2,5</td></tr>
-  <tr><td>2,5 &lt; RFP ≤ 3,5</td></tr>
-  <tr><td>RFP &gt; 3,5</td></tr>
-  <tr><td>Não declarada</td></tr>
+  <tr><td>1</td><td>RFP ≤ 0,5</td></tr>
+  <tr><td>2</td><td>0,5 &lt; RFP ≤ 1</td></tr>
+  <tr><td>3</td><td>1 &lt; RFP ≤ 1,5</td></tr>
+  <tr><td>4</td><td>1,5 &lt; RFP ≤ 2,5</td></tr>
+  <tr><td>5</td><td>2,5 &lt; RFP ≤ 3,5</td></tr>
+  <tr><td>6</td><td>RFP &gt; 3,5</td></tr>
+  <tr><td>7</td><td>Não declarada</td></tr>
 </table>
 
 
@@ -154,46 +156,49 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 <table>
   <tr>
+    <th>Item</th>
     <th>Identidade de Gênero</th>
   </tr>
-  <tr><td>Mulher Cisgênero</td></tr>
-  <tr><td>Homem Cisgênero</td></tr>
-  <tr><td>Mulher Transgênero</td></tr>
-  <tr><td>Homem Transgênero</td></tr>
-  <tr><td>Pessoa Não Binária</td></tr>
-  <tr><td>Não declarada</td></tr>
+  <tr><td>1</td><td>Mulher Cisgênero</td></tr>
+  <tr><td>2</td><td>Homem Cisgênero</td></tr>
+  <tr><td>3</td><td>Mulher Transgênero</td></tr>
+  <tr><td>4</td><td>Homem Transgênero</td></tr>
+  <tr><td>5</td><td>Pessoa Não Binária</td></tr>
+  <tr><td>6</td><td>Não declarada</td></tr>
 </table>
 
 ## Tipo de Deficiência
 
 <table>
   <tr>
+    <th>Item</th>
     <th>Tipo de Deficiência</th>
   </tr>
-  <tr><td>Pessoa com Deficiência Física</td></tr>
-  <tr><td>Pessoa com Deficiência Auditiva</td></tr>
-  <tr><td>Pessoa com Deficiência Visual</td></tr>
-  <tr><td>Pessoa com Deficiência Intelectual</td></tr>
-  <tr><td>Pessoa com Deficiência Múltipla</td></tr>
-  <tr><td>Não deficiente</td></tr>
-  <tr><td>Não declarada</td></tr>
+  <tr><td>1</td><td>Pessoa com Deficiência Física</td></tr>
+  <tr><td>2</td><td>Pessoa com Deficiência Auditiva</td></tr>
+  <tr><td>3</td><td>Pessoa com Deficiência Visual</td></tr>
+  <tr><td>4</td><td>Pessoa com Deficiência Intelectual</td></tr>
+  <tr><td>5</td><td>Pessoa com Deficiência Múltipla</td></tr>
+  <tr><td>6</td><td>Não deficiente</td></tr>
+  <tr><td>7</td><td>Não declarada</td></tr>
 </table>
 
 ## Necessidade Educacional Específica
 
 <table>
   <tr>
+    <th>Item</th>
     <th>Necessidade Educacional Específica</th>
   </tr>
-  <tr><td>Transtorno do Espectro Autista (TEA)</td></tr>
-  <tr><td>Transtorno de Déficit de Atenção e Hiperatividade (TDAH)</td></tr>
-  <tr><td>Transtornos Específicos de Aprendizagem</td></tr>
-  <tr><td>Transtornos Globais do Desenvolvimento (TGD)</td></tr>
-  <tr><td>Pessoa com Deficiência Múltipla</td></tr>
-  <tr><td>Altas Habilidades/Superdotação (AH/SD)</td></tr>
-  <tr><td>Outras Necessidades Educacionais Específicas</td></tr>
-  <tr><td>Não possuie NEE</td></tr>
-  <tr><td>Não declarada</td></tr>
+  <tr><td>1</td><td>Transtorno do Espectro Autista (TEA)</td></tr>
+  <tr><td>2</td><td>Transtorno de Déficit de Atenção e Hiperatividade (TDAH)</td></tr>
+  <tr><td>3</td><td>Transtornos Específicos de Aprendizagem</td></tr>
+  <tr><td>4</td><td>Transtornos Globais do Desenvolvimento (TGD)</td></tr>
+  <tr><td>5</td><td>Pessoa com Deficiência Múltipla</td></tr>
+  <tr><td>6</td><td>Altas Habilidades/Superdotação (AH/SD)</td></tr>
+  <tr><td>7</td><td>Outras Necessidades Educacionais Específicas</td></tr>
+  <tr><td>8</td><td>Não possuie NEE</td></tr>
+  <tr><td>9</td><td>Não declarada</td></tr>
 </table>
 
 ## Forma de Ingresso
@@ -201,27 +206,28 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 <table>
     <thead>
         <tr>
+            <th>Item</th>
             <th>Forma de Ingresso</th>
         </tr>
     </thead>
     <tbody>
-            <tr><td>AC</td></tr>
-            <tr><td>L1</td></tr>
-            <tr><td>L2</td></tr>
-            <tr><td>L5</td></tr>
-            <tr><td>L6</td></tr>
-            <tr><td>L9</td></tr>
-            <tr><td>L13</td></tr>
-            <tr><td>L10</td></tr>
-            <tr><td>L14</td></tr>
-            <tr><td>LB_EP</td></tr>
-            <tr><td>LB_PCD</td></tr>
-            <tr><td>LB_PPI</td></tr>
-            <tr><td>LB_Q</td></tr>
-            <tr><td>LI_EP</td></tr>
-            <tr><td>LI_PCD</td></tr>
-            <tr><td>LI_PPI</td></tr>
-            <tr><td>LI_Q</td></tr>
+            <tr><td>1</td><td>AC</td></tr>
+            <tr><td>2</td><td>L1</td></tr>
+            <tr><td>3</td><td>L2</td></tr>
+            <tr><td>4</td><td>L5</td></tr>
+            <tr><td>5</td><td>L6</td></tr>
+            <tr><td>6</td><td>L9</td></tr>
+            <tr><td>7</td><td>L13</td></tr>
+            <tr><td>8</td><td>L10</td></tr>
+            <tr><td>9</td><td>L14</td></tr>
+            <tr><td>10</td><td>LB_EP</td></tr>
+            <tr><td>11</td><td>LB_PCD</td></tr>
+            <tr><td>12</td><td>LB_PPI</td></tr>
+            <tr><td>13</td><td>LB_Q</td></tr>
+            <tr><td>14</td><td>LI_EP</td></tr>
+            <tr><td>15</td><td>LI_PCD</td></tr>
+            <tr><td>16</td><td>LI_PPI</td></tr>
+            <tr><td>17</td><td>LI_Q</td></tr>
         </tbody>
     </table>
 
@@ -280,15 +286,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
     </tr>
   </tbody>
 </table>
-
-     
-
-
-
-
-
-
-
 
 
 [Próximo: Fichas técnicas dos indicadores »](/documentacao/usuarios-especializados/fichas_tecnica_dos_indicadores)

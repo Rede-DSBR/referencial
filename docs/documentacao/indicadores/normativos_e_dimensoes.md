@@ -131,10 +131,11 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 | Lei nº 14.723/2023 | V | Número de vagas regulares em cursos técnicos e de graduação |
 | Lei nº 14.723/2023 | VI | Número de vagas regulares reservadas em cursos técnicos e de graduação |
 
+## Outros Indicadores
 
 A PNP também disponibiliza informações diretamente de outras plataformas de dados da administração pública, a exemplo do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP) e do Tesouro Gerencial, como demonstrado nos seguintes quadros. 
 
-## Indicadores INEP
+### Indicadores INEP
 
 | **Item** | **Indicador** |
 | :---: | :--- |
@@ -143,7 +144,7 @@ A PNP também disponibiliza informações diretamente de outras plataformas de d
 | III | Conceito Enade (Enade – INEP) |
 | IV | Indicador de Diferença entre os Desempenhos Observado e Esperado (IDD – INEP) |
 
-## Indicadores do Tesouro Gerencial
+### Indicadores do Tesouro Gerencial
 
 | **Item** | **Indicador** |
 | :---: | :--- |
