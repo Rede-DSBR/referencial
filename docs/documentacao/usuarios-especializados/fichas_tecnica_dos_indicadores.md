@@ -4,7 +4,7 @@ Cada indicador é descrito por uma ficha técnica composta por elementos descrit
 
 <table>
   <tr>
-    <th colspan="2">Nome do indicador e da sigla que o representa.</th>
+    <th colspan="2"><strong>Nome do indicador</strong> e da sigla que o representa.</th>
   </tr>
   <tr>
     <th colspan="2">Objetivo do indicador, informações complementares e considerações sobre a meta (quando for o caso).</th>
