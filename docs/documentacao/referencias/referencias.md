@@ -11,11 +11,9 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: "Listas de termos"](/documentacao/termos/termos)
-
+<!--[Anterior: "Lista de termos"](/documentacao/termos/termos)-->
 
 # {{ page.title }}
-
 
 <p style="text-indent: 40px;">Lei 11.711/2012</p>
 <p style="text-indent: 40px;">Lei 11.892/2008</p>
