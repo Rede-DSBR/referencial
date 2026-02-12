@@ -5,7 +5,7 @@ title: "Indicadores de Ensino"
 
 # {{ page.title }}
 
-### Número de concluintes (ENCT)
+#### Número de concluintes (ENCT)
 <table>
   <tr>
     <th colspan="2"><strong><i>
@@ -38,20 +38,20 @@ title: "Indicadores de Ensino"
   <tr>
     <td colspan="2">
       <strong>Modelo matemático:</strong><br/>
-      <p halign="center">
+      <p style="text-align:center">
         𝐸𝑁𝐶𝑇 = ∑ 𝐶𝑜𝑛𝑐𝑙𝑢𝑖𝑛𝑡𝑒s, nos diferentes níveis de agregação 
       </p>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <p halign="center"><strong>Variáveis</strong></p>
+      <p style="text-align:center"><strong>Variáveis</strong></p>
       <strong>Concluintes</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Matrículas concluídas ou integralizadas no ano base.
     </td>
   </tr>
-
+</table>
 <hr/>
 
 ## Matrículas por Classificação Racial (MCR)
