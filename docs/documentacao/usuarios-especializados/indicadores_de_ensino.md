@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Indicadores de Ensino"
+toc: true
 ---
 
 # {{ page.title }}
@@ -114,7 +115,7 @@ title: "Indicadores de Ensino"
       <p style="text-align:center"><strong>Variáveis</strong></p>
       <strong>Evadidos</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong>Número de matrículas com situação de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”.
+      <strong>Definição:</strong> Número de matrículas com situação de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”.
     </td>
   </tr>
 </table>
