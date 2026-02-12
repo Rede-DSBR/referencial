@@ -5,45 +5,53 @@ title: "Indicadores de Ensino"
 
 # {{ page.title }}
 
-{:toc}
-
-## Número de Concluintes (*ENCT*)
+### Número de concluintes (ENCT)
 <table>
   <tr>
-    <th colspan="2"><strong>Número de concluintes (<i>ENCT</i>)</strong></th>
+    <th colspan="2"><strong><i>
+      Número de concluintes (ENCT)
+    </i></strong></th>
   </tr>
   <tr>
-    <td colspan="2">Este indicador apresenta o número total de matrículas concluídas ou integralizadas no ano base.</td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Meta:</strong> Não há meta prevista em instrumento normativo.</td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Polaridade:</strong> Quanto maior, melhor. </td>
-  </tr>
-  <tr>
-    <td><strong>Agregação Máxima:</strong> RFEPCT.</td>
-    <td><strong>Agregação Mínima:</strong> Ciclo.</td>
-  </tr>
-  <tr>
-    <td colspan="2" align="left">
-      <strong>Modelo Matemático:</strong><br><br>
-      <div align="center">
-      \[
-        ENCT = \sum Concluintes, \text{ nos diferentes níveis de agregação}
-      \]
-      </div>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas concluídas ou integralizadas no ano base.
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">Variáveis</td>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
   </tr>
   <tr>
-    <td colspan="2" align="left"><strong>Concluintes</strong>
-    <br/><strong>Fonte:</strong> PNP (SISTEC/CCV).
-    <br/><strong>Definição:</strong> Matrículas concluídas ou integralizadas no ano base.</td>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
   </tr>
-</table>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p halign="center">
+        𝐸𝑁𝐶𝑇 = ∑ 𝐶𝑜𝑛𝑐𝑙𝑢𝑖𝑛𝑡𝑒s, nos diferentes níveis de agregação 
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p halign="center"><strong>Variáveis</strong></p>
+      <strong>Concluintes</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Matrículas concluídas ou integralizadas no ano base.
+    </td>
+  </tr>
+
 <hr/>
 
 ## Matrículas por Classificação Racial (MCR)
