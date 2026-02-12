@@ -39,7 +39,17 @@ title: "Indicadores de Ensino"
     <td colspan="2">
       <strong>Modelo matemático:</strong><br/>
       <p style="text-align:center">
-        𝐸𝑁𝐶𝑇 = ∑ 𝐶𝑜𝑛𝑐𝑙𝑢𝑖𝑛𝑡𝑒s, nos diferentes níveis de agregação 
+        𝐸𝑁𝐶𝑇 = ∑ 𝐶𝑜𝑛𝑐𝑙𝑢𝑖𝑛𝑡𝑒s, nos diferentes níveis de agregação
+        <math display="block" style="font-size: 1.2rem;">
+          <mrow>
+            <mi>ENCT</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>Concluintes</mi>
+            <mo>,</mo>
+            <mtext>nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
       </p>
     </td>
   </tr>
