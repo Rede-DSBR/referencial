@@ -6,6 +6,8 @@ toc: true
 
 # {{ page.title }}
 
+{% toc %}
+
 #### Número de concluintes (ENCT)
 <table>
   <tr>
