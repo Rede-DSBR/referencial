@@ -39,15 +39,13 @@ title: "Indicadores de Ensino"
     <td colspan="2">
       <strong>Modelo matemático:</strong><br/>
       <p style="text-align:center">
-        𝐸𝑁𝐶𝑇 = ∑ 𝐶𝑜𝑛𝑐𝑙𝑢𝑖𝑛𝑡𝑒s, nos diferentes níveis de agregação
-        <math display="block" style="font-size: 1.2rem;">
+        <math style="font-size: 1.2rem;" display="block">
           <mrow>
             <mi>ENCT</mi>
             <mo>=</mo>
             <mo>∑</mo>
             <mi>Concluintes</mi>
-            <mo>,</mo>
-            <mtext>nos diferentes níveis de agregação</mtext>
+            <mtext>, nos diferentes níveis de agregação</mtext>
           </mrow>
         </math>
       </p>
@@ -63,6 +61,71 @@ title: "Indicadores de Ensino"
   </tr>
 </table>
 <hr/>
+
+
+#### Número de evadidos (ENEV)
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de evadidos (ENEV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas que perderam o vínculo com a instituição antes da conclusão de um curso no ano base.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto menor, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENEV</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>Evadidos</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Evadidos</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong>Número de matrículas com situação de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”.
+    </td>
+  </tr>
+</table>
+<hr/>
+
+
+
+
+
+
+
 
 ## Matrículas por Classificação Racial (MCR)
 
