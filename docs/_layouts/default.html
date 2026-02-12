@@ -29,7 +29,7 @@
               {% if site.share_buttons %}
                 {% include share_buttons.html %}
               {% endif %}
-              {{ content }}
+              {{ content | toc }}
               
               {% comment %} Normaliza a URL da página atual remove .html {% endcomment %}
               {% assign current_url_with_html = page.url %}
