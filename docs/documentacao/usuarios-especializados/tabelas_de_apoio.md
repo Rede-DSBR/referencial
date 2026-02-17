@@ -48,77 +48,110 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 
 <table>
   <tr>
+    <th> Programa </th>
+    <th> Fonte de Financiamento </th>
+  </tr>
+  <tr> <td>UAB (Universidade Aberta do Brasil)</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>E-TEC</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>MedioTec</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Sem Programa Associado</td>	<td>SEM RECURSOS EXTERNOS, COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>CERTIFIC</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>PARTIUIF</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>PROJOVEM</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>PROEJA</td>	<td>SEM RECURSOS EXTERNOS, COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - Outros</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - Bioeconomia</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - EJA EPT</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - Empreender</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - Energife</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Bolsa Formação - Mulheres Mil</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>MOOC - Outros</td>	<td>SEM RECURSOS EXTERNOS, COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>MOOC - Aprenda Mais</td>	<td>SEM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Programa EJA INTEGRADA - EPT (SECADI/MEC)</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+  <tr> <td>Outros Programas</td>	<td>COM RECURSOS EXTERNOS</td></tr>
+</table>
+
+## Regras de Associação a Programas
+
+<table>
+  <tr>
     <th>Item</th>
     <th>Modalidade de Ensino</th>
     <th>Tipo de Curso</th>
-    <th>Lista de Opções de Fontes de Financiamento</th>
+    <th>Programas</th>
   </tr>
 
   <tr>
     <td>1</td>
     <td>Ensino a Distância</td>
-    <td>Bacharelado<br>Licenciatura<br>Especialização – Lato Sensu</td>
-    <td>UAB<br>Sem Programa Associado<br>Outros recursos externos</td>
+    <td>Tecnologia</td>
+    <td>UAB (Universidade Aberta do Brasil)<br/> E-TEC<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>2</td>
-    <td>Ensino a Distância</td>
-    <td>Tecnologia</td>
-    <td>E-TEC<br>UAB<br>Sem Programa Associado<br>Outros recursos externos</td>
+    <td>Educação Presencial</td>
+    <td>Técnico</td>
+    <td>MedioTec<br/> Sem Programa Associado<br/> PROEJA<br/> Bolsa Formação - Outros<br/> Bolsa Formação - EJA EPT<br/> Programa EJA INTEGRADA - EPT (SECADI/MEC)<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>3</td>
-    <td>Ensino a Distância</td>
-    <td>FIC</td>
-    <td>Bolsa Formação<br>Sem Programa Associado<br>Aprenda Mais<br>Outros MOOC's<br>Outros recursos externos</td>
+    <td>Educação Presencial</td>
+    <td>Qualificação Profissional (FIC)</td>
+    <td>Sem Programa Associado<br/> CERTIFIC<br/> PARTIUIF<br/> PROJOVEM<br/> PROEJA<br/> Bolsa Formação - Outros<br/> Bolsa Formação - Bioeconomia<br/> Bolsa Formação - Empreender<br/> Bolsa Formação - Energife<br/> Bolsa Formação - Mulheres Mil<br/> Programa EJA INTEGRADA - EPT (SECADI/MEC)<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>4</td>
-    <td>Ensino a Distância</td>
-    <td>Técnico</td>
-    <td>E-TEC<br>Sem Programa Associado<br>Outros recursos externos</td>
+    <td>Educação a Distância</td>
+    <td>Especialização (Lato Sensu)<br/> Licenciatura<br/> Bacharelado<br/> ABI</td>
+    <td>UAB (Universidade Aberta do Brasil)<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>5</td>
-    <td>Ensino a Distância</td>
-    <td>Mestrado Profissional</td>
-    <td>Sem Programa Associado<br>Outros recursos externos</td>
+    <td>Educação Presencial</td>
+    <td>Especialização (Lato Sensu)<br/> Doutorado Profissional<br/> Doutorado<br/> Mestrado Profissional<br/> Mestrado<br/> Licenciatura<br/> Ensino Médio<br/> Ensino Fundamental I<br/> Bacharelado<br/> Educação Infantil<br/> Especialização Técnica<br/> Especialização Profissional Tecnológica<br/> Tecnologia<br/> Ensino Fundamental II<br/> ABI</td>
+    <td>Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>6</td>
-    <td rowspan="2">Ensino Presencial</td>
-    <td>
-      Ensino Médio<br>
-      Doutorado<br>
-      Mestrado<br>
-      Mestrado Profissional<br>
-      Ensino Fundamental<br>
-      Ensino Infantil<br>
-      Bacharelado<br>
-      Licenciatura<br>
-      Especialização – Lato Sensu<br>
-      Tecnologia<br>
-      ABI
-    </td>
-    <td>Sem Programa Associado<br>Outros recursos externos</td>
+    <td>Educação a Distância</td>
+    <td>Doutorado Profissional<br/> Mestrado Profissional<br/> Especialização Técnica<br/> Especialização Profissional Tecnológica</td>
+    <td>Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>7</td>
-    <td>FIC<br>Técnico</td>
-    <td>
-      Bolsa Formação<br>
-      Programa EJA integrada – EPT – SEB/MEC<br>
-      Outros recursos externos<br>
-      Sem Programa Associado
-    </td>
+    <td>Educação a Distância</td>
+    <td>Qualificação Profissional (FIC)</td>
+    <td>Sem Programa Associado<br/> Bolsa Formação - Outros<br/> MOOC - Outros<br/> MOOC - Aprenda Mais<br/> Outros Programas<br/></td>
   </tr>
+
+  <tr>
+    <td>8</td>
+    <td>Educação a Distância</td>
+    <td>Técnico</td>
+    <td>E-TEC<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
+  </tr>
+
 </table>
+
+
+## Turnos
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Turnos</th>
+  </tr>
+  <tr><td>1</td><td>Matutino</td></tr>
+  <tr><td>2</td><td>Vespertino</td></tr>
+  <tr><td>3</td><td>Noturno</td></tr>
+  <tr><td>4</td><td>Integral</td></tr>
+</table>
+
 
 ## Cor / Raça
 
@@ -194,10 +227,10 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>2</td><td>Transtorno de Déficit de Atenção e Hiperatividade (TDAH)</td></tr>
   <tr><td>3</td><td>Transtornos Específicos de Aprendizagem</td></tr>
   <tr><td>4</td><td>Transtornos Globais do Desenvolvimento (TGD)</td></tr>
-  <tr><td>5</td><td>Pessoa com Deficiência Múltipla</td></tr>
-  <tr><td>6</td><td>Altas Habilidades/Superdotação (AH/SD)</td></tr>
-  <tr><td>7</td><td>Outras Necessidades Educacionais Específicas</td></tr>
-  <tr><td>8</td><td>Não possuie NEE</td></tr>
+  <tr><td>5</td><td>Altas Habilidades/Superdotação (AH/SD)</td></tr>
+  <tr><td>6</td><td>Outras NEE</td></tr>
+  <tr><td>7</td><td>Não possui NEE</td></tr>
+  <tr><td>8</td><td>Múltiplas NEE</td></tr>
   <tr><td>9</td><td>Não declarada</td></tr>
 </table>
 
