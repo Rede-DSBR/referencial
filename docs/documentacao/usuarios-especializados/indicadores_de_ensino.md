@@ -61,9 +61,10 @@ toc: true
     </td>
   </tr>
 </table>
+
+
+<p>&nbsp;</p>
 <hr/>
-
-
 ### Número de cursos (ENC)
 <table>
   <tr>
@@ -120,9 +121,10 @@ toc: true
     </td>
   </tr>
 </table>
+
+
+<p>&nbsp;</p>
 <hr/>
-
-
 ### Número de evadidos (ENEV)
 <table>
   <tr>
@@ -178,7 +180,66 @@ toc: true
     </td>
   </tr>
 </table>
+
+
+
+<p>&nbsp;</p>
 <hr/>
+### Número de estruturas com matrícula (ENES)
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de estruturas com matrícula (ENES)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de estruturas com matrículas no ano base.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Instituição.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENES</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>Estruturas</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Estruturas</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> espaços acadêmicos e/ou administrativos contíguos e pertencentes a uma instituição da Rede Federal de Educação Profissional, Científica e Tecnológica. São consideradas estruturas: Campus, Campus Avançado, Centro de Referência, Direção-Geral (Cefet), Escola Técnica Vinculada à Universidade Federal, Polo de Inovação, Reitoria, Sede (Cefet) e Unidade de Ensino Descentralizada (Uned/Cefet).
+    </td>
+  </tr>
+</table>
 
 
 
