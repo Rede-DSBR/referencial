@@ -6,12 +6,12 @@ toc: true
 
 # {{ page.title }}
 
-<p style="color: #004080;">
-### Número de concluintes (ENCT)
-</p>
+<h3 style="color: #004080;">
+Número de concluintes (ENCT)
+</h3>
 <table>
   <tr>
-    <th colspan="2"><strong style="color: #004080;"><i>
+    <th colspan="2"><strong><i>
       Número de concluintes (ENCT)
     </i></strong></th>
   </tr>
@@ -66,12 +66,12 @@ toc: true
 
 
 <hr/>
-<p style="color: #004080;">
-### Número de cursos (ENC)
-</p>
+<h3 style="color: #004080;">
+Número de cursos (ENC)
+</h3>
 <table>
   <tr>
-    <th colspan="2"><strong style="color: #004080;"><i>
+    <th colspan="2"><strong><i>
       Número de cursos (ENC)
     </i></strong></th>
   </tr>
@@ -127,12 +127,12 @@ toc: true
 
 
 <hr/>
-<p style="color: #004080;">
-### Número de evadidos (ENEV)
-</p>
+<h3 style="color: #004080;">
+Número de evadidos (ENEV)
+</h3>
 <table>
   <tr>
-    <th colspan="2"><strong style="color: #004080;"><i>
+    <th colspan="2"><strong><i>
       Número de evadidos (ENEV)
     </i></strong></th>
   </tr>
@@ -187,12 +187,12 @@ toc: true
 
 
 <hr/>
-<p style="color: #004080;">
+<h3 style="color: #004080;">
 ### Número de estruturas com matrícula (ENES)
-</p>
+</h3>
 <table>
   <tr>
-    <th colspan="2"><strong style="color: #004080;"><i>
+    <th colspan="2"><strong><i>
       Número de estruturas com matrícula (ENES)
     </i></strong></th>
   </tr>
@@ -248,9 +248,9 @@ toc: true
 
 
 <hr/>
-<p style="color: #004080;">
-### Número de ingressantes (ENING)
-</p>
+<h3 style="color: #004080;">
+Número de ingressantes (ENING)
+</h3>
 <table>
   <tr>
     <th colspan="2"><strong><i>
