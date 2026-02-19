@@ -65,7 +65,7 @@ Número de concluintes (ENCT)
 </table>
 
 
-<hr/>
+<p>&nbsp;</p>
 <h3 style="color: #004080;">
 Número de cursos (ENC)
 </h3>
@@ -126,7 +126,7 @@ Número de cursos (ENC)
 </table>
 
 
-<hr/>
+<p>&nbsp;</p>
 <h3 style="color: #004080;">
 Número de evadidos (ENEV)
 </h3>
@@ -186,9 +186,9 @@ Número de evadidos (ENEV)
 </table>
 
 
-<hr/>
+<p>&nbsp;</p>
 <h3 style="color: #004080;">
-### Número de estruturas com matrícula (ENES)
+Número de estruturas com matrícula (ENES)
 </h3>
 <table>
   <tr>
@@ -246,8 +246,7 @@ Número de evadidos (ENEV)
 </table>
 
 
-
-<hr/>
+<p>&nbsp;</p>
 <h3 style="color: #004080;">
 Número de ingressantes (ENING)
 </h3>
@@ -308,7 +307,7 @@ Número de ingressantes (ENING)
 
 
 
-<br>
+<p>&nbsp;</p>
 <!-- Nota final -->
 <p style="font-style: italic; color: #004080;">
   <strong>Taxa de Ocupação</strong><br><br>
