@@ -6,10 +6,12 @@ toc: true
 
 # {{ page.title }}
 
+<p style="color: #004080;">
 ### Número de concluintes (ENCT)
+</p>
 <table>
   <tr>
-    <th colspan="2"><strong><i>
+    <th colspan="2"><strong style="color: #004080;"><i>
       Número de concluintes (ENCT)
     </i></strong></th>
   </tr>
@@ -63,12 +65,13 @@ toc: true
 </table>
 
 
-<p>&nbsp;</p>
 <hr/>
+<p style="color: #004080;">
 ### Número de cursos (ENC)
+</p>
 <table>
   <tr>
-    <th colspan="2"><strong><i>
+    <th colspan="2"><strong style="color: #004080;"><i>
       Número de cursos (ENC)
     </i></strong></th>
   </tr>
@@ -123,12 +126,13 @@ toc: true
 </table>
 
 
-<p>&nbsp;</p>
 <hr/>
+<p style="color: #004080;">
 ### Número de evadidos (ENEV)
+</p>
 <table>
   <tr>
-    <th colspan="2"><strong><i>
+    <th colspan="2"><strong style="color: #004080;"><i>
       Número de evadidos (ENEV)
     </i></strong></th>
   </tr>
@@ -182,13 +186,13 @@ toc: true
 </table>
 
 
-
-<p>&nbsp;</p>
 <hr/>
+<p style="color: #004080;">
 ### Número de estruturas com matrícula (ENES)
+</p>
 <table>
   <tr>
-    <th colspan="2"><strong><i>
+    <th colspan="2"><strong style="color: #004080;"><i>
       Número de estruturas com matrícula (ENES)
     </i></strong></th>
   </tr>
@@ -243,6 +247,64 @@ toc: true
 
 
 
+<hr/>
+<p style="color: #004080;">
+### Número de ingressantes (ENING)
+</p>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de ingressantes (ENING)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas com data de matrícula ocorrida no ano base. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENING</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>Ingressantes</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Ingressantes</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> número de matrículas cuja data de matrícula ocorreu no ano base.
+    </td>
+  </tr>
+</table>
 
 
 
