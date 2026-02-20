@@ -527,15 +527,13 @@ Número de matrículas equivalentes (ENME)
           <mrow>
             <mi>ENME</mi>
             <mo>=</mo>
-            <mfenced>
-              <mrow>
-                <mi>M</mi>
-                <mo>&#xD7;</mo>
-                <mi>FECH</mi>
-                <mo>&#xD7;</mo>
-                <mi>FEC</mi>
-              </mrow>
-            </mfecend>
+            <mo>(</mo>
+            <mi>M</mi>
+            <mo>&#xD7;</mo>
+            <mi>FECH</mi>
+            <mo>&#xD7;</mo>
+            <mi>FEC</mi>
+            <mo>)</mo>
           </mrow>
         </math>
       </p>
@@ -547,16 +545,14 @@ Número de matrículas equivalentes (ENME)
       <strong>M - Matrículas</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Número de estudantes que estiveram com matrícula ativa em pelo menos um dia no ano base.
-      <p>
-        <strong>FECH - Fator de Equiparação de Carga Horária</strong><br/>
-        <strong>Fonte:</strong>Guia PNP.<br/>
-        <strong>Definição:</strong> Calculado pela razão entre a carga horária mínima regulamentada do curso e carga horária padrão de 800 horas anuais. Para os demais cursos, o fator de equiparação de carga horária será igual a 1 (um).
-      </p>
-      <p>
-        <strong>FEC - Fator de Esforço de Curso </strong><br/>
-        <strong>Fonte:</strong>Guia PNP.<br/>
-        <strong>Definição:</strong> Ajusta a contagem de matrículas-equivalentes para cursos que demandem, para o desenvolvimento de suas atividades, uma menor relação matrículas por professor.
-      </p>
+      <br/>&nbsp;<br/>
+      <strong>FECH - Fator de Equiparação de Carga Horária</strong><br/>
+      <strong>Fonte:</strong>Guia PNP.<br/>
+      <strong>Definição:</strong> Calculado pela razão entre a carga horária mínima regulamentada do curso e carga horária padrão de 800 horas anuais. Para os demais cursos, o fator de equiparação de carga horária será igual a 1 (um).
+      <br/>&nbsp;<br/>
+      <strong>FEC - Fator de Esforço de Curso </strong><br/>
+      <strong>Fonte:</strong>Guia PNP.<br/>
+      <strong>Definição:</strong> Ajusta a contagem de matrículas-equivalentes para cursos que demandem, para o desenvolvimento de suas atividades, uma menor relação matrículas por professor.
     </td>
   </tr>
 </table>
@@ -763,16 +759,14 @@ Número de vagas (ENV)
       <strong>CCiclo - Conclusão por Ciclo</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Percentual de CONCLUINTES, definido pela situação de matrícula “Concluída” ou “Integralizada”, em relação às matrículas do ciclo analisado.
-      <p>
-        <strong>EvCiclo - Evasão por Ciclo</strong><br/>
-        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-        <strong>Definição:</strong> Percentual de EVADIDOS, definido por matrículas que perderam o vínculo com a instituição, em relação às matrículas do ciclo analisado.
-      </p>
-      <p>
-        <strong>RCiclo - Retenção por Ciclo </strong><br/>
-        <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-        <strong>Definição:</strong> Percentual de RETIDOS, definido pela situação de matrícula “em curso” após o período previsto para integralização do ciclo (acrescido de um ano) em relação às matrículas do ciclo analisado.
-      </p>
+      <br/>&nbsp;<br/>
+      <strong>EvCiclo - Evasão por Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Percentual de EVADIDOS, definido por matrículas que perderam o vínculo com a instituição, em relação às matrículas do ciclo analisado.
+      <br/>&nbsp;<br/>
+      <strong>RCiclo - Retenção por Ciclo </strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Percentual de RETIDOS, definido pela situação de matrícula “em curso” após o período previsto para integralização do ciclo (acrescido de um ano) em relação às matrículas do ciclo analisado.
     </td>
   </tr>
 </table>
