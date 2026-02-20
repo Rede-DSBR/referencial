@@ -764,9 +764,236 @@ Número de vagas (ENV)
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Percentual de EVADIDOS, definido por matrículas que perderam o vínculo com a instituição, em relação às matrículas do ciclo analisado.
       <br/>&nbsp;<br/>
-      <strong>RCiclo - Retenção por Ciclo </strong><br/>
+      <strong>RCiclo - Retenção por Ciclo</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Percentual de RETIDOS, definido pela situação de matrícula “em curso” após o período previsto para integralização do ciclo (acrescido de um ano) em relação às matrículas do ciclo analisado.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Índice de verticalização (ENIV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Índice de verticalização (ENIV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador busca verificar a condição de verticalização dos cursos oferecidos por uma mesma unidade acadêmica em um mesmo eixo tecnológico, considerando vagas de ingresso ofertadas em 04 categorias possíveis: Curso de Qualificação Profissional (QP); Curso Técnico (CT); Curso de Graduação (CG) e Curso de Pós-Graduação (PG).  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Eixo Tecnológico.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+            <mrow>
+              <mi>ENIV</mi>
+              <mo>=</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VQP</mi>
+                    <mi>VCT</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,397</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VCT</mi>
+                    <mi>VCG</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,365</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VCG</mi>
+                    <mi>VPG</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,095</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VCT</mi>
+                    <mi>VPG</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,089</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VQP</mi>
+                    <mi>VCG</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,028</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mo>[</mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mfrac>
+                    <mi>VQP</mi>
+                    <mi>VPG</mi>
+                  </mfrac>
+                  <mo>)</mo>
+                  <mo>&#xD7;</mo>
+                  <mn>0,026</mn>
+                </mrow>
+                <mo>]</mo>
+              </mrow>
+            </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>VQP - Vagas Qualificação Profissional</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de Vagas ofertadas em cursos de Qualificação Profissional.
+      <br/>&nbsp;<br/>
+      <strong>VCT - Vagas Cursos Técnicos</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de Vagas ofertadas em cursos Técnicos, considerando os cursos Integrados, Subsequentes e Concomitantes.
+      <br/>&nbsp;<br/>
+      <strong>VCG - Vagas Curso Graduação</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de Vagas ofertadas em cursos de Graduação, considerando os cursos de Tecnologia, Bacharelados e Licenciaturas.
+      <br/>&nbsp;<br/>
+      <strong>VPG - Vagas Pós-Graduação </strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de Vagas ofertadas em cursos de Pós-Graduação, considerando Especialização Lato Sensu, Mestrados e Doutorados.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de conclusão por ciclo (ENCC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de conclusão por ciclo (ENCC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de concluintes em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENCC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>CCiclo</mi>
+                <mi>MCiclo</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>CCiclo - Concluintes por Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas com situação “Concluída” (concluíram com êxito todos os componentes curriculares do curso no ano base, fazendo jus à certificação), e o número de matrículas com situação “Integralizada” (concluíram a carga horária das unidades curriculares e ainda não podem receber a certificação por não terem concluído componentes como Estágio, TCC e ENADE), considerando apenas as matrículas do ciclo analisado.
+      <br/>&nbsp;<br/>
+      <strong>MCiclo - Matrículas no Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas do ciclo.
     </td>
   </tr>
 </table>
