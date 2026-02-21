@@ -1000,8 +1000,667 @@ Percentual de conclusão por ciclo (ENCC)
 
 
 <p>&nbsp;</p>
-<!-- Nota final -->
-<p style="font-style: italic; color: #004080;">
-  <strong>Taxa de Ocupação</strong><br><br>
-  Este indicador foi removido da PNP para reanálise de seu modelo matemático.
-</p>
+<h3 style="color: #004080;">
+Percentual de evasão anual (ENEVA)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de evasão anual (ENEVA)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de matrículas que perderam o vínculo com a instituição no ano base sem a conclusão do curso em relação ao total de matrículas. Para este cálculo é empregado o conceito de matrícula e não de matrícula equivalente.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto menor, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENEVA</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>Ev</mi>
+                <mi>M</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Ev – Evadidos</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que perderam vínculo com a instituição antes da conclusão do curso.
+      <br/>&nbsp;<br/>
+      <strong>M – Matrículas</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas atendidas no ano base.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de evasão por ciclo (ENEC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de evasão por ciclo (ENEC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de evadidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto menor, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENEC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>EvCiclo</mi>
+                <mi>MCiclo</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>EvCiclo – Evadidos no Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que perderam vínculo com a instituição antes da conclusão do curso, considerando apenas as matrículas vinculadas ao ciclo analisado.
+      <br/>&nbsp;<br/>
+      <strong>MCiclo - Matrículas no Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas no ciclo.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de retenção por ciclo (ENREC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de retenção por ciclo (ENREC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de retidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto menor, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENREC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>RCiclo</mi>
+                <mi>MCiclo</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>RCiclo – Retidos no Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que permaneceram com situação “em curso” por período superior ao tempo previsto para a integralização do curso (data fim do ciclo acrescida de um ano), considerando apenas as matrículas do ciclo analisado.
+      <br/>&nbsp;<br/>
+      <strong>MCiclo - Matrículas no Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas no ciclo.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Relação de inscritos por vagas (ENRIV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Relação de inscritos por vagas (ENRIV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede a relação entre o número de candidatos inscritos e o número de vagas disponibilizadas. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Curso.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ENRIV</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>I</mi>
+                <mi>V</mi>
+              </mfrac>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>I – Inscritos</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de candidatos que concorreram às vagas disponibilizadas para a fase inicial dos cursos, em suas diversas formas de ingresso, no ano base.
+      <br/>&nbsp;<br/>
+      <strong>V – Vagas</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas disponibilizadas para a fase inicial dos cursos, em suas diversas formas de ingresso, no ano base.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Taxa de Ocupação
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Este indicador foi removido da PNP para reanálise de seu modelo matemático.
+    </i></strong></th>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação (ALAC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação (ALAC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por ampla concorrência, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pela Lei 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALAC</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>MACTG</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>MACTG - matrículas oriundas de vagas de ampla concorrência em cursos técnicos e de graduação</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por ampla concorrência, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de matrículas em cursos técnicos e de graduação (ALM)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de matrículas em cursos técnicos e de graduação (ALM)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALM</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mrow>
+              <mo>(</mo>
+              <mi>MACTG</mi>
+              <mo>+</mo>
+              <mi>MRTG</mi>
+              <mo>)</mo>
+            </row>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>MACTG - matrículas oriundas de vagas de ampla concorrência em cursos técnicos e de graduação.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por ampla concorrência, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <br/>&nbsp;<br/>
+      <strong>MRTG - matrículas oriundas de vagas reservadas em cursos técnicos e de graduação</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por vagas reservadas, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (ALRV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (ALRV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por cotas (reserva de vagas), conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pela Lei 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALRV</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>MRTG</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>MRTG - matrículas oriundas de vagas reservadas em cursos técnicos e de graduação presenciais.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por vagas reservadas, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de vagas de ampla concorrência em cursos técnicos e de graduação (ALVAC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de vagas de ampla concorrência em cursos técnicos e de graduação (ALVAC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de vagas ofertadas por ampla concorrência em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pela Lei 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVAC</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>ENVACTG</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVACTG - vagas de ampla concorrência em cursos técnicos e de graduação.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> vagas ofertadas por ampla concorrência em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de vagas em cursos técnicos e de graduação (ALV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de vagas em cursos técnicos e de graduação (ALV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de vagas ofertadas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALV</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mrow>
+              <mo>(</mo>
+              <mi>ENVACTG</mi>
+              <mo>+</mo>
+              <mi>ENVRTG</mi>
+              <mo>)</mo>
+            </row>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVACTG - vagas de ampla concorrência em cursos técnicos e de graduação presenciais.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> vagas ofertadas por ampla concorrência em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023 .
+      <br/>&nbsp;<br/>
+      <strong>ENVRTG - vagas reservadas em cursos técnicos e de graduação presenciais.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> vagas ofertadas por cotas (reserva de vagas), em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por vagas reservadas, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de vagas reservadas em cursos técnicos e de graduação (ALVR)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de vagas reservadas em cursos técnicos e de graduação (ALVR)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de vagas ofertadas por cotas (reserva de vagas), em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pela Lei 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Ciclo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVR</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>ENVRTG</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVRTG - vagas reservadas em cursos técnicos e de graduação.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> vagas ofertadas por cotas (reserva de vagas), em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por vagas reservadas, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+    </td>
+  </tr>
+</table>
