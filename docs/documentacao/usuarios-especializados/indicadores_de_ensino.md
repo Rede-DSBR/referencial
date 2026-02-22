@@ -1664,3 +1664,767 @@ Número de vagas reservadas em cursos técnicos e de graduação (ALVR)
     </td>
   </tr>
 </table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de oferta de vagas em cursos de graduação noturna presencial (ALVGN)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de oferta de vagas em cursos de graduação noturna presencial (ALVGN)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos de graduação presencial para o turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos de graduação presencial.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 33,33% - Lei 13.005, de 25 de junho de 2014, estratégia 12.3.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVGN</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENVGPN</mi>
+                <mi>ENVGP</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVGPN – Vagas em cursos de graduação na modalidade presencial em turno noturno.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas de ingresso oferecidas no ano base para cursos de graduação na modalidade presencial no turno noturno.
+      <br/>&nbsp;<br/>
+      <strong>ENVGP – Vagas em cursos de graduação na modalidade presencial.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas de ingresso oferecidas no ano base para cursos de graduação na modalidade presencial.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de cursos de graduação noturna presencial (ALGN)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de cursos de graduação noturna presencial (ALGN)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o total de cursos de graduação com turno noturno, em relação ao total de cursos oferecidos nos cursos de graduação presencial.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Náo definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALGN</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>CGPN</mi>
+                <mi>CGP</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>CGPN – Cursos de graduação na modalidade presencial em turno noturno.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de cursos de graduação na modalidade presencial no turno noturno.
+      <br/>&nbsp;<br/>
+      <strong>CGP – Cursos de graduação na modalidade presencial.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de cursos de graduação na modalidade presencial.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de matrículas equivalentes de graduação noturna presencial (ALMGN)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de matrículas equivalentes de graduação noturna presencial (ALMGN)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o total de matrículas equivalentes de graduação presencial para o turno noturno, em relação ao total de matrículas equivalentes nos cursos de graduação presencial.   
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Náo definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Curso.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALMGN</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENMEGPN</mi>
+                <mi>ENMEGP</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENMEGPN - Matrículas equivalentes de graduação na modalidade presencial em turno noturno.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas equivalentes de cursos de graduação na modalidade presencial no turno noturno.
+      <br/>&nbsp;<br/>
+      <strong>ENMEGP – Matrículas equivalentes de cursos de graduação na modalidade presencial.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas equivalentes de cursos de graduação na modalidade presencial.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (ALMEJA)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (ALMEJA)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de matrículas equivalentes na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.   
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 10% - §1º do Art. 2º do Decreto 5.840/2.006.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALMEJA</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENMEJA</mi>
+                <mi>ENME</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENMEJA - Matrículas Equivalentes em Educação de Jovens e Adultos.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas em curso FIC ou técnico contemplado pelo programa PROEJA que estiveram ativas por pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+      <br/>&nbsp;<br/>
+      <strong>ENME - Matrículas Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de matrículas equivalentes em cursos de educação profissional técnica de nível médio (ALMTEC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de matrículas equivalentes em cursos de educação profissional técnica de nível médio (ALMTEC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de matrículas equivalentes vinculadas a cursos de educação profissional técnica de nível médio, ou seja, cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.  
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 50% - Art. 8º da Lei 11.892/2.008.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALMTEC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENMECT</mi>
+                <mi>ENME</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENMECT – Matrículas Equivalentes em Cursos Técnicos e de Especialização Técnica.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas em cursos técnicos e de especialização técnica que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+      <br/>&nbsp;<br/>
+      <strong>ENME - Matrículas Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de matrículas equivalentes em cursos de formação de professores (ALMEP)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de matrículas equivalentes em cursos de formação de professores (ALMEP)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de matrículas equivalentes vinculadas à formação de professores. É aplicável apenas aos Institutos Federais.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 20% - Art. 8º da Lei 11.892/2.008.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALMEP</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENMEFP</mi>
+                <mi>ENME</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENMEFP - Matrículas Equivalentes em Formação de Professores.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas em cursos destinados à formação de professores que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos. São cursos possíveis: qualificação profissional, licenciatura e pós-graduação.
+      <br/>&nbsp;<br/>
+      <strong>ENME - Matrículas Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de oferta de vagas em cursos noturnos presenciais (ALVN)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de oferta de vagas em cursos noturnos presenciais (ALVN)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos presenciais no turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos presenciais.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Curso.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVN</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENVGPN</mi>
+                <mi>ENVGP</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVGPN – Vagas para cursos na modalidade presencial em turno noturno.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas de ingresso oferecidas no ano base para cursos na modalidade presencial no turno noturno.
+      <br/>&nbsp;<br/>
+      <strong>ENVGP – Total de vagas para cursos na modalidade presencial.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas de ingresso oferecidas no ano base para cursos na modalidade presencial.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de oferta de vagas em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (ALVPROEJA) 
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de oferta de vagas em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (ALVPROEJA)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de oferta de vagas na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada de Trabalhadores (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 10% - §1º do Art. 2º do Decreto 5.840/2.006.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVPROEJA</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENVEJA</mi>
+                <mi>ENV</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVEJA – Vagas para Educação de Jovens e Adultos.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas em curso FIC ou técnico contemplado pelo programa PROEJA no ano base.
+      <br/>&nbsp;<br/>
+      <strong>ENV – Número de vagas.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número total de vagas disponibilizadas para ciclos dos cursos no ano base, desconsiderando cursos MOOC.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de oferta de vagas em cursos de educação profissional técnica de nível médio (ALVTEC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de oferta de vagas em cursos de educação profissional técnica de nível médio (ALVTEC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de oferta de vagas em cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 50% - Art. 8º da Lei 11.892/2.008.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVTEC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENVTEC</mi>
+                <mi>ENV</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVTEC – Vagas de educação profissional técnica de nível médio.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas em cursos técnicos e de especialização técnica no ano base.
+      <br/>&nbsp;<br/>
+      <strong>ENV – Número de vagas.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número total de vagas disponibilizadas para ciclos dos cursos no ano base, desconsiderando cursos MOOC.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de oferta de vagas em cursos de formação de professores (ALVFP)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de oferta de vagas em cursos de formação de professores (ALVFP)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador mede o percentual de oferta de vagas para formação de professores. É aplicável apenas aos Institutos Federais.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Mínimo de 20% - Art. 8º da Lei 11.892/2.008.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo do centro da meta, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com unidade.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALVFP</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENVFP</mi>
+                <mi>ENV</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENVFP – Vagas para formação de professores.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de vagas para formação de professores no ano base. Aplicável a cursos de qualificação profissional, licenciaturas e pós-graduação.
+      <br/>&nbsp;<br/>
+      <strong>ENV – Número de vagas.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número total de vagas disponibilizadas para ciclos dos cursos no ano base, desconsiderando cursos MOOC.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Relação entre matrícula equivalente presencial e professor equivalente (ALRAPE)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Relação entre matrícula equivalente presencial e professor equivalente (ALRAPE)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador permite avaliar a relação entre o número de matrículas equivalentes em cursos presenciais e o número de professores equivalentes.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 20 - estratégias 11.11 e 12.3 previstas na Lei 13.005/2014.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo da meta melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALRAPE</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENMEP</mi>
+                <mi>DEq</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENMEP – Matrículas Equivalentes Presenciais.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas em cursos presenciais, que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+      <br/>&nbsp;<br/>
+      <strong>DEq – Professores Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de docentes efetivos que atuam no Regime de Trabalho (RT) 20h multiplicado por 0,5, somado à quantidade de docentes efetivos que atuam nos RT 40h e RDE.
+    </td>
+  </tr>
+</table>
