@@ -1347,6 +1347,7 @@ Número de matrículas oriundas de ampla concorrência em cursos técnicos e de 
 </table>
 
 
+
 <p>&nbsp;</p>
 <h3 style="color: #004080;">
 Número de matrículas em cursos técnicos e de graduação (ALM)
@@ -1395,7 +1396,7 @@ Número de matrículas em cursos técnicos e de graduação (ALM)
               <mo>+</mo>
               <mi>MRTG</mi>
               <mo>)</mo>
-            </row>
+            </mrow>
           </mrow>
         </math>
       </p>
