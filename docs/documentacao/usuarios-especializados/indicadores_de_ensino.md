@@ -1586,7 +1586,7 @@ Número de vagas em cursos técnicos e de graduação (ALV)
               <mo>+</mo>
               <mi>ENVRTG</mi>
               <mo>)</mo>
-            </row>
+            </mrow>
           </mrow>
         </math>
       </p>
