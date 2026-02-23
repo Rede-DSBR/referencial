@@ -115,3 +115,247 @@ toc: true
     </td>
   </tr>
 </table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de docentes (PEDO)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de docentes (PEDO)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de docentes ativos. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PEDO</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>DAtivos</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>DAtivos – Docentes ativos.</strong><br/>
+      <strong>Fonte:</strong> PNP (SIAPE / CCV).<br/>
+      <strong>Definição:</strong> Número de servidores docentes na condição “ativo”, ou seja, que não se encontram em situação de exclusão (inatividade por aposentadoria, exoneração, demissão). São considerados servidores ativos aqueles que não estão marcados com o código de exclusão 02 e cuja situação do servidor esteja entre os códigos 01, 08, 11, 12, 40, 52, 53 ou 54. Todos os servidores que possuem o código de exclusão 02 ou cuja situação não esteja entre esses códigos são tratados como inativos e, portanto, não são considerados.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de docentes efetivos (PEDE)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de docentes efetivos (PEDE)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de docentes ativos permanentes. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PEDE</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>DEfetivos</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>DEfetivos – Docentes efetivos.</strong><br/>
+      <strong>Fonte:</strong> PNP (SIAPE / CCV).<br/>
+      <strong>Definição:</strong> Número de servidores docentes ativos permanentes, excluindo-se, portanto, os docentes com vínculo temporário (substitutos e visitantes).
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de servidores (PES)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de servidores (PES)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número total de servidores ativos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PES</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>Servidores</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Servidores.</strong><br/>
+      <strong>Fonte:</strong> PNP (SIAPE / CCV).<br/>
+      <strong>Definição:</strong> Número de servidores na condição “ativo”, ou seja, que não se encontram em situação de exclusão (inatividade por aposentadoria, exoneração, demissão). São considerados servidores ativos aqueles que não estão marcados com o código de exclusão 02 e cuja situação do servidor esteja entre os códigos 01, 08, 11, 12, 40, 52, 53 ou 54. Todos os servidores que possuem o código de exclusão 02 ou cuja situação não esteja entre esses códigos são tratados como inativos e, portanto, não são considerados.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Número de técnicos administrativos em educação (PETAE)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Número de técnicos administrativos em educação (PETAE)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador apresenta o número de técnicos-administrativos em educação ativos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Não definido.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PETAE</mi>
+            <mo>=</mo>
+            <mo>∑</mo>
+            <mi>TAEAtivos</mi>
+            <mtext>, nos diferentes níveis de agregação</mtext>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>TAEAtivos – Técnico-administrativos ativos.</strong><br/>
+      <strong>Fonte:</strong> PNP (SIAPE / CCV).<br/>
+      <strong>Definição:</strong> Número de servidores técnico-administrativos na condição “ativo”, ou seja, que não se encontram em situação de exclusão (inatividade por aposentadoria, exoneração, demissão). São considerados servidores ativos aqueles que não estão marcados com o código de exclusão 02 e cuja situação do servidor esteja entre os códigos 01, 08, 11, 12, 40, 52, 53 ou 54. Todos os servidores que possuem o código de exclusão 02 ou cuja situação não esteja entre esses códigos são tratados como inativos e, portanto, não são considerados.
+    </td>
+  </tr>
+</table>
