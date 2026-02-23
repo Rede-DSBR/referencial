@@ -250,7 +250,6 @@ Gastos correntes por matrícula equivalente (GCM)
       <li>Investimentos;</li> 
       <li>Inversões Financeiras; e</li> 
       <li>Precatórios.</li></ul>
-      <br/>&nbsp;<br/>
       <strong>ENME - Matrículas Equivalentes.</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos, exceto as matrículas das Escolas Técnicas Vinculadas às Universidades Federais.
