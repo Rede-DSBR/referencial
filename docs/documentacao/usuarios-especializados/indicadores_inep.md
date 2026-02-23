@@ -5,9 +5,89 @@ title: "Indicadores INEP"
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A avaliação da educação superior brasileira fundamenta-se na transparência e na busca contínua pela excelência acadêmica, diretrizes asseguradas pelo **Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep)**. No âmbito da Rede Federal e das demais Instituições de Ensino Superior (IES), o monitoramento da qualidade é operacionalizado por meio de indicadores estratégicos que consolidam dados de desempenho discente, qualificação docente e infraestrutura institucional.
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+Esses mecanismos de aferição, integrados ao Sistema Nacional de Avaliação da Educação Superior (Sinaes), permitem a conversão de variáveis qualitativas e quantitativas em métricas oficiais de desempenho. Dentre os instrumentos vigentes, destacam-se o Conceito Preliminar de Curso (CPC) e o Índice Geral de Cursos Avaliados da Instituição (IGC). Enquanto o primeiro reflete a realidade técnica e pedagógica de graduações específicas, o segundo constitui um indicador macroestrutural, sintetizando o desempenho global da instituição, incluindo sua atuação na pós-graduação _stricto sensu_.
+
+
+<h3 style="color: #004080;">
+Conceito Preliminar de Curso (CPC - INEP)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Conceito Preliminar de Curso (CPC - INEP)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador de qualidade que combina, uma única medida, diferentes aspectos relativos aos cursos de graduação. Ele é constituído de oito componentes, agrupados em quatro dimensões que se destinam a avaliar a qualidade dos cursos de graduação. É expresso em valores contínuos (que variam entre 0 e 5) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> Curso.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Curso.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>CPC</mi>
+            <mo>=</mo>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <mn>0,2</mn>
+                <mo>&#xD7;</mo>
+                <mi>NCC</mi>
+              </mrow>
+              <mo>)</mo>
+              <mo>+</mo>
+              <mo>(</mo>
+              <mrow>
+                <mn>0,35</mn>
+                <mo>&#xD7;</mo>
+                <mi>NIDDC</mi>
+              </mrow>
+              <mo>)</mo> 
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>
+        NCC - Nota dos Concluintes no Enade do curso de graduação.<br/>
+        NIDDC - Nota do Indicador da Diferença entre os Desempenhos Observado e Esperado do curso de graduação.<br/>
+        NMC – Nota de Proporção de Mestres do curso de graduação.<br/>
+        NDC – Nota de Proporção de Doutores do curso de graduação.<br/>
+        NRC – Nota de Regime de Trabalho do curso de graduação.<br/>
+        NOC – Nota referente à organização didático-pedagógica do curso de graduação.<br/>
+      </strong><br/>
+      <strong>Fonte:</strong> INEP.<br/>
+      <strong>Definição:</strong> Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.
+    </td>
+  </tr>
+</table>
+
 
 ### Conceito Preliminar de Curso (CPC - INEP) 
 
