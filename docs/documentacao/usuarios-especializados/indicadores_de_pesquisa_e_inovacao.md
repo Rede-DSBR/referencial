@@ -47,7 +47,9 @@ Número de acordos de parceria para pesquisa, desenvolvimento e inovação (PIPD
           <mrow>
             <mi>PIPDI</mi>
             <mo>=</mo>
+            <mo>(</mo>
             <mi>NAPPCT</mi>
+            <mo>)</mo>
           </mrow>
         </math>
       </p>
@@ -372,7 +374,10 @@ Percentual de estudantes da instituição envolvidos em projetos de pesquisa (PI
             <mo>(</mo>
             <mrow>
               <mfrac>
-                <mi>NEp</mi>
+                <msub>
+                  <mi>N</mi>
+                  <mi>EP</mi>
+                <msub>
                 <mi>NTE</mi>
               </mfrac>
             </mrow>
@@ -385,7 +390,7 @@ Percentual de estudantes da instituição envolvidos em projetos de pesquisa (PI
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>NEP – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
+      <strong>N<sub>EP</sub> – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Considerar os estudantes (CPF) com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados, e que realizam pesquisa na instituição no ano base.
       <br/>&nbsp;<br/>
@@ -443,7 +448,10 @@ Percentual de estudantes matriculados por meio de cotas envolvidos em projetos d
             <mrow>
               <mfrac>
                 <mi>NTECPP</mi>
-                <mi>N<sub>EP</sub></mi>
+                <msub>
+                  <mi>N</mi>
+                  <mi>EP</mi>
+                <msub>
               </mfrac>
             </mrow>
             <mo>)</mo>
@@ -514,7 +522,10 @@ Percentual de investimento realizado em pesquisa, pós-graduação e inovação,
             <mo>(</mo>
             <mrow>
               <mfrac>
-                <mi>TAF<sub>PPI</sub></mi>
+                <msub>
+                  <mi>TAF</mi>
+                  <mi>PPI</mi>
+                <msub>
                 <mi>OCC</mi>
               </mfrac>
             </mrow>
