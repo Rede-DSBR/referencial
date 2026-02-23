@@ -270,7 +270,7 @@ Percentual de estudantes envolvidos em ações de extensão (EXES)
                 <msub>
                   <mi>NE</mi>
                   <mi>E</mi>
-                </sub>
+                </msub>
                 <mi>NTE</mi>
               </mfrac>
             </mrow>
