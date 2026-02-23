@@ -451,7 +451,7 @@ Percentual de estudantes matriculados por meio de cotas envolvidos em projetos d
                 <msub>
                   <mi>N</mi>
                   <mi>EP</mi>
-                <msub>
+                </msub>
               </mfrac>
             </mrow>
             <mo>)</mo>
@@ -525,7 +525,7 @@ Percentual de investimento realizado em pesquisa, pós-graduação e inovação,
                 <msub>
                   <mi>TAF</mi>
                   <mi>PPI</mi>
-                <msub>
+                </msub>
                 <mi>OCC</mi>
               </mfrac>
             </mrow>
