@@ -52,7 +52,7 @@ Número de colaboradores externos bolsistas (POCO)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -112,7 +112,7 @@ Número de contratos de parcerias (POP)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -172,7 +172,7 @@ Número de docentes bolsistas (PODOB)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -232,7 +232,7 @@ Número de empresas com acordo de parceria (POEMP)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -292,7 +292,7 @@ Número de estudantes bolsistas (POEB)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -352,7 +352,7 @@ Número de eventos e treinamentos realizados (POET)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -412,7 +412,7 @@ Número de propriedades intelectuais depositadas (POPID)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -472,7 +472,7 @@ Número de técnicos-administrativos bolsistas (POTAE)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -532,7 +532,7 @@ Número de unidades de pesquisa (POUP)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -592,7 +592,7 @@ alor de recurso captado (POREC)
           </mrow>
         </math>
       </p>
-    </td>)
+    </td>
   </tr>
   <tr>
     <td colspan="2">
