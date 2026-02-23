@@ -557,12 +557,12 @@ Número de unidades de pesquisa (POUP)
 
 <p>&nbsp;</p>
 <h3 style="color: #004080;">
-alor de recurso captado (POREC)
+Valor de recurso captado (POREC)
 </h3>
 <table>
   <tr>
     <th colspan="2"><strong><i>
-      alor de recurso captado (POREC)
+      Valor de recurso captado (POREC)
     </i></strong></th>
   </tr>
   <tr>
