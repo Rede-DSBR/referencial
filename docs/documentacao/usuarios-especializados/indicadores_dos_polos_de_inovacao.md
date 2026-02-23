@@ -19,6 +19,7 @@ Número de colaboradores externos bolsistas (POCO)
   <tr>
     <td colspan="2">
       Este indicador quantifica os colaboradores externos ao Instituto Federal de vinculação do Polo.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -79,6 +80,7 @@ Número de contratos de parcerias (POP)
   <tr>
     <td colspan="2">
       Este indicador mede o número de acordos e contratos firmados com o setor produtivo e instituições públicas e privadas, avaliando a capacidade de articulação dos Polos.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -139,6 +141,7 @@ Número de docentes bolsistas (PODOB)
   <tr>
     <td colspan="2">
       Este indicador avalia a participação de docentes do Instituto Federal de vinculação do Polo nos projetos de vinculação do Polo, indicando o alinhamento com as atividades de pesquisa e inovação.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -199,6 +202,7 @@ Número de empresas com acordo de parceria (POEMP)
   <tr>
     <td colspan="2">
       Este indicador avalia a interação com o setor produtivo, demonstrando a abrangência das atividades de PD&I.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -259,6 +263,7 @@ Número de estudantes bolsistas (POEB)
   <tr>
     <td colspan="2">
       Este indicador reflete o envolvimento de estudantes do Instituto Federal de vinculação do Polo, nos projetos de PD&I, fortalecendo sua formação prática.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -319,6 +324,7 @@ Número de eventos e treinamentos realizados (POET)
   <tr>
     <td colspan="2">
       Mede o número de eventos e treinamentos oferecidos, avaliando a contribuição dos Polos para a qualificação profissional do público interno e externo.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -379,6 +385,7 @@ Número de propriedades intelectuais depositadas (POPID)
   <tr>
     <td colspan="2">
       Este indicador quantifica patentes e outros ativos tecnológicos depositados ou registrados, mostrando o impacto inovador das ações dos Polos.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -439,6 +446,7 @@ Número de técnicos-administrativos bolsistas (POTAE)
   <tr>
     <td colspan="2">
       Este indicador avalia a participação de técnicos administrativos do Instituto Federal de vinculação do Polo nos projetos, indicando o alinhamento com as atividades de pesquisa e inovação.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -499,6 +507,7 @@ Número de unidades de pesquisa (POUP)
   <tr>
     <td colspan="2">
       Este indicador contabiliza a quantidade de unidades de pesquisa da Rede Federal de Educação Profissional, Científica e Tecnológica.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
@@ -559,6 +568,7 @@ alor de recurso captado (POREC)
   <tr>
     <td colspan="2">
       Este indicador apresenta o valor total captado por meio de contratos e parcerias, refletindo a capacidade de atração de investimentos.
+    </td>
   </tr>
   <tr>
     <td colspan="2">
