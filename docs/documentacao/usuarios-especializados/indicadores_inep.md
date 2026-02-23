@@ -46,7 +46,7 @@ Conceito Preliminar de Curso (CPC - INEP)
     <td colspan="2">
       <strong>Modelo matemático:</strong><br/>
       <p style="text-align:center">
-        <math style="font-size: 1.2rem;" display="block">
+        <math style="font-size: 1.0rem;" display="block">
           <mrow>
             <mi>CPC</mi>
             <mo>=</mo>
@@ -201,10 +201,10 @@ Conceito Preliminar de Curso (CPC - INEP)
         α - Proporção de matrículas na graduação.<br/>
         β - Proporção relativa às matrículas nos cursos de Mestrado da IES.<br/>
         γ - Proporção relativa às matrículas nos cursos de Doutorado da IES.<br/>
-        GIES – Nota média da graduação da IES.</br>
-        MIES – Nota média de mestrado da IES.</br>
-        DIES – Nota média de doutorado da IES.</br>
-      </strong><br/>
+        GIES – Nota média da graduação da IES.<br/>
+        MIES – Nota média de mestrado da IES.<br/>
+        DIES – Nota média de doutorado da IES.<br/>
+      </strong>&nbsp;<br/>
       <strong>Fonte:</strong> INEP.<br/>
       <strong>Definição:</strong> Conforme constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.
     </td>
@@ -225,8 +225,8 @@ Conceito Enade (Enade – INEP)
   </tr>
   <tr>
     <td colspan="2">
-      O Conceito Enade é um indicador de qualidade que avalia os cursos por intermédio dos desempenhos dos estudantes no Enade. Seu cálculo e sua divulgação ocorrem anualmente para os cursos com pelo menos dois estudantes concluintes participantes do exame.<br/>
-      A partir da edição de 2015, o cálculo do Conceito Enade passou a ser realizado por curso de graduação, identificado pelo código do curso constante no Sistema e-MEC, conforme enquadramento realizado pela instituição de educação superior no Sistema Enade.<br/>
+      O Conceito Enade é um indicador de qualidade que avalia os cursos por intermédio dos desempenhos dos estudantes no Enade. Seu cálculo e sua divulgação ocorrem anualmente para os cursos com pelo menos dois estudantes concluintes participantes do exame.<p/>
+      A partir da edição de 2015, o cálculo do Conceito Enade passou a ser realizado por curso de graduação, identificado pelo código do curso constante no Sistema e-MEC, conforme enquadramento realizado pela instituição de educação superior no Sistema Enade.<p/>
       <strong>Notas técnicas:</strong><br>
       <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos"
              target="_blank">
@@ -256,8 +256,8 @@ Indicador de Diferença entre os Desempenhos Observado e Esperado (IDD – INEP)
         <li>atingir 20% do total de estudantes concluintes participantes do Enade com dados recuperados da base de dados do Enem.</li>
       </ul>
       
-      Desde 2014, o cálculo do IDD ocorre para cada indivíduo que tenha participado do Enade e do Enem, recuperando-se os resultados do estudante nos dois exames a partir do número do CPF.<br/>
-      Esse indicador é calculado desde 2007, como componente do CPC. Em 2016, passou a ser divulgado separadamente, vinculado ao mesmo código de curso em que os estudantes concluintes foram inscritos no Enade.<br/>
+      Desde 2014, o cálculo do IDD ocorre para cada indivíduo que tenha participado do Enade e do Enem, recuperando-se os resultados do estudante nos dois exames a partir do número do CPF.<p/>
+      Esse indicador é calculado desde 2007, como componente do CPC. Em 2016, passou a ser divulgado separadamente, vinculado ao mesmo código de curso em que os estudantes concluintes foram inscritos no Enade.<p/>
       <strong>Notas técnicas:</strong><br>
           <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos"
              target="_blank">
