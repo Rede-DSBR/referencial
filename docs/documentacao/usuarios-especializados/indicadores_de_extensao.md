@@ -8,9 +8,7 @@ toc: true
 
 
 <h3 style="color: #004080;">
-Número de pessoas atendidas pelas ações de extensão (EXPAE)
-</h3>
-<table>
+Número de pessoas atendidas pelas ações de extensão (EXPAE)</h3><table>
   <tr>
     <th colspan="2"><strong><i>
       Número de pessoas atendidas pelas ações de extensão (EXPAE)
@@ -292,6 +290,236 @@ Percentual de estudantes envolvidos em ações de extensão (EXES)
       <strong>NTE – Número Total de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu).</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Número total de estudantes (CPF) que estiveram com matrícula ativa em pelo menos um dia no ano base, nos tipos de curso acima especificados.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de estudantes matriculados por meio de cotas envolvidos em ações de extensão (EXCOT)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de estudantes matriculados por meio de cotas envolvidos em ações de extensão (EXCOT)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Mensura o percentual de estudantes matriculados que ingressaram por meio de cotas e estão envolvidos em ações de extensão, independente da modalidade (Projeto, Programa, Evento, Curso e Prestação de Serviço), dentre o total de estudantes envolvidos em ações de extensão.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>EXCOT</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mi>NTECE</mi>
+                <msub>
+                  <mi>NE</mi>
+                  <mi>E</mi>
+                </msub>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+            <mo>&#xD7;</mo>
+            <mn>100</mn>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>NTECE – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) que ingressaram por meio de cotas e envolvidos em extensão.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Considerar os estudantes envolvidos em extensão na Instituição no ano base, que sejam ingressantes por cotas e estejam com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados.
+      <br/>&nbsp;<br/>
+      <strong>NE<sub>E</sub> – Número de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em ações anuais de extensão.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Número de estudantes (CPF) com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados, e que atuaram em equipes executoras de ações de extensão em execução no mesmo ano.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de recursos financeiros do orçamento anual público aplicados em extensão (EXREC)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de recursos financeiros do orçamento anual público aplicados em extensão (EXREC)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Mensura o percentual de recurso financeiro anual destinado para o desenvolvimento de ações de extensão (independentemente da modalidade: Projeto, Programa, Curso, Evento ou Prestação de Serviço).
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Instituição.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>EXREC</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <msub>
+                  <mi>OA</mi>
+                  <mi>E</mi>
+                </msub>
+                <mi>OTI</mi>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+            <mo>&#xD7;</mo>
+            <mn>100</mn>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>OA<sub>E</sub> – Orçamento Anual Aplicado em Extensão.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Valor total do orçamento próprio da instituição (LOA) aplicado em extensão no ano base.
+      <br/>&nbsp;<br/>
+      <strong>OTI – Orçamento Total anual da Instituição.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Valor total do orçamento da instituição no ano (LOA) de referência.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de servidores e servidoras envolvidos em ações de extensão (EXSERV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de servidores e servidoras envolvidos em ações de extensão (EXSERV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Mensura o percentual de servidores e servidoras envolvidos em ações de extensão, independentemente da modalidade (Projeto, Programa, Curso, Evento ou Prestação de Serviço) e do tipo de participação na equipe executora (membro, orientação, coordenação ou coorientação).
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>EXSERV</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <mi>NDE</mi>
+                  <mo>+</mo>
+                  <mi>NTAE</mi>
+                </mrow>
+                <mi>NTS</mi>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+            <mo>&#xD7;</mo>
+            <mn>100</mn>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>NDE – Número de Docentes envolvidos em ações de extensão no ano.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Quantidade de servidores e servidoras docentes envolvidos em ações de extensão em execução no ano base.
+      <br/>&nbsp;<br/>
+      <strong>NTAE – Número de Técnico-Administrativos em Educação envolvidos em ações de extensão no ano.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Quantidade de servidores e servidoras Técnico-Administrativos em Educação (NTE) envolvidos em ações de extensão em execução no ano base.
+      <br/>&nbsp;<br/>
+      <strong>NTS – Número Total de Servidores e Servidoras.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Quantidade total de servidores e servidoras docentes e Técnico-Administrativos em Educação no ano base.
     </td>
   </tr>
 </table>
