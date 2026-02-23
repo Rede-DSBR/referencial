@@ -60,6 +60,7 @@ Gasto com precatórios (GPRE)
       <strong>GPrec = Gastos com precatórios.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
       <strong>Definição:</strong> Valor correspondente aos pagamentos de requisições judiciais (precatórios) realizados. Refere-se às liquidações totais (exercício + RAP), cujo elemento de despesa é o código “91” (sentenças judiciais).
+    </td>
   </tr>
 </table>
 
@@ -119,6 +120,7 @@ Gastos com inativos e pensionistas (GIP)
       <strong>Inat – Inativos e pensionistas.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
       <strong>Definição:</strong> Valor com Inativos, que compreende o conjunto de servidores aposentados, instituidores de pensão e seus respectivos pensionistas, cujos gastos são identificados pelos códigos de ação orçamentária “0181”.
+    </td>
   </tr>
 </table>
 
@@ -181,7 +183,8 @@ Gastos correntes (GC)
       <li>Inativos e Pensionistas;</li> 
       <li>Investimentos;</li> 
       <li>Inversões Financeiras; e</li> 
-      <li>Precatórios.</li></ul> 
+      <li>Precatórios.</li></ul>
+    </td>
   </tr>
 </table>
 
@@ -251,6 +254,7 @@ Gastos correntes por matrícula equivalente (GCM)
       <strong>ENME - Matrículas Equivalentes.</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
       <strong>Definição:</strong> Número de matrículas que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos, exceto as matrículas das Escolas Técnicas Vinculadas às Universidades Federais.
+    </td>
   </tr>
 </table>
 
@@ -316,7 +320,8 @@ Gastos de Pessoal (GPE)
       <br/>&nbsp;<br/>
       <strong>GaB – Gastos com benefícios pagos aos servidores.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
-      <strong>Definição:</strong> Gasto com pagamento de benefícios de ativos e aposentados no ano base, com as Instituições que compõem a RFEPCT. 
+      <strong>Definição:</strong> Gasto com pagamento de benefícios de ativos e aposentados no ano base, com as Instituições que compõem a RFEPCT.
+    </td>
   </tr>
 </table>
 
@@ -376,6 +381,7 @@ Gastos totais (GT)
       <strong>Gastos totais.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
       <strong>Definição:</strong>  Valor total de liquidações de gastos correntes, excluindo valores relacionados ao Pis-Pasep.
+    </td>
   </tr>
 </table>
 
@@ -442,6 +448,7 @@ Investimentos e Inversões (GIV)
       <strong>GIF – Gastos com Inversões Financeiras.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
       <strong>Definição:</strong> Gasto do grupo de natureza de despesa “Investimentos” da Unidade Orçamentária no ano base.
+    </td>
   </tr>
 </table>
 
@@ -504,5 +511,6 @@ Outros Custeios (GOC)
       <strong>G<sub>OC</sub> - Gasto com Outros Custeios.</strong><br/>
       <strong>Fonte:</strong> SIAFI.<br/>
       <strong>Definição:</strong>  Gasto no grupo de natureza de despesas “Outras despesas correntes” no ano base, com as Instituições que compõem a RFEPCT, deduzindo-se gastos com benefícios pagos aos servidores. 
+      </td>
   </tr>
 </table>
