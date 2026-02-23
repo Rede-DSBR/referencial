@@ -377,7 +377,7 @@ Percentual de estudantes da instituição envolvidos em projetos de pesquisa (PI
                 <msub>
                   <mi>N</mi>
                   <mi>EP</mi>
-                <msub>
+                </msub>
                 <mi>NTE</mi>
               </mfrac>
             </mrow>
