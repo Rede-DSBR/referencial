@@ -177,6 +177,9 @@ itens:
       - title: "Indicadores de Gastos"
         href: "/documentacao/usuarios-especializados/indicadores_de_gastos"
         icon: "fas fa-table"
+  - title: "Outros Indicadores"
+    icon: "fas fa-poll"
+    children:
       - title: "Indicadores INEP"
         href: "/documentacao/usuarios-especializados/indicadores_inep"
         icon: "fas fa-table"
