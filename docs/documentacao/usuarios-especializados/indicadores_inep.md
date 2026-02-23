@@ -21,7 +21,7 @@ Conceito Preliminar de Curso (CPC - INEP)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador de qualidade que combina, uma única medida, diferentes aspectos relativos aos cursos de graduação. Ele é constituído de oito componentes, agrupados em quatro dimensões que se destinam a avaliar a qualidade dos cursos de graduação. É expresso em valores contínuos (que variam entre 0 e 5) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.
+      <p>Este indicador de qualidade que combina, uma única medida, diferentes aspectos relativos aos cursos de graduação. Ele é constituído de oito componentes, agrupados em quatro dimensões que se destinam a avaliar a qualidade dos cursos de graduação. É expresso em valores contínuos (que variam entre 0 e 5) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 4/2023/CEI/CGGI/DAES.</p>
     </td>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ Conceito Preliminar de Curso (CPC - INEP)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Modelo matemático:</strong><br/>
+      <strong>Modelo matemático:</strong><br/>&nbsp;<br/>
       <p style="text-align:center">
         <math style="font-size: 1.0rem;" display="block">
           <mrow>
@@ -135,7 +135,7 @@ Conceito Preliminar de Curso (CPC - INEP)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador de qualidade que avalia as instituições de ensino superior é realizado anualmente. É calculado com base na média ponderada das notas contínuas dos Conceitos Preliminares de Cursos (NCPCc) dos cursos de graduação e os conceitos Capes dos cursos de programas de pós-graduação stricto sensu das Instituições de Educação Superior. É expresso em valores contínuos (que variam entre 0 e 500) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 5/2023/CEI/CGGI/DAES.
+      <p>Este indicador de qualidade que avalia as instituições de ensino superior é realizado anualmente. É calculado com base na média ponderada das notas contínuas dos Conceitos Preliminares de Cursos (NCPCc) dos cursos de graduação e os conceitos Capes dos cursos de programas de pós-graduação stricto sensu das Instituições de Educação Superior. É expresso em valores contínuos (que variam entre 0 e 500) e em faixas que variam de 1 a 5. O modelo matemático vigente é o constante na Nota Técnica nº 5/2023/CEI/CGGI/DAES.</p>
     </td>
   </tr>
   <tr>
@@ -225,8 +225,8 @@ Conceito Enade (Enade – INEP)
   </tr>
   <tr>
     <td colspan="2">
-      O Conceito Enade é um indicador de qualidade que avalia os cursos por intermédio dos desempenhos dos estudantes no Enade. Seu cálculo e sua divulgação ocorrem anualmente para os cursos com pelo menos dois estudantes concluintes participantes do exame.<p/>
-      A partir da edição de 2015, o cálculo do Conceito Enade passou a ser realizado por curso de graduação, identificado pelo código do curso constante no Sistema e-MEC, conforme enquadramento realizado pela instituição de educação superior no Sistema Enade.<p/>
+      <p>O Conceito Enade é um indicador de qualidade que avalia os cursos por intermédio dos desempenhos dos estudantes no Enade. Seu cálculo e sua divulgação ocorrem anualmente para os cursos com pelo menos dois estudantes concluintes participantes do exame.</p>
+      <p>A partir da edição de 2015, o cálculo do Conceito Enade passou a ser realizado por curso de graduação, identificado pelo código do curso constante no Sistema e-MEC, conforme enquadramento realizado pela instituição de educação superior no Sistema Enade.</p>
       <strong>Notas técnicas:</strong><br>
       <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos"
              target="_blank">
@@ -250,19 +250,17 @@ Indicador de Diferença entre os Desempenhos Observado e Esperado (IDD – INEP)
   </tr>
   <tr>
     <td colspan="2">
-      O IDD é um indicador de qualidade que busca mensurar o valor agregado pelo curso ao desenvolvimento dos estudantes concluintes, considerando seus desempenhos no Enade e no Exame Nacional do Ensino Médio (Enem), como medida proxy (aproximação) das suas características de desenvolvimento ao ingressarem no curso de graduação avaliado. Para que um curso tenha o IDD calculado, é preciso que ele atenda às seguintes condições:
+      <p>O IDD é um indicador de qualidade que busca mensurar o valor agregado pelo curso ao desenvolvimento dos estudantes concluintes, considerando seus desempenhos no Enade e no Exame Nacional do Ensino Médio (Enem), como medida proxy (aproximação) das suas características de desenvolvimento ao ingressarem no curso de graduação avaliado. Para que um curso tenha o IDD calculado, é preciso que ele atenda às seguintes condições:</p>
       <ul>
         <li>possuir no mínimo dois estudantes concluintes participantes do Enade com dados recuperados da base de dados do Enem no período entre o ano de ingresso no curso avaliado e os três anos anteriores;</li>
         <li>atingir 20% do total de estudantes concluintes participantes do Enade com dados recuperados da base de dados do Enem.</li>
       </ul>
-      
-      Desde 2014, o cálculo do IDD ocorre para cada indivíduo que tenha participado do Enade e do Enem, recuperando-se os resultados do estudante nos dois exames a partir do número do CPF.<p/>
-      Esse indicador é calculado desde 2007, como componente do CPC. Em 2016, passou a ser divulgado separadamente, vinculado ao mesmo código de curso em que os estudantes concluintes foram inscritos no Enade.<p/>
+      <p>Desde 2014, o cálculo do IDD ocorre para cada indivíduo que tenha participado do Enade e do Enem, recuperando-se os resultados do estudante nos dois exames a partir do número do CPF.<p/>
+      Esse indicador é calculado desde 2007, como componente do CPC. Em 2016, passou a ser divulgado separadamente, vinculado ao mesmo código de curso em que os estudantes concluintes foram inscritos no Enade.</p>
       <strong>Notas técnicas:</strong><br>
-          <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos"
-             target="_blank">
-            https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos.
-          </a>
+      <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos" target="_blank">
+        https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/indicadores-de-qualidade-da-educacao-superior/outros-documentos.
+      </a>
     </td>
   </tr>
 </table>
