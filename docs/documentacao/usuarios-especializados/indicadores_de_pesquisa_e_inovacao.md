@@ -550,3 +550,151 @@ Percentual de investimento realizado em pesquisa, pós-graduação e inovação,
     </td>
   </tr>
 </table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de projetos de pesquisa aplicada (PIPA)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de projetos de pesquisa aplicada (PIPA)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador tem como objetivo mensurar o percentual de projetos de pesquisa aplicada desenvolvidos pela Rede Federal de Educação Profissional, Científica e Tecnológica, como pressupõe o inciso VIII do Art. 6° da Lei 11.892/2008.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PIPA</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mi>NPPA</mi>
+                <mrow>
+                  <mi>NPPB</mi>
+                  <mo>+</mo>
+                  <mi>NPPA</mi>
+                </mrow>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+            <mo>&#xD7;</mo>
+            <mn>100</mn>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>NPPA – Número de projetos de pesquisa aplicada.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> número de projetos iniciados, em andamento ou concluídos no ano base, classificados como “pesquisa dirigida principalmente para um fim ou objetivo específico e prático e/ou solução de problemas; o trabalho sistemático direcionado para a produção de novos produtos ou processos ou para a melhoria de existentes (OCDE, 2007).”
+      <br/>&nbsp;<br/>
+      <strong>NPPB – Número de projetos de pesquisa básica.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> número de projetos iniciados, em andamento ou concluídos no ano base, classificados como “trabalhos experimentais ou teóricos realizados principalmente com o objetivo de adquirir novos conhecimentos sobre os fundamentos dos fenômenos e fatos observáveis, sem considerar uma determinada aplicação ou um uso em particular (OCDE, 2007).”
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Percentual de servidores e servidoras envolvidos em projetos de pesquisa (PISERV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Percentual de servidores e servidoras envolvidos em projetos de pesquisa (PISERV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador tem como objetivo mensurar o percentual de servidores e servidoras envolvidos em projetos de pesquisa, seja como coordenador(a), orientador(a), coorientador(a) ou membro da equipe de projeto registrado. A participação do servidor ou da servidora em projetos deverá ser contabilizada uma única vez, independente do quantitativo de projetos que participe.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto maior, melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>PISERV</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mi>NSPP</mi>
+                <mi>NS</mi>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+            <mo>&#xD7;</mo>
+            <mn>100</mn>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>NSPP – Número total de servidores envolvidos em projetos de pesquisa (aplicada e básica).</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Quantidade de servidores e servidoras (docentes e técnico-administrativos em educação) que realizam pesquisa na Instituição no ano base.
+      <br/>&nbsp;<br/>
+      <strong>NS – Número total de servidores da instituição.</strong><br/>
+      <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
+      <strong>Definição:</strong> Quantidade de servidores e servidoras (docentes e técnico-administrativos em educação) da Instituição no ano base.
+    </td>
+  </tr>
+</table>
