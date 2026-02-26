@@ -84,8 +84,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>1</td>
     <td>Ensino a Distância</td>
-    <td>Bacharelado<br>Licenciatura<br>Especialização – <i>Lato Sensu</i></td>
-    <td>UAB<br>Sem Programa Associado<br>Outros recursos externos</td>
     <td>Tecnologia</td>
     <td>UAB (Universidade Aberta do Brasil)<br/> E-TEC<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
@@ -107,36 +105,21 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>4</td>
     <td>Educação a Distância</td>
-    <td>Especialização (Lato Sensu)<br/> Licenciatura<br/> Bacharelado<br/> ABI</td>
+    <td>Especialização (<i>Lato Sensu</i>)<br/> Licenciatura<br/> Bacharelado<br/> ABI</td>
     <td>UAB (Universidade Aberta do Brasil)<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>5</td>
     <td>Educação Presencial</td>
-    <td>Especialização (Lato Sensu)<br/> Doutorado Profissional<br/> Doutorado<br/> Mestrado Profissional<br/> Mestrado<br/> Licenciatura<br/> Ensino Médio<br/> Ensino Fundamental I<br/> Bacharelado<br/> Educação Infantil<br/> Especialização Técnica<br/> Especialização Profissional Tecnológica<br/> Tecnologia<br/> Ensino Fundamental II<br/> ABI</td>
+    <td>Especialização (<i>Lato Sensu</i>)<br/> Doutorado Profissional<br/> Doutorado<br/> Mestrado Profissional<br/> Mestrado<br/> Licenciatura<br/> Ensino Médio<br/> Ensino Fundamental I<br/> Bacharelado<br/> Educação Infantil<br/> Especialização Técnica<br/> Especialização Profissional Tecnológica<br/> Tecnologia<br/> Ensino Fundamental II<br/> ABI</td>
     <td>Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
   <tr>
     <td>6</td>
-    <td rowspan="2">Ensino Presencial</td>
-    <td>
-      Ensino Médio<br>
-      Doutorado<br>
-      Mestrado<br>
-      Mestrado Profissional<br>
-      Ensino Fundamental<br>
-      Ensino Infantil<br>
-      Bacharelado<br>
-      Licenciatura<br>
-      Especialização – <i>Lato Sensu</i><br>
-      Tecnologia<br>
-      ABI
-    </td>
-    <td>Sem Programa Associado<br>Outros recursos externos</td>
     <td>Educação a Distância</td>
-    <td>Doutorado Profissional<br/> Mestrado Profissional<br/> Especialização Técnica<br/> Especialização Profissional Tecnológica</td>
+    <td>Doutorado Profissional<br/> Mestrado Profissional<br/> Especialização Técnica<br/> Especialização Profissional e Tecnológica</td>
     <td>Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
 
