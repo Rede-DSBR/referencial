@@ -924,7 +924,7 @@ Número de vagas (ENV)
       <br/>&nbsp;<br/>
       <strong>VPG - Vagas Pós-Graduação </strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Número de Vagas ofertadas em cursos de Pós-Graduação, considerando Especialização Lato Sensu, Mestrados e Doutorados.
+      <strong>Definição:</strong> Número de Vagas ofertadas em cursos de Pós-Graduação, considerando Especialização <i>Lato Sensu</i>, Mestrados e Doutorados.
     </td>
   </tr>
 </table>
