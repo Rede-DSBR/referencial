@@ -33,7 +33,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr><td>Ensino Fundamental I</td><td>300</td><td>1825</td></tr>
   <tr><td>Ensino Fundamental II</td><td>300</td><td>1460</td></tr>
   <tr><td>Ensino Médio</td><td>300</td><td>1460</td></tr>
-  <tr><td>Especialização – Lato Sensu</td><td>180</td><td>730</td></tr>
+  <tr><td>Especialização – <i>Lato Sensu</i></td><td>180</td><td>730</td></tr>
   <tr><td>Especialização Profissional Tecnológica</td><td>180</td><td>730</td></tr>
   <tr><td>Especialização Técnica</td><td>180</td><td>730</td></tr>
   <tr><td>Licenciatura</td><td>300</td><td>1460</td></tr>
@@ -57,7 +57,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
   <tr>
     <td>1</td>
     <td>Ensino a Distância</td>
-    <td>Bacharelado<br>Licenciatura<br>Especialização – Lato Sensu</td>
+    <td>Bacharelado<br>Licenciatura<br>Especialização – <i>Lato Sensu</i></td>
     <td>UAB<br>Sem Programa Associado<br>Outros recursos externos</td>
   </tr>
 
@@ -101,7 +101,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
       Ensino Infantil<br>
       Bacharelado<br>
       Licenciatura<br>
-      Especialização – Lato Sensu<br>
+      Especialização – <i>Lato Sensu</i><br>
       Tecnologia<br>
       ABI
     </td>
@@ -208,26 +208,79 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
         <tr>
             <th>Item</th>
             <th>Forma de Ingresso</th>
+            <th>Descrição</th>
         </tr>
     </thead>
     <tbody>
-            <tr><td>1</td><td>AC</td></tr>
-            <tr><td>2</td><td>L1</td></tr>
-            <tr><td>3</td><td>L2</td></tr>
-            <tr><td>4</td><td>L5</td></tr>
-            <tr><td>5</td><td>L6</td></tr>
-            <tr><td>6</td><td>L9</td></tr>
-            <tr><td>7</td><td>L13</td></tr>
-            <tr><td>8</td><td>L10</td></tr>
-            <tr><td>9</td><td>L14</td></tr>
-            <tr><td>10</td><td>LB_EP</td></tr>
-            <tr><td>11</td><td>LB_PCD</td></tr>
-            <tr><td>12</td><td>LB_PPI</td></tr>
-            <tr><td>13</td><td>LB_Q</td></tr>
-            <tr><td>14</td><td>LI_EP</td></tr>
-            <tr><td>15</td><td>LI_PCD</td></tr>
-            <tr><td>16</td><td>LI_PPI</td></tr>
-            <tr><td>17</td><td>LI_Q</td></tr>
+            <tr>
+              <td>1</td><td>AC</td>
+              <td>Ampla concorrência</td>
+            </tr>
+            <tr>
+              <td>2</td><td>L1</td>
+              <td>Estudantes de Escola Pública com Baixa Renda (nova sigla: LB_EP)</td>
+            </tr>
+            <tr>
+              <td>3</td><td>L2</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, Autodeclarados Pretos, Pardos ou Indígenas (nova sigla: LB_PPI)</td>
+            </tr>
+            <tr>
+              <td>4</td><td>L5</td>
+              <td>Estudantes de Escola Pública, Independente da Renda (nova sigla: LI_EP)</td>
+            </tr>
+            <tr>
+              <td>5</td><td>L6</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, Autodeclarados Pretos, Pardos ou Indígenas (nova sigla: LI_PPI)</td>
+            </tr>
+            <tr>
+              <td>6</td><td>L9</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, com Deficiência (nova sigla: LB_PCD)</td>
+            </tr>
+            <tr>
+              <td>7</td><td>L10</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, com Deficiência, Autodeclarados Pretos, Pardos ou Indígenas (integrada à LB_PPI)
+            </td>
+            </tr>
+            <tr>
+              <td>8</td><td>L13</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, com Deficiência (nova sigla: LI_PCD)</td>
+            </tr>
+            <tr>
+              <td>9</td><td>L14</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, com Deficiência, Autodeclarados Pretos, Pardos ou Indígenas (integrda à LI_PPI)</td>
+            </tr>
+            <tr>
+              <td>10</td><td>LB_EP</td>
+              <td>Estudantes de Escola Pública com Baixa Renda</td>
+            </tr>
+            <tr>
+              <td>11</td><td>LB_PCD</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, com Deficiência</td>
+            </tr>
+            <tr>
+              <td>12</td><td>LB_PPI</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, Autodeclarados Pretos, Pardos ou Indígenas</td>
+            </tr>
+            <tr>
+              <td>13</td><td>LB_Q</td>
+              <td>Estudantes de Escola Pública, Baixa Renda, Autodeclarados Quilombolas</td>
+            </tr>
+            <tr>
+              <td>14</td><td>LI_EP</td>
+              <td>Estudantes de Escola Pública, Independente da Renda</td>
+            </tr>
+            <tr>
+              <td>15</td><td>LI_PCD</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, com Deficiência</td>
+            </tr>
+            <tr>
+              <td>16</td><td>LI_PPI</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, Autodeclarados Pretos, Pardos ou Indígenas</td>
+            </tr>
+            <tr>
+              <td>17</td><td>LI_Q</td>
+              <td>Estudantes de Escola Pública, Independente da Renda, Autodeclarados Quilombolas</td>
+            </tr>
         </tbody>
     </table>
 
@@ -270,7 +323,7 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
     </tr>
     <tr>
       <td rowspan="5">Pós-Graduação</td>
-      <td>Especialização – Lato Sensu</td>
+      <td>Especialização – <i>Lato Sensu</i></td>
     </tr>
     <tr>
       <td>Mestrado</td>

@@ -285,11 +285,11 @@ Percentual de estudantes envolvidos em ações de extensão (EXES)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>NE<sub>E</sub> – Número de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em ações anuais de extensão.</strong><br/>
+      <strong>NE<sub>E</sub> – Número de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) envolvidos em ações anuais de extensão.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Número de estudantes (CPF) com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados, e que atuaram em equipes executoras de ações de extensão em execução no mesmo ano.
       <br/>&nbsp;<br/>
-      <strong>NTE – Número Total de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu).</strong><br/>
+      <strong>NTE – Número Total de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>).</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Número total de estudantes (CPF) que estiveram com matrícula ativa em pelo menos um dia no ano base, nos tipos de curso acima especificados.
     </td>
@@ -360,11 +360,11 @@ Percentual de estudantes matriculados por meio de cotas envolvidos em ações de
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>NTECE – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) que ingressaram por meio de cotas e envolvidos em extensão.</strong><br/>
+      <strong>NTECE – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) que ingressaram por meio de cotas e envolvidos em extensão.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Considerar os estudantes envolvidos em extensão na Instituição no ano base, que sejam ingressantes por cotas e estejam com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados.
       <br/>&nbsp;<br/>
-      <strong>NE<sub>E</sub> – Número de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em ações anuais de extensão.</strong><br/>
+      <strong>NE<sub>E</sub> – Número de Estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) envolvidos em ações anuais de extensão.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Número de estudantes (CPF) com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados, e que atuaram em equipes executoras de ações de extensão em execução no mesmo ano.
     </td>

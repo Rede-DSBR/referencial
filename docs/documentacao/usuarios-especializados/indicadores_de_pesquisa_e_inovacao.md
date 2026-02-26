@@ -18,7 +18,7 @@ Número de acordos de parceria para pesquisa, desenvolvimento e inovação (PIPD
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador tem como objetivo quantificar o número acumulado de acordos de parceria, definidos conforme o Art. 9º da Lei 10.973/04 (acordo de parceria para realização de atividades conjuntas de pesquisa científica e tecnológica e de desenvolvimento de tecnologia, produto, serviço ou processo).
+      Este indicador tem como objetivo quantificar o número acumulado de acordos de parceria, definidos conforme o Art. 9º da Lei 10.973, de 02 de dezembro de 2004 (acordo de parceria para realização de atividades conjuntas de pesquisa científica e tecnológica e de desenvolvimento de tecnologia, produto, serviço ou processo).
     </td>
   </tr>
   <tr>
@@ -342,7 +342,7 @@ Percentual de estudantes da instituição envolvidos em projetos de pesquisa (PI
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador tem como objetivo mensurar o percentual de estudantes do ensino básico, técnico (integrado, subsequente, concomitante), de graduação, das pós-graduações lato sensu e stricto sensu, envolvidos em projetos de pesquisa executados no ano base.
+      Este indicador tem como objetivo mensurar o percentual de estudantes do ensino básico, técnico (integrado, subsequente, concomitante), de graduação, das pós-graduações <i>lato sensu</i> e <i>stricto sensu</i>, envolvidos em projetos de pesquisa executados no ano base.
     </td>
   </tr>
   <tr>
@@ -390,11 +390,11 @@ Percentual de estudantes da instituição envolvidos em projetos de pesquisa (PI
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>N<sub>EP</sub> – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
+      <strong>N<sub>EP</sub> – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Considerar os estudantes (CPF) com matrícula ativa em pelo menos um dia do ano base, nos tipos de curso acima especificados, e que realizam pesquisa na instituição no ano base.
       <br/>&nbsp;<br/>
-      <strong>NTE – Número total de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu).</strong><br/>
+      <strong>NTE – Número total de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>).</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Número total de estudantes (CPF) que estiveram com matrícula ativa em pelo menos um dia no ano base, nos tipos de curso acima especificados.
     </td>
@@ -415,7 +415,7 @@ Percentual de estudantes matriculados por meio de cotas envolvidos em projetos d
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador tem como objetivo mensurar o percentual de estudantes matriculados nos cursos técnicos (integrado, subsequente, concomitante), de graduação, das pós-graduação lato sensu e stricto sensu que ingressaram por meio de cotas e foram envolvidos em projetos de pesquisa executados no ano base, dentre o total de estudantes envolvidos em projetos de pesquisa. 
+      Este indicador tem como objetivo mensurar o percentual de estudantes matriculados nos cursos técnicos (integrado, subsequente, concomitante), de graduação, das pós-graduação <i>lato sensu</i> e <i>stricto sensu</i> que ingressaram por meio de cotas e foram envolvidos em projetos de pesquisa executados no ano base, dentre o total de estudantes envolvidos em projetos de pesquisa. 
     </td>
   </tr>
   <tr>
@@ -465,11 +465,11 @@ Percentual de estudantes matriculados por meio de cotas envolvidos em projetos d
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>NTECPP – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) que ingressaram por meio de cotas e envolvidos em projetos de pesquisa da instituição.</strong><br/>
+      <strong>NTECPP – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) que ingressaram por meio de cotas e envolvidos em projetos de pesquisa da instituição.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Considerar os estudantes que realizem pesquisa na Instituição no ano base, sejam ingressantes por cotas e estejam matriculados nos tipos de curso acima especificados.
       <br/>&nbsp;<br/>
-      <strong>N<sub>EP</sub> – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação lato sensu e stricto sensu) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
+      <strong>N<sub>EP</sub> – Número de estudantes (ensino básico, técnico integrado, técnico subsequente, técnico concomitante, graduação, pós-graduação <i>lato sensu</i> e <i>stricto sensu</i>) envolvidos em projetos de pesquisa da Instituição.</strong><br/>
       <strong>Fonte:</strong> Sistemas de Monitoramento utilizados pelas Instituições.<br/>
       <strong>Definição:</strong> Considerar os estudantes que realizem pesquisa na Instituição no ano base e estejam matriculados nos tipos de curso acima especificados.
     </td>
