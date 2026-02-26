@@ -72,7 +72,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 </table>
 
 ## Regras de Associação a Programas
-
 <table>
   <tr>
     <th>Item</th>
@@ -136,7 +135,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
     <td>Técnico</td>
     <td>E-TEC<br/> Sem Programa Associado<br/> Outros Programas<br/></td>
   </tr>
-
 </table>
 
 
