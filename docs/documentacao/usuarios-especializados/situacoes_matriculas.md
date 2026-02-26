@@ -11,9 +11,6 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: Normativos e dimensões](/documentacao/indicadores/normativos_e_dimensoes)
-
-
 # {{ page.title }}
 
 Alguns indicadores usam o número de matrículas. A fonte desse dado é o cadastro gerenciado pelo Sistec. Ao ser adicionado um estudante em um ciclo, o *status* dessa matrícula é automaticamente atribuído como “em curso”. Contudo, dependendo da trajetória do estudante no ciclo, esse status pode receber atualizações. Na PNP, foram criadas categorias de situação de matrícula, baseadas no nome da situação oriunda dos Ciclos de Coleta e Validação, conforme exibido no quadro abaixo.
@@ -118,6 +115,4 @@ Por exemplo, cursos, ciclos ou matrículas que foram excluídas ou validadas pel
 
 <p>&nbsp;</p>
 
-As situações descritas no quadro acima são verificadas em dois momentos: no processo de merge e após a conclusão da edição do CCV. Dessa forma, as alterações nas datas de ocorrência das matrículas durante o CCV podem interferir no corte final usado na disseminação. Além das situações descritas no quadro acima, caso a matrícula seja excluída ou substituída, após o CCV, a matrícula deixará de ser atendida. A mesma situação acontece com todas as matrículas vinculadas a cursos e ciclos excluídos durante o CCV. 
-
-[Próximo: Regras de consistência »](/documentacao/usuarios-especializados/regras_de_consistencia)
+As situações descritas no quadro acima são verificadas em dois momentos: no processo de merge e após a conclusão da edição do CCV. Dessa forma, as alterações nas datas de ocorrência das matrículas durante o CCV podem interferir no corte final usado na disseminação. Além das situações descritas no quadro acima, caso a matrícula seja excluída ou substituída, após o CCV, a matrícula deixará de ser atendida. A mesma situação acontece com todas as matrículas vinculadas a cursos e ciclos excluídos durante o CCV.
