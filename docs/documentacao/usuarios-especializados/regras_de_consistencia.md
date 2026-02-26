@@ -3,16 +3,6 @@ layout: default
 title: "Regras de consistência"
 ---
 
-<!-- Parte de Navegação
-
-Veja qual é a o nome da próxima página e da anterior e adicione abaixo no formato:
-
-[Anterior: Nome da páginas](/documentacao/caminho_do_arquivo)
-[Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
--->
-
-[Anterior: Situações de matrícula e matrícula atendida](/documentacao/usuarios-especializados/situacoes_matriculas)
-
 ## Dimensão Curso
 
 <!-- TABELA 1 -->
@@ -908,7 +898,3 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
         <td>Não</td>
     </tr>
 </table>
-
-
-
-[Próximo: Tabelas de apoio »](/documentacao/usuarios-especializados/tabelas_de_apoio)

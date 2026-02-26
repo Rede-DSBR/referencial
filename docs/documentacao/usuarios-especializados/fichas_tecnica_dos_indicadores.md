@@ -27,4 +27,4 @@ Cada indicador é descrito por uma ficha técnica composta por elementos descrit
   </tr>
 </table>
 <p>&nbsp;</p>
-O conceito de matrícula atendida, utilizada na maioria dos indicadores, está detalhado [aqui](#).
+O conceito de matrícula atendida, utilizada na maioria dos indicadores, está detalhado [aqui]({{site.baseUrl}}/guiapnp/documentacao/usuarios-especializados/situacoes_matriculas){:target="_blank"}.
