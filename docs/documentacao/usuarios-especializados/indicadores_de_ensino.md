@@ -2364,6 +2364,76 @@ Percentual de oferta de vagas em cursos de formação de professores (ALVFP)
 
 <p>&nbsp;</p>
 <h3 style="color: #004080;">
+Relação entre matrícula equivalente e professor equivalente (ALRMP)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Relação entre matrícula equivalente e professor equivalente (ALRMP)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Este indicador permite avaliar a relação entre o número de matrículas equivalentes e o número de professores equivalentes.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 20 - estratégias 11.11 e 12.3 previstas na Lei 13.005/2014.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Quanto mais próximo da meta melhor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação máxima:</strong> RFEPCT.
+    </td>
+    <td>
+      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>ALRMP</mi>
+            <mo>=</mo>
+            <mrow>
+              <mfrac>
+                <mi>ENME</mi>
+                <mi>DEq</mi>
+              </mfrac>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>ENME – Matrículas Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de matrículas, que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos.
+      <br/>&nbsp;<br/>
+      <strong>DEq – Professores Equivalentes.</strong><br/>
+      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Definição:</strong> Número de docentes efetivos que atuam no Regime de Trabalho (RT) 20h multiplicado por 0,5, somado à quantidade de docentes efetivos que atuam nos RT 40h e RDE.
+    </td>
+  </tr>
+</table>
+
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
 Relação entre matrícula equivalente presencial e professor equivalente (ALRAPE)
 </h3>
 <table>
