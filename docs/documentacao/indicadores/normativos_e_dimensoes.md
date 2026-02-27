@@ -96,7 +96,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 | IV   | Número de pessoas servidoras (PES) |
 | V    | Número de pessoas técnico-administrativas em educação (PETAE) |
 
-## Indicadores - DImensão de Gastos
+## Indicadores - Dimensão de Gastos
 
 | **Item** | **Indicador** |
 | :---: | :--- |
@@ -123,7 +123,8 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 | Lei nº 13.005/2014 | II | Percentual de matrículas equivalentes de graduação noturna presencial |
 | Lei nº 13.005/2014 | III | Percentual de oferta de vagas em cursos de graduação noturna presencial |
 | Lei nº 13.005/2014 | IV | Percentual de oferta de vagas em cursos noturnos presenciais |
-| Lei nº 13.005/2014 | V | Relação entre matrícula equivalente presencial e professor equivalente |
+| Lei nº 13.005/2014 | V | Relação entre matrícula equivalente e professor equivalente |
+| Lei nº 13.005/2014 | VI | Relação entre matrícula equivalente presencial e professor equivalente |
 | Lei nº 14.723/2023 | I | Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação |
 | Lei nº 14.723/2023 | II | Número de matrículas em cursos técnicos e de graduação |
 | Lei nº 14.723/2023 | III | Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação |
