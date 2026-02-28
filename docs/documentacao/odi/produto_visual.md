@@ -18,7 +18,7 @@ Dentre os produtos desenvolvidos pela PNP-ODI, destaca-se o **Produto Visual**, 
 
 O visual da interface é um projeto constituído por botões com seus respectivos ícones de acesso às páginas relacionadas a cada conjunto e contexto de dados específicos. O visual também está constituído de marcas de inclusão obrigatória, tais como selos e marcas governamentais. O desenho da interface, em dimensões 1280 x 720 pixels, foi desenvolvido como uma proposta de releitura sobre o visual anterior.
 
-O [Manual da Marca](https://www.gov.br/mec/pt-br/pnp/manualdamarca){:target="_blank"} traz detalhamentos importantes, como as versões monocromáticas, caixas de proteção, tipografia, marca vertical, limites de redução, aplicações em fundos instáveis claros e escuros, paleta de cores e usos indevidos. Além do Manual, na página também é possível salvar os arquivos. A figura abaixo apresenta uma imagem ilustrativa da página inicial da **PNP Indicadores**.
+O [Manual da Marca]({{ site.baseurl }}/assets/files/Brandobook_Marca_PNP_2026.pdf){:target="_blank"} traz detalhamentos importantes, como as versões monocromáticas, caixas de proteção, tipografia, marca vertical, limites de redução, aplicações em fundos instáveis claros e escuros, paleta de cores e usos indevidos. Além do Manual, na página também é possível salvar os arquivos. A figura abaixo apresenta uma imagem ilustrativa da página inicial da **PNP Indicadores**.
 
 ![Fluxo geral de dados da PNP]({{ site.baseurl }}/assets/img/docs/ode_produto_visual_01.png)
 
