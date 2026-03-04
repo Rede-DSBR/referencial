@@ -2073,7 +2073,7 @@ Percentual de matrículas equivalentes em cursos de formação de professores (A
       <p style="text-align:center"><strong>Variáveis</strong></p>
       <strong>ENMEFP - Matrículas Equivalentes em Formação de Professores.</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Número de matrículas em cursos destinados à formação de professores que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos. São cursos possíveis: qualificação profissional, licenciatura (automaticamente) e pós-graduação (quando tiverem como objetivo a preparação para a docência).
+      <strong>Definição:</strong> Número de matrículas em cursos destinados à formação de professores que estiveram ativas em pelo menos um dia no ano base, ponderada pelos fatores de equivalência previstos. São cursos possíveis: licenciatura (automaticamente, inclusive graduação em licenciatura, segunda licenciatura e formação pedagógica para graduados não licenciados), qualificação profissional e pós-graduação (quando tiverem como objetivo a preparação para a docência).
       <br/>&nbsp;<br/>
       <strong>ENME - Matrículas Equivalentes.</strong><br/>
       <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
