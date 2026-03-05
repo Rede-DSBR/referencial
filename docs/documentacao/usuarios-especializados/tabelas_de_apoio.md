@@ -87,7 +87,7 @@ title: "Tabelas de apoio"
     <td>3</td>
     <td>Educação Presencial</td>
     <td>Qualificação Profissional (FIC)</td>
-    <td>Sem Programa Associado<br/> CERTIFIC<br/> PARTIUIF<br/> PROJOVEM<br/> PROEJA<br/> Bolsa Formação - Outros<br/> Bolsa Formação - Bioeconomia<br/> Bolsa Formação - Empreender<br/> Bolsa Formação - Energife<br/> Bolsa Formação - Mulheres Mil<br/> Programa EJA INTEGRADA - EPT (SECADI/MEC)<br/> Outros Programas<br/></td>
+    <td>Sem Programa Associado<br/> CERTIFIC<br/> PARTIUIF<br/> PROJOVEM<br/> PROEJA<br/> Bolsa Formação - Outros<br/> Bolsa Formação - Bioeconomia<br/> Bolsa Formação - Empreender<br/> Bolsa Formação - Energife<br/> Bolsa Formação - Mulheres Mil<br/> Programa EJA INTEGRADA - EPT (SECADI/MEC)<br/> Outros Programas<br/> Bolsa Formação - EJA EPT<br/>  </td>
   </tr>
 
   <tr>
@@ -115,7 +115,7 @@ title: "Tabelas de apoio"
     <td>7</td>
     <td>Educação a Distância</td>
     <td>Qualificação Profissional (FIC)</td>
-    <td>Sem Programa Associado<br/> Bolsa Formação - Outros<br/> MOOC - Outros<br/> MOOC - Aprenda Mais<br/> Outros Programas<br/></td>
+    <td>Sem Programa Associado<br/> Bolsa Formação - Outros<br/> MOOC - Outros<br/> MOOC - Aprenda Mais<br/> Bolsa Formação - EJA EPT<br/> PROEJA <br/>   Outros Programas<br/>  </td>
   </tr>
 
   <tr>
@@ -199,8 +199,9 @@ title: "Tabelas de apoio"
   <tr><td>3</td><td>Pessoa com Deficiência Visual</td></tr>
   <tr><td>4</td><td>Pessoa com Deficiência Intelectual</td></tr>
   <tr><td>5</td><td>Pessoa com Deficiência Múltipla</td></tr>
-  <tr><td>6</td><td>Não deficiente</td></tr>
-  <tr><td>7</td><td>Não declarada</td></tr>
+  <tr><td>6</td><td>Transtorno do Espectro Autista (TEA)</td></tr>
+  <tr><td>7</td><td>Não deficiente</td></tr>
+  <tr><td>8</td><td>Não declarada</td></tr>
 </table>
 
 ## Necessidade Educacional Específica
