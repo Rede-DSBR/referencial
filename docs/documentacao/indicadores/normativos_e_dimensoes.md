@@ -117,6 +117,27 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Acompanhamento Legal
 
+<table>
+  <tr>
+    <th>Categoria</th>
+    <th>Item</th>
+    <th>Indicador</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Lei nº 11.892/2008</td>
+    <td>I</td>
+    <td>Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALMEJA</b>>)</td>
+  </tr>
+  <tr>
+    <td>II</td>
+    <td>Percentual de matrículas equivalentes em cursos de educação profissional técnica de nível médio (<b>ALMTEC</b>)</td>
+  </tr>
+  <tr>
+    <td>III</td>
+    <td>Percentual de matrículas equivalentes em cursos de formação de professores (<b>ALMPROF</b>)/td>
+  </tr>
+</table>
+
 | **Categoria** | **Item** | **Indicador** |
 | :--- | :---: | :--- |
 | Lei nº 11.892/2008 | I | Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (**ALMEJA**) |
