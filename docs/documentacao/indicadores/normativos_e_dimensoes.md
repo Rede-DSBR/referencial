@@ -119,12 +119,12 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 <table>
   <tr>
-    <th>Categoria</th>
-    <th>Item</th>
-    <th>Indicador</th>
+    <th><b>Categoria</b></th>
+    <th><b>Item</b></th>
+    <th><b>Indicador</b></th>
   </tr>
   <tr>
-    <td rowspan="3">Lei nº 11.892/2008</td>
+    <td rowspan="6">Lei nº 11.892/2008</td>
     <td>I</td>
     <td>Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALMEJA</b>)</td>
   </tr>
@@ -135,6 +135,18 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   <tr>
     <td>III</td>
     <td>Percentual de matrículas equivalentes em cursos de formação de professores (<b>ALMPROF</b>)</td>
+  </tr>
+  <tr>
+    <td>IV</td>
+    <td>Percentual de oferta de vagas em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALVEJA</b>)</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Percentual de oferta de vagas em cursos de educação profissional técnica de nível médio (<b>ALVTEC</b>)</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>Percentual de oferta de vagas em cursos de formação de professores (<b>ALVPROF</b>)</td>
   </tr>
 </table>
 
