@@ -148,6 +148,58 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
     <td>VI</td>
     <td>Percentual de oferta de vagas em cursos de formação de professores (<b>ALVPROF</b>)</td>
   </tr>
+
+  <tr>
+    <td rowspan="6">Lei nº 13.005/2014</td>
+    <td>I</td>
+    <td>Percentual de cursos de graduação noturna presencial (<b>ALGN</b>)</td>
+  </tr>
+  <tr>
+    <td>II</td>
+    <td>Percentual de matrículas equivalentes de graduação noturna presencial (<b>ALMGN</b>)</td>
+  </tr>
+  <tr>
+    <td>III</td>
+    <td>Percentual de oferta de vagas em cursos de graduação noturna presencial (<b>ALVGN</b>)</td>
+  </tr>
+  <tr>
+    <td>IV</td>
+    <td>Percentual de oferta de vagas em cursos noturnos presenciais (<b>ALVCN</b>)</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Relação entre matrícula equivalente e professor equivalente (<b>ALRMP</b>)</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>Relação entre matrícula equivalente presencial e professor equivalente (<b>ALRAPE</b>)</td>
+  </tr>
+
+  <tr>
+    <td rowspan="6">Lei nº 14.723/2023</td>
+    <td>I</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>II</td>
+    <td>Número de matrículas em cursos técnicos e de graduação</td>
+  </tr>
+  <tr>
+    <td>III</td>
+    <td>Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (<b>ALMTG</b>)</td>
+  </tr>
+  <tr>
+    <td>IV</td>
+    <td>Número de vagas regulares de ampla concorrência em cursos técnicos e de graduação (<b>>ALMTG</b>)</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Número de vagas regulares em cursos técnicos e de graduação (<b>ALVTG</b>)</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>Número de vagas regulares reservadas em cursos técnicos e de graduação (<b>ALVRES</b>)</td>
+  </tr>
 </table>
 
 | **Categoria** | **Item** | **Indicador** |
