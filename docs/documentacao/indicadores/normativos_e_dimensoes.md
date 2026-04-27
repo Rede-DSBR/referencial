@@ -29,27 +29,94 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
 
 ## Indicadores - Dimensão de Ensino
 
-| **Categoria** | **Item** | **Indicador** |
-| :--- | :---: | :--- |
-| Geral | I | Número de concluintes (**ENCT**) |
-| Geral | II | Número de cursos (**ENC**) |
-| Geral | III | Número de evadidos (**ENEV**) |
-| Geral | IV | Número de estruturas com matrícula (**ENEMA**) |
-| Geral | V | Número de ingressantes (**ENING**) |
-| Geral | VI | Número de inscritos (**ENIC**) |
-| Geral | VII | Número de matrículas (**ENM**) |
-| Geral | VIII | Número de matrículas em curso (**ENMC**) |
-| Geral | IX | Número de matrículas equivalentes (**ENME**) |
-| Geral | X | Número de unidades acadêmicas (**ENUND**) |
-| Geral | XII | Número de vagas (**ENV**) |
-| Acadêmicos | I | Índice de eficiência acadêmica (**ENIEA**) |
-| Acadêmicos | II | Índice de verticalização (**ENIV**) |
-| Acadêmicos | III | Percentual de conclusão por ciclo (**ENCC**) |
-| Acadêmicos | IV | Percentual de evasão anual (**ENEVA**) |
-| Acadêmicos | V | Percentual de evasão por ciclo (**ENEC**) |
-| Acadêmicos | VI | Percentual de retenção por ciclo (**ENREC**) |
-| Acadêmicos | VII | Relação de inscritos por vagas (**ENRIV**) |
-| Acadêmicos | VIII | Taxa de ocupação (**ENOC**) |
+<table>
+  <tr>
+    <th><b>Categoria</b></th>
+    <th><b>Item</b></th>
+    <th><b>Indicador</b></th>
+  </tr>
+
+  <tr>
+    <td rowspan="11"><b>Geral</b></td>
+    <td>I</td>
+    <td>Número de concluintes (<b>ENCT</b>)</td>
+  </tr>
+  <tr>
+    <td>II</td>
+    <td>Número de cursos (<b>ENC</b>)</td>
+  </tr>
+  <tr>
+    <td>III</td>
+    <td>Número de evadidos (<b>ENEV</b>)</td>
+  </tr>
+  <tr>
+    <td>IV</td>
+    <td>Número de estruturas com matrícula (<b>ENEMA</b>)</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Número de ingressantes (<b>ENING</b>)</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>Número de inscritos (<b>ENIC</b>)</td>
+  </tr>
+  <tr>
+    <td>VII</td>
+    <td>Número de matrículas (<b>ENM</b>)</td>
+  </tr>
+  <tr>
+    <td>VIII</td>
+    <td>Número de matrículas em curso (<b>ENMC</b>)</td>
+  </tr>
+  <tr>
+    <td>IX</td>
+    <td>Número de matrículas equivalentes (<b>ENME</b>)</td>
+  </tr>
+  <tr>
+    <td>X</td>
+    <td>Número de unidades acadêmicas (<b>ENUND</b>)</td>
+  </tr>
+  <tr>
+    <td>XI</td>
+    <td>Número de vagas (<b>ENV</b>)</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="8"><b>Acadêmicos</b></td>
+    <td>I</td>
+    <td>Índice de eficiência acadêmica (<b>ENIEA</b>)</td>
+  </tr>
+  <tr>
+    <td>II</td>
+    <td>Índice de verticalização (<b>ENIV</b>)</td>
+  </tr>
+  <tr>
+    <td>III</td>
+    <td>Percentual de conclusão por ciclo (<b>ENCC</b>)</td>
+  </tr>
+  <tr>
+    <td>IV</td>
+    <td>Percentual de evasão anual (<b>ENEVA</b>)</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Percentual de evasão por ciclo (<b>ENEC</b>)</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>Percentual de retenção por ciclo (<b>ENREC</b>)</td>
+  </tr>
+  <tr>
+    <td>VII</td>
+    <td>Relação de inscritos por vagas (<b>ENRIV</b>)</td>
+  </tr>
+  <tr>
+    <td>VIII</td>
+    <td>Taxa de ocupação (<b>ENOC</b>)</td>
+  </tr>
+</table>
+
 
 ## Indicadores - Dimensão de Pesquisa e Inovação
 
@@ -124,7 +191,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
     <th><b>Indicador</b></th>
   </tr>
   <tr>
-    <td rowspan="6">Lei nº 11.892/2008</td>
+    <td rowspan="6"><b>Lei nº 11.892/2008</b></td>
     <td>I</td>
     <td>Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALMEJA</b>)</td>
   </tr>
@@ -150,7 +217,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   </tr>
 
   <tr>
-    <td rowspan="6">Lei nº 13.005/2014</td>
+    <td rowspan="6"><b>Lei nº 13.005/2014</b></td>
     <td>I</td>
     <td>Percentual de cursos de graduação noturna presencial (<b>ALGN</b>)</td>
   </tr>
@@ -176,7 +243,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   </tr>
 
   <tr>
-    <td rowspan="6">Lei nº 14.723/2023</td>
+    <td rowspan="6"><b>Lei nº 14.723/2023</b></td>
     <td>I</td>
     <td>Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação (<b>ALMAC</b>)</td>
   </tr>
