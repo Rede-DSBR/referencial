@@ -178,19 +178,19 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   <tr>
     <td rowspan="6">Lei nº 14.723/2023</td>
     <td>I</td>
-    <td></td>
+    <td>Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação (<b>ALMAC</b>)</td>
   </tr>
   <tr>
     <td>II</td>
-    <td>Número de matrículas em cursos técnicos e de graduação</td>
+    <td>Número de matrículas em cursos técnicos e de graduação (<b>ALMTG</b>)</td>
   </tr>
   <tr>
     <td>III</td>
-    <td>Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (<b>ALMTG</b>)</td>
+    <td>Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (<b>ALMRES</b>)</td>
   </tr>
   <tr>
     <td>IV</td>
-    <td>Número de vagas regulares de ampla concorrência em cursos técnicos e de graduação (<b>>ALMTG</b>)</td>
+    <td>Número de vagas regulares de ampla concorrência em cursos técnicos e de graduação (<b>ALMVAC</b>)</td>
   </tr>
   <tr>
     <td>V</td>
@@ -202,26 +202,6 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   </tr>
 </table>
 
-| **Categoria** | **Item** | **Indicador** |
-| :--- | :---: | :--- |
-| Lei nº 11.892/2008 | I | Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (**ALMEJA**) |
-| Lei nº 11.892/2008 | II | Percentual de matrículas equivalentes em cursos de educação profissional técnica de nível médio (**ALMTEC**) |
-| Lei nº 11.892/2008 | III | Percentual de matrículas equivalentes em cursos de formação de professores (**ALMPROF**) |
-| Lei nº 11.892/2008 | IV | Percentual de oferta de vagas em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (**ALVEJA**) |
-| Lei nº 11.892/2008 | V | Percentual de oferta de vagas em cursos de educação profissional técnica de nível médio (**ALVTEC**) |
-| Lei nº 11.892/2008 | VI | Percentual de oferta de vagas em cursos de formação de professores (**ALVPROF**) |
-| Lei nº 13.005/2014 | I | Percentual de cursos de graduação noturna presencial (**ALGN**) |
-| Lei nº 13.005/2014 | II | Percentual de matrículas equivalentes de graduação noturna presencial (**ALMGN**) |
-| Lei nº 13.005/2014 | III | Percentual de oferta de vagas em cursos de graduação noturna presencial (**ALVGN**) |
-| Lei nº 13.005/2014 | IV | Percentual de oferta de vagas em cursos noturnos presenciais (**ALVCN**) |
-| Lei nº 13.005/2014 | V | Relação entre matrícula equivalente e professor equivalente (**ALRMP**) |
-| Lei nº 13.005/2014 | VI | Relação entre matrícula equivalente presencial e professor equivalente (**ALRAPE**) |
-| Lei nº 14.723/2023 | I | Número de matrículas oriundas de ampla concorrência em cursos técnicos e de graduação (**ALMAC**) |
-| Lei nº 14.723/2023 | II | Número de matrículas em cursos técnicos e de graduação |
-| Lei nº 14.723/2023 | III | Número de matrículas oriundas de vagas reservadas em cursos técnicos e de graduação (**ALMTG**) |
-| Lei nº 14.723/2023 | IV | Número de vagas regulares de ampla concorrência em cursos técnicos e de graduação (**ALMTG**) |
-| Lei nº 14.723/2023 | V | Número de vagas regulares em cursos técnicos e de graduação (**ALVTG**) |
-| Lei nº 14.723/2023 | VI | Número de vagas regulares reservadas em cursos técnicos e de graduação (**ALVRES**) |
 
 ## Outros Indicadores
 
