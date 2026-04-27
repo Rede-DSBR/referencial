@@ -126,7 +126,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   <tr>
     <td rowspan="3">Lei nº 11.892/2008</td>
     <td>I</td>
-    <td>Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALMEJA</b>>)</td>
+    <td>Percentual de matrículas equivalentes em cursos de educação de jovens e adultos articulada à educação profissional e tecnológica (<b>ALMEJA</b>)</td>
   </tr>
   <tr>
     <td>II</td>
@@ -134,7 +134,7 @@ Os quadros na sequência demonstram o conjunto de indicadores da PNP por dimens�
   </tr>
   <tr>
     <td>III</td>
-    <td>Percentual de matrículas equivalentes em cursos de formação de professores (<b>ALMPROF</b>)/td>
+    <td>Percentual de matrículas equivalentes em cursos de formação de professores (<b>ALMPROF</b>)</td>
   </tr>
 </table>
 
