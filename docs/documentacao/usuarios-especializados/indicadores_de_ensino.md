@@ -547,11 +547,11 @@ Número de matrículas equivalentes (ENME)
       <strong>Definição:</strong> Número de estudantes que estiveram com matrícula ativa em pelo menos um dia no ano base.
       <br/>&nbsp;<br/>
       <strong>FECH - Fator de Equiparação de Carga Horária</strong><br/>
-      <strong>Fonte:</strong>Guia PNP.<br/>
+      <strong>Fonte:</strong>Guia PNP Indicadores.<br/>
       <strong>Definição:</strong> Calculado pela razão entre a carga horária mínima regulamentada do curso e carga horária padrão de 800 horas anuais. Para os demais cursos, o fator de equiparação de carga horária será igual a 1 (um).
       <br/>&nbsp;<br/>
       <strong>FEC - Fator de Esforço de Curso </strong><br/>
-      <strong>Fonte:</strong>Guia PNP.<br/>
+      <strong>Fonte:</strong>Guia PNP Indicadores.<br/>
       <strong>Definição:</strong> Ajusta a contagem de matrículas-equivalentes para cursos que demandem, para o desenvolvimento de suas atividades, uma menor relação matrículas por professor.
     </td>
   </tr>
