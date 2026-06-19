@@ -93,6 +93,10 @@ __Turno:__ período em que o estudante cursa a maior parte das aulas, podendo se
 
 __Uned:__ Unidade de Ensino Descentralizada dos Centros Federais de Educação Tecnológica (Cefet).
 
-__Unidade:__ estrutura que possui portaria de autorização de funcionamento. São consideradas unidades:  Campus, Campus Avançado, Escola Técnica Vinculada a Universidade Federal, Polo de Inovação, Sede e Uned.
+__Unidade:__ estrutura que possui portaria de autorização de funcionamento. São consideradas unidades: Campus, Campus Avançado, Escola Técnica Vinculada a Universidade Federal, Polo de Inovação, Sede (Cefet) e Unidade de Ensino Descentralizada (Uned/Cefet).
+
+__Unidade Acadêmica:__ são estruturas pertencentes a uma instituição da Rede Federal de Educação Profissional, Científica e Tecnológica, que podem ofertar todas as suas atividades fins: ensino, pesquisa, inovação e extensão. São consideradas unidades acadêmicas: Campus, Campus Avançado, Escola Técnica Vinculada à Universidade Federal, Sede (Cefet) e Unidade de Ensino Descentralizada (Uned/Cefet).
+
+__Unidade de pesquisa:__ são estruturas pertencentes a uma instituição da Rede Federal de Educação Profissional, Científica e Tecnológica, que ofertam as atividades de pesquisa, inovação e extensão. Não ofertam ensino, logo não possuem matrículas vinculadas. São consideradas unidades de pesquisa: Polos de inovação.
 
 __Vagas:__ corresponde às vagas disponibilizadas para a fase inicial de um curso, por meio de processo seletivo, vestibular, sorteio, SISU ou outras formas de ingresso, no ano de referência.

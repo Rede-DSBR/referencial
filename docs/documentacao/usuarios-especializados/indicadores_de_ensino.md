@@ -17,7 +17,7 @@ Número de concluintes (ENCT)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas concluídas ou integralizadas no ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas concluídas no ano base, considerando todos os cursos e modalidades ofertados.
     </td>
   </tr>
   <tr>
@@ -27,15 +27,15 @@ Número de concluintes (ENCT)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -46,9 +46,7 @@ Número de concluintes (ENCT)
           <mrow>
             <mi>ENCT</mi>
             <mo>=</mo>
-            <mo>∑</mo>
-            <mi>Concluintes</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>CT</mi>
           </mrow>
         </math>
       </p>
@@ -57,9 +55,8 @@ Número de concluintes (ENCT)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Concluintes</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Matrículas concluídas ou integralizadas no ano base.
+      <strong>CT</strong> = Número total de matrículas concluídas no ano base.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -77,7 +74,7 @@ Número de cursos (ENC)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de cursos que registraram matrículas no ano base.  
+      <strong>Definição:</strong> Este indicador apresenta o número total de cursos ofertados no ano base, considerando todos os tipos e modalidades.  
     </td>
   </tr>
   <tr>
@@ -87,15 +84,15 @@ Número de cursos (ENC)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Não definido.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Estrutura com matrícula.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Estrutura com matrícula.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -107,8 +104,7 @@ Número de cursos (ENC)
             <mi>ENC</mi>
             <mo>=</mo>
             <mo>∑</mo>
-            <mi>Cursos</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>TC</mi>
           </mrow>
         </math>
       </p>
@@ -117,10 +113,26 @@ Número de cursos (ENC)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Cursos</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Contagem das atividades educativas formais que constroem um perfil de formação, composto por componentes curriculares, agrupados em períodos letivos. A chave-curso usada para contagem de cursos é:<br/>
-      [Instituição Atual] + [Estrutura com matrícula] + [Tipo de Curso] + [Tipo de Oferta] + [Nome do Curso (identificação)] + [Modalidade de Ensino]
+      <strong>Tipos de cursos ofertados (TC):</strong><br/>
+      <ul>
+        <li>ABI - Área Básica de Ingresso</li>
+        <li>Educação Infantil</li>
+        <li>Ensino Fundamental I</li>
+        <li>Ensino Fundamental II</li>
+        <li>Ensino Médio</li>
+        <li>Qualificação Profissional (FIC)</li>
+        <li>Técnico</li>
+        <li>Especialização Técnica</li>
+        <li>Bacharelado</li>
+        <li>Licenciatura</li>
+        <li>Tecnologia</li>
+        <li>Especialização (Lato Sensu)</li>
+        <li>Mestrado</li>
+        <li>Mestrado Profissional</li>
+        <li>Doutorado</li>
+        <li>Doutorado Profissional</li> 
+      </ul>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -138,7 +150,7 @@ Número de evadidos (ENEV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas que perderam o vínculo com a instituição antes da conclusão de um curso no ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas evadidas no ano base.
     </td>
   </tr>
   <tr>
@@ -148,15 +160,15 @@ Número de evadidos (ENEV)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto menor, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Estrutura com matrícula.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -167,9 +179,7 @@ Número de evadidos (ENEV)
           <mrow>
             <mi>ENEV</mi>
             <mo>=</mo>
-            <mo>∑</mo>
-            <mi>Evadidos</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>EV</mi>
           </mrow>
         </math>
       </p>
@@ -178,9 +188,8 @@ Número de evadidos (ENEV)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Evadidos</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Número de matrículas com situação de “abandono”, “desligada”, “reprovado”, “transferência interna” ou “transferência externa”.
+      <strong>EV</strong> = Número total de matrículas evadidas no ano base.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -188,17 +197,17 @@ Número de evadidos (ENEV)
 
 <p>&nbsp;</p>
 <h3 style="color: #004080;">
-Número de estruturas com matrícula (ENES)
+Número de estruturas com matrícula (ENEMA)
 </h3>
 <table>
   <tr>
     <th colspan="2"><strong><i>
-      Número de estruturas com matrícula (ENES)
+      Número de estruturas com matrícula (ENEMA)
     </i></strong></th>
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de estruturas com matrículas no ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número de estruturas, de diferentes tipos, que possuem matrícula vinculada no ano base.
     </td>
   </tr>
   <tr>
@@ -208,15 +217,15 @@ Número de estruturas com matrícula (ENES)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Não definido.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Estrutura com matrícula.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Instituição.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -225,11 +234,10 @@ Número de estruturas com matrícula (ENES)
       <p style="text-align:center">
         <math style="font-size: 1.2rem;" display="block">
           <mrow>
-            <mi>ENES</mi>
+            <mi>ENEMA</mi>
             <mo>=</mo>
             <mo>∑</mo>
-            <mi>Estruturas</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>TEMA</mi>
           </mrow>
         </math>
       </p>
@@ -238,9 +246,17 @@ Número de estruturas com matrícula (ENES)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Estruturas</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> espaços acadêmicos e/ou administrativos contíguos e pertencentes a uma instituição da Rede Federal de Educação Profissional, Científica e Tecnológica. São consideradas estruturas: Campus, Campus Avançado, Centro de Referência, Direção-Geral (Cefet), Escola Técnica Vinculada à Universidade Federal, Polo de Inovação, Reitoria, Sede (Cefet) e Unidade de Ensino Descentralizada (Uned/Cefet).
+      <strong>Tipos de estrutura com matrícula (TEMA):</strong><br/>
+      <ul>
+        <li>Institutos Federais</li>
+        <li>Colégio Pedro II</li>
+        <li>Cefets</li>
+        <li>Campi</li>
+        <li>Centros de Referência</li>
+        <li>Polo de Inovação</li>
+       <li>Escolas Técnicas vinculadas às universidades</li>
+      </ul>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -258,7 +274,7 @@ Número de ingressantes (ENING)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas com data de matrícula ocorrida no ano base. 
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas que ingressaram no ano base, considerando todos os cursos e modalidades ofertados. 
     </td>
   </tr>
   <tr>
@@ -268,15 +284,15 @@ Número de ingressantes (ENING)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -287,9 +303,7 @@ Número de ingressantes (ENING)
           <mrow>
             <mi>ENING</mi>
             <mo>=</mo>
-            <mo>∑</mo>
-            <mi>Ingressantes</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>ING</mi>
           </mrow>
         </math>
       </p>
@@ -298,9 +312,8 @@ Número de ingressantes (ENING)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Ingressantes</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> número de matrículas cuja data de matrícula ocorreu no ano base.
+      <strong>ING</strong> = Número de matrículas cuja data de início ocorreu no ano base.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -318,7 +331,7 @@ Número de inscritos (ENIC)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de candidatos que concorreram às vagas ofertadas no ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número total de candidatos inscritos nos processos de ingresso da instituição no ano base, considerando todos os cursos e modalidades ofertados.
     </td>
   </tr>
   <tr>
@@ -328,15 +341,15 @@ Número de inscritos (ENIC)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação Mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -347,9 +360,7 @@ Número de inscritos (ENIC)
           <mrow>
             <mi>ENIC</mi>
             <mo>=</mo>
-            <mo>∑</mo>
-            <mi>Inscritos</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
+            <mi>IC</mi>
           </mrow>
         </math>
       </p>
@@ -358,9 +369,8 @@ Número de inscritos (ENIC)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>Inscritos</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Número de candidatos que concorreram às vagas ofertadas no ano base.
+      <strong>IC</strong> = Número de candidatos que se inscreveram para concorrer às vagas ofertadas pela instituição no ano base.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -378,7 +388,7 @@ Número de matrículas (ENM)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas que estiveram em curso por pelo menos um dia durante o ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas no ano base, considerando todos os cursos e modalidades ofertados.
     </td>
   </tr>
   <tr>
@@ -388,15 +398,15 @@ Número de matrículas (ENM)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação Mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -407,9 +417,7 @@ Número de matrículas (ENM)
           <mrow>
             <mi>ENM</mi>
             <mo>=</mo>
-            <mo>∑</mo>
             <mi>M</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
           </mrow>
         </math>
       </p>
@@ -418,69 +426,8 @@ Número de matrículas (ENM)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>M - Matrículas</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> A matrícula consiste no vínculo de um estudante com a instituição. A variável matrícula contabiliza o número total de vínculos que estiveram ativos no ano base por pelo menos um dia.
-    </td>
-  </tr>
-</table>
-
-
-<p>&nbsp;</p>
-<h3 style="color: #004080;">
-Número de matrículas em curso (ENMC)
-</h3>
-<table>
-  <tr>
-    <th colspan="2"><strong><i>
-      Número de matrículas em curso (ENMC)
-    </i></strong></th>
-  </tr>
-  <tr>
-    <td colspan="2">
-      Este indicador apresenta o número total de matrículas em fluxo regular e retidas no ano base. 
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <strong>Meta:</strong> Não há meta prevista em instrumento normativo.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
-    </td>
-    <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <strong>Modelo matemático:</strong><br/>
-      <p style="text-align:center">
-        <math style="font-size: 1.2rem;" display="block">
-          <mrow>
-            <mi>ENM</mi>
-            <mo>=</mo>
-            <mo>∑</mo>
-            <mi>MCurso</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
-          </mrow>
-        </math>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>MCurso - Matrículas em curso</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas em fluxo regular e retidas no ano base. São consideradas retidas as matrículas que ainda estiverem com situação “em curso” após a data prevista de fim do respectivo ciclo.
+      <strong>M</strong> = O conceito de matrícula consiste no número total de estudantes que estiveram matriculados no ano base por pelo menos um dia.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -498,7 +445,7 @@ Número de matrículas equivalentes (ENME)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador converte o número de Matrículas em Matrículas Equivalentes, mediante o ajuste por fatores de equiparação de carga horária e de esforço do curso.
+      <strong>Definição:</strong> Este indicador converte o número de Matrículas de todos os tipos de cursos e modalidades de oferta em Matrículas Equivalentes, mediante o ajuste por fatores de equiparação de carga horária e de esforço do curso.
     </td>
   </tr>
   <tr>
@@ -508,15 +455,15 @@ Número de matrículas equivalentes (ENME)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -547,11 +494,11 @@ Número de matrículas equivalentes (ENME)
       <strong>Definição:</strong> Número de estudantes que estiveram com matrícula ativa em pelo menos um dia no ano base.
       <br/>&nbsp;<br/>
       <strong>FECH - Fator de Equiparação de Carga Horária</strong><br/>
-      <strong>Fonte:</strong>Guia PNP Indicadores.<br/>
+      <strong>Fonte:</strong> Anexo II da Portaria nº 146/2021.<br/>
       <strong>Definição:</strong> Calculado pela razão entre a carga horária mínima regulamentada do curso e carga horária padrão de 800 horas anuais. Para os demais cursos, o fator de equiparação de carga horária será igual a 1 (um).
       <br/>&nbsp;<br/>
       <strong>FEC - Fator de Esforço de Curso </strong><br/>
-      <strong>Fonte:</strong>Guia PNP Indicadores.<br/>
+      <strong>Fonte:</strong> Anexo II da Portaria nº 146/2021.<br/>
       <strong>Definição:</strong> Ajusta a contagem de matrículas-equivalentes para cursos que demandem, para o desenvolvimento de suas atividades, uma menor relação matrículas por professor.
     </td>
   </tr>
@@ -570,7 +517,7 @@ Número de unidades acadêmicas (ENUND)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de unidades acadêmicas, que possuam matrículas no ano base.
+      <strong>Definição:</strong> Este indicador apresenta o número total de unidades acadêmicas, que possuam matrículas no ano base.
     </td>
   </tr>
   <tr>
@@ -585,10 +532,10 @@ Número de unidades acadêmicas (ENUND)
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Instituição.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Instituição.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -611,7 +558,7 @@ Número de unidades acadêmicas (ENUND)
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
       <strong>Unidades</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
       <strong>Definição:</strong> estrutura que possui ato normativo de autorização de funcionamento, expedido pelo Ministério da Educação, tendo finalidade acadêmica. São consideradas unidades: Campus, Campus Avançado, Escola Técnica Vinculada a Universidade Federal, Polo de Inovação, Sede e Uned.
     </td>
   </tr>
@@ -630,7 +577,7 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de vagas disponibilizadas para ciclos dos cursos, em suas diversas formas de ingresso, no ano base.
+      <strong>Definição:</strong> EEste indicador apresenta o número total de vagas disponibilizadas no ano base, considerando todos os cursos e modalidades ofertados.
     </td>
   </tr>
   <tr>
@@ -640,15 +587,15 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -657,11 +604,9 @@ Número de vagas (ENV)
       <p style="text-align:center">
         <math style="font-size: 1.2rem;" display="block">
           <mrow>
-            <mi>ENUND</mi>
+            <mi>ENV</mi>
             <mo>=</mo>
-            <mo>∑</mo>
             <mi>V</mi>
-            <mtext>, nos diferentes níveis de agregação</mtext>
           </mrow>
         </math>
       </p>
@@ -670,9 +615,8 @@ Número de vagas (ENV)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>V - Vagas</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Número de vagas disponibilizadas para os ciclos de cursos, em suas diversas formas de ingresso, no ano base.
+      <strong>V</strong> = Número total de vagas. As vagas representam a capacidade da instituição de ensino em receber novos alunos e estão diretamente relacionadas à sua infraestrutura, corpo docente e recursos pedagógicos, sendo geralmente definidas por critérios quantitativos e qualitativos e previstos no Plano de Desenvolvimento Institucional.<br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
     </td>
   </tr>
 </table>
@@ -682,6 +626,32 @@ Número de vagas (ENV)
 <h3 style="color: #004080;">
 Índice de eficiência acadêmica (ENIEA)
 </h3>
+
+As matrículas para o cálculo do indicador Índice de Eficiência Acadêmica diferem das matrículas utilizadas em outros indicadores, pois não são considerados apenas os dados do ano-base, mas sim os dados reunidos por “ciclos de matrícula”. Um ciclo de matrícula envolve a oferta de um curso com uma carga horária definida, com mesma data de início e mesma previsão de término, visando englobar um conjunto de matrículas para obtenção de uma mesma certificação ou diploma. A análise dos indicadores “por ciclo” será realizada considerando a situação de matrícula com fim de ciclo previsto para o ano anterior ao de referência.<p/>
+
+Considerando o conjunto de estudantes ingressantes no início de um determinado ciclo no momento de análise, cada um poderá se enquadrar em apenas uma das três situações de matrícula:
+- Evadido: estudante que perdeu o vínculo com a instituição antes da conclusão do curso.
+- Retido: estudante que permaneceu com situação de matrícula “em curso” por período superior ao tempo previsto para a integralização do curso.
+- Concluinte: estudante que concluiu com êxito todos os componentes curriculares do curso ou com situação de matrícula “integralizada”, ou seja, que concluiu a carga horária das unidades curriculares mas ainda não pode obter a certificação por não ter concluído estágio, Trabalho de Conclusão de Curso, não ter realizado o Exame Nacional de Desempenho dos Estudantes (Enade), entre outros.
+<p/>
+
+Exemplo:<br/>
+
+Um curso Técnico em Edificações Integrado ao Ensino Médio com duração prevista para quatro anos teve quarenta ingressantes em janeiro de 2020, e, portanto, seu “ciclo encerrado” em dezembro de 2023. Neste caso, o método de análise da PNP prevê que, em 31 de dezembro de 2024 (final do ano posterior ao término do ciclo iniciado em 2020), seja realizada a análise da situação de matrícula dos quarenta estudantes ingressantes em janeiro de 2020. Realizada esta análise, os estudantes apresentaram as seguintes situações de matrícula: 
+- dezesseis (40%) concluíram todos os componentes curriculares (Formados);
+- quatro (10%), todas as unidades curriculares, mas ainda não poderiam receber a certificação (Integralizados).
+- oito (20%) perderam o vínculo com a instituição (Evadidos);
+- doze (30%) ainda estavam matriculados em alguma das unidades curriculares (Retidos).
+<p/>
+
+Com base neste exemplo, a PNP apresentaria os seguintes resultados no ano base 2024: 
+- Conclusão por Ciclo = 50% (matrículas concluídas+ integralizadas) 
+- Evasão por Ciclo = 20% 
+- Retenção por Ciclo = 30%
+<p/>
+
+O cálculo do indicador de Eficiência Acadêmica deve avaliar a capacidade de a Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT) atingir os resultados previstos em termos de “estudantes certificados” ou “com potencial de certificação” em relação à quantidade total de matrículas, considerando um determinado ciclo de matrículas. Para fazer esta projeção, a PNP identificou o quanto representam os “concluintes (50%)” no total de “concluintes mais evadidos (50% + 20%)”, criando um ponderador que busca projetar o percentual de retidos que provavelmente concluirão seu curso em algum momento posterior ao ano base, multiplicando pela quantidade de retidos.
+
 <table>
   <tr>
     <th colspan="2"><strong><i>
@@ -690,10 +660,7 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de estudantes que concluíram o curso com êxito dentro do período previsto, entendido como até o ano seguinte ao ano da data prevista de fim do ciclo, somado à projeção de matrículas retidas no ciclo com potencial de conclusão.<br/>
-      O ano seguinte ao da data prevista para o fim do ciclo é um prazo adicional que tem como finalidade mitigar os efeitos de alterações inesperadas no calendário acadêmico, sem gerar prejuízo às instituições na avaliação da eficiência acadêmica.<br/>
-      Para o cálculo, não se considera a data exata de término do ciclo, mas sim o ano informado na data de fim do ciclo. Assim, são incluídos na análise de eficiência acadêmica apenas os ciclos cujo término estava previsto para o ano imediatamente anterior ao ano base. Por exemplo, um ciclo com data de término prevista em 20/12/2024 será analisado na PNP 2026 - ano base 2025.<br/>
-      Por fim, para este cálculo é empregado o conceito de matrícula, e não o de matrícula equivalente. 
+      <strong>Definição:</strong> Este indicador mede o percentual de estudantes que concluíram o curso com êxito dentro do período previsto ou até o dia 31 de dezembro do ano posterior ao término do ciclo iniciado, acrescido de um percentual (projeção) dos estudantes retidos no ano base que poderão concluir o curso. São considerados apenas os estudantes matriculados em ciclos de matrícula com término previsto para o ano anterior ao ano base. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente. 
     </td>
   </tr>
   <tr>
@@ -703,15 +670,15 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Ciclo.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Ciclo.
+      <strong>Agregação máxima:</strong> Rede Federal.
     </td>
   </tr>
   <tr>
@@ -721,6 +688,9 @@ Número de vagas (ENV)
         <math style="font-size: 1.2rem;" display="block">
             <mrow>
               <mi>ENIEA</mi>
+              <mo>[</mo>
+              <mo>%</mo>
+              <mo>]</mo>
               <mo>=</mo>
               <mrow>
                 <mi>CCiclo</mi>
@@ -756,17 +726,17 @@ Número de vagas (ENV)
   <tr>
     <td colspan="2">
       <p style="text-align:center"><strong>Variáveis</strong></p>
-      <strong>CCiclo - Conclusão por Ciclo</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Percentual de CONCLUINTES, definido pela situação de matrícula “Concluída” ou “Integralizada”, em relação às matrículas do ciclo analisado.
+      <strong>CCiclo [%] - Conclusão por Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP.<br/>
+      <strong>Definição:</strong> Percentual de CONCLUINTES (definido pelos status “Concluído” ou “Integralizado em fase escolar”), em relação às matrículas vinculadas aos ciclos concluídos no ano anterior ao ano base.
       <br/>&nbsp;<br/>
-      <strong>EvCiclo - Evasão por Ciclo</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Percentual de EVADIDOS, definido por matrículas que perderam o vínculo com a instituição, em relação às matrículas do ciclo analisado.
+      <strong>EvCiclo [%] - Evasão por Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP.<br/>
+      <strong>Definição:</strong> Percentual de EVADIDOS, em relação às matrículas vinculadas aos ciclos concluídos no ano anterior ao ano base.
       <br/>&nbsp;<br/>
-      <strong>RCiclo - Retenção por Ciclo</strong><br/>
-      <strong>Fonte:</strong> PNP (SISTEC / CCV).<br/>
-      <strong>Definição:</strong> Percentual de RETIDOS, definido pela situação de matrícula “em curso” após o período previsto para integralização do ciclo (acrescido de um ano) em relação às matrículas do ciclo analisado.
+      <strong>RCiclo [%] - Retenção por Ciclo</strong><br/>
+      <strong>Fonte:</strong> PNP.<br/>
+      <strong>Definição:</strong> Percentual de matriculados que são classificados como RETIDOS por terem ultrapassado o período previsto para integralização do curso (acrescido de um ano) em relação às matrículas vinculadas aos ciclos concluídos no anterior ao Ano base.
     </td>
   </tr>
 </table>
@@ -776,6 +746,55 @@ Número de vagas (ENV)
 <h3 style="color: #004080;">
 Índice de verticalização (ENIV)
 </h3>
+
+O indicador é calculado em nível de Eixo Tecnológico, com seu modelo matemático expresso na ficha a seguir de acordo com essa configuração. A representação do Índice de Verticalização em formas agregadas superiores (Unidade, Instituição) na PNP é baseada no cálculo da média das formas agregadas imediatamente inferiores.<p/>
+
+Nesse indicador, avalia-se a verticalização sobre dois aspectos:
+<ol type="a">
+  <li><strong>Análise vertical</strong>: Verifica se uma mesma unidade ofereceu vagas, no ano base, em cursos de diferentes “níveis” dentro do mesmo Eixo Tecnológico;</li>
+  <li><strong>Análise horizontal</strong>: Verifica se a unidade ofereceu mais vagas nos “níveis mais básicos” quando se analisam as quatro categorias duas a duas.</li>
+</ol>
+
+A partir destas possibilidades, emprega-se um percentual de prioridades:
+<table>
+  <tr>
+    <th><strong>Categoria</strong></th>
+    <th><strong>Prioridade</strong></th>
+    <th><strong>Classificação</strong></th>
+  </tr>
+  <tr>
+    <td>Qualificação Profissional – Técnico</td>
+    <td>39,7%</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Técnico – Graduação</td>
+    <td>36,5%</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Graduação - Pós-graduação</td>
+    <td>9,5%</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Qualificação Profissional - Graduação</td>
+    <td>8,9%</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Técnico – Pós-graduação</td>
+    <td>2,8%</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Qualificação Profissional – Pós-Graduação</td>
+    <td>2,6%</td>
+    <td>6</td>
+  </tr>
+</table>
+
+
 <table>
   <tr>
     <th colspan="2"><strong><i>
@@ -784,7 +803,7 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador busca verificar a condição de verticalização dos cursos oferecidos por uma mesma unidade acadêmica em um mesmo eixo tecnológico, considerando vagas de ingresso ofertadas em 04 categorias possíveis: Curso de Qualificação Profissional (QP); Curso Técnico (CT); Curso de Graduação (CG) e Curso de Pós-Graduação (PG).  
+      <strong>Definição:</strong> Este indicador busca verificar a condição de verticalização dos cursos oferecidos por uma mesma unidade acadêmica em um mesmo eixo tecnológico, considerando vagas de ingresso ofertadas em 04 categorias possíveis: Curso de Qualificação Profissional (QP); Curso Técnico (CT); Curso de Graduação (CG) e Curso de Pós-Graduação (PG).  
     </td>
   </tr>
   <tr>
@@ -794,15 +813,15 @@ Número de vagas (ENV)
   </tr>
   <tr>
     <td colspan="2">
-      <strong>Polaridade:</strong> Quanto maior, melhor.
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Agregação máxima:</strong> RFEPCT.
+      <strong>Agregação mínima:</strong> Eixo Tecnológico.
     </td>
     <td>
-      <strong>Agregação Mínima:</strong> Eixo Tecnológico.
+      <strong>Agregação máxima:</strong> Eixo Tecnológic.
     </td>
   </tr>
   <tr>
@@ -932,6 +951,173 @@ Número de vagas (ENV)
 
 <p>&nbsp;</p>
 <h3 style="color: #004080;">
+Reserva de Vagas (RV)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Reserva de Vagas (RV)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Definição:</strong> Este indicador apresenta o percentual de vagas ofertadas por cotas nos cursos técnicos e de graduação, conforme classificações definidas na Lei das Cotas (Lei 11.711/2012) e alterações. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pelas Leis 14.723/2023 e 14.945/2024.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> Crescente (quanto maior, melhor).
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação mínima:</strong> Curso.
+    </td>
+    <td>
+      <strong>Agregação máxima:</strong> Rede Federal.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático:</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>RV</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <mrow>
+              <mfrac>
+                <mi>VC</mi>
+                <mrow>
+                  <mi>VAC</mi>
+                  <mo>+</mo>
+                  <mi>VC</mi>
+                </mrow>  
+              </mfrac>
+              <mo>)</mo>
+              <mo>&#xD7;</mo>
+              <mn>100</mn>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>VC - Vagas de Cotas</strong><br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
+      <strong>Definição:</strong> Número de vagas disponibilizadas para a fase inicial dos cursos e reservadas para que estudantes de escolas públicas, estudantes negros, pardos, indígenas, quilombolas, pessoas com deficiência e estudantes oriundos de famílias com renda per capita inferior a 1 salário mínimo tenham acesso ao ensino técnico e de graduação, conforme disposto na Lei 11.711/2012 e alterações.
+      <br/>&nbsp;<br/>
+      <strong>VAC - Vagas de Ampla Concorrência</strong><br/>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
+      <strong>Definição:</strong> Número de vagas disponibilizadas para a fase inicial dos cursos e destinadas para acesso ao público geral, no ano base. Consideram-se apenas as vagas nos cursos técnicos e de graduação.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
+Formas de Ingresso (FIng)
+</h3>
+<table>
+  <tr>
+    <th colspan="2"><strong><i>
+      Formas de Ingresso (FIng)
+    </i></strong></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Definição:</strong> Este indicador apresenta o número de matrículas classificadas por forma de ingresso, conforme categorias definidas na Lei das Cotas (Lei 11.711/2012) e alterações. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Meta:</strong> 50% - Art. 1º da Lei 11.711/2012, com redação dada pela Lei 14.723/2023.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Polaridade:</strong> não se aplica.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Agregação mínima:</strong> Rede Federal.
+    </td>
+    <td>
+      <strong>Agregação máxima:</strong> Rede Federal.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Modelo matemático: *</strong><br/>
+      <p style="text-align:center">
+        <math style="font-size: 1.2rem;" display="block">
+          <mrow>
+            <mi>FIng</mi>
+            <mo>=</mo>
+            <mo>[</mo>
+            <mrow>
+              <mi>VC</mi>
+              <mo>,</mo>
+              <msub><mi>LB</mi><mi>EP</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LB</mi><mi>PCD</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LB</mi><mi>PPI</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LB</mi><mi>Q</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LI</mi><mi>EP</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LI</mi><mi>PCD</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LI</mi><mi>PPI</mi></msub>
+              <mo>,</mo>
+              <msub><mi>LI</mi><mi>Q</mi></msub>
+              <mo>,</mo>
+              <mi>ND</mi>
+            </mrow>
+            <mo>]</mo> 
+          </mrow>
+        </math>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p style="text-align:center"><strong>Variáveis</strong></p>
+      <strong>Formas de ingresso</strong><br/>
+      <ul>
+        <li><strong>AC</strong>: número de matrículas de ingressantes por ampla concorrência.</li>
+        <li><strong>LB<sub>EP</sub></strong>: número de matrículas de ingressantes com renda familiar bruta per capita igual ou inferior a 1 salário mínimo que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LB<sub>PCD</sub></strong>: número de matrículas de ingressantes com deficiência, que tenham renda familiar bruta per capita igual ou inferior a 1 salário mínimo e que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LB<sub>PPI</sub></strong>: número de matrículas de ingressantes autodeclarados pretos, pardos ou indígenas, com renda familiar bruta per capita igual ou inferior a 1 salário mínimo e que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LB<sub>Q</sub></strong>: número de matrículas de ingressantes autodeclarados quilombolas, com renda familiar bruta per capita igual ou inferior a 1 salário mínimo e que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LI<sub>EP</sub></strong>: número de matrículas de ingressantes que, independentemente da renda, tenham cursado integralmente ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LI<sub>PCD</sub></strong>: número de matrículas de ingressantes com deficiência, independentemente da renda, que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LI<sub>PPI</sub></strong>: número de matrículas de ingressantes autodeclarados pretos, pardos ou indígenas, independentemente da renda, que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>LI<sub>Q</sub></strong>: número de matrículas de ingressantes autodeclarados quilombolas, independentemente da renda, que tenham cursado integralmente o ensino fundamental ou médio (conforme o nível de ingresso) em escolas públicas.</li>
+        <li><strong>ND</strong>: número de matrículas de ingressantes sem informação da forma de ingresso.</li>
+      </ul>
+      <strong>Fonte:</strong> PNP (CCV).<br/>
+      <strong>Definição:</strong> A classificação segundo formas de ingresso desdobra-se em dez categorias, conforme informado nos registros de ingresso dos estudantes.
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<h3 style="color: #004080;">
 Percentual de conclusão por ciclo (ENCC)
 </h3>
 <table>
@@ -942,7 +1128,7 @@ Percentual de conclusão por ciclo (ENCC)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de concluintes em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente. 
+      <strong>Definição:</strong> Este indicador mede o percentual de concluintes em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente. 
     </td>
   </tr>
   <tr>
@@ -1011,7 +1197,7 @@ Percentual de evasão anual (ENEVA)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de matrículas que perderam o vínculo com a instituição no ano base sem a conclusão do curso em relação ao total de matrículas. Para este cálculo é empregado o conceito de matrícula e não de matrícula equivalente.  
+      <strong>Definição:</strong> Este indicador mede o percentual de matrículas que perderam o vínculo com a instituição no ano base sem a conclusão do curso em relação ao total de matrículas. Para este cálculo é empregado o conceito de matrícula e não de matrícula equivalente.  
     </td>
   </tr>
   <tr>
@@ -1080,7 +1266,7 @@ Percentual de evasão por ciclo (ENEC)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de evadidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
+      <strong>Definição:</strong> Este indicador mede o percentual de evadidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
     </td>
   </tr>
   <tr>
@@ -1149,7 +1335,7 @@ Percentual de retenção por ciclo (ENREC)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de retidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
+      <strong>Definição:</strong> Este indicador mede o percentual de retidos em um ciclo de matrícula. Para este cálculo é empregado o conceito de matrícula, e não de matrícula equivalente.  
     </td>
   </tr>
   <tr>
@@ -1218,7 +1404,7 @@ Relação de inscritos por vagas (ENRIV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede a relação entre o número de candidatos inscritos e o número de vagas disponibilizadas. 
+      <strong>Definição:</strong> Este indicador mede a relação entre o número de candidatos inscritos e o número de vagas disponibilizadas. 
     </td>
   </tr>
   <tr>
@@ -1299,7 +1485,7 @@ Número de matrículas oriundas de ampla concorrência em cursos técnicos e de 
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por ampla concorrência, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por ampla concorrência, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1360,7 +1546,7 @@ Número de matrículas em cursos técnicos e de graduação (ALM)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1429,7 +1615,7 @@ Número de matrículas oriundas de vagas reservadas em cursos técnicos e de gra
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por cotas (reserva de vagas), conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de matrículas em cursos técnicos e de graduação, vinculadas a estudantes que ingressaram por cotas (reserva de vagas), conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1489,7 +1675,7 @@ Número de vagas de ampla concorrência em cursos técnicos e de graduação (AL
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de vagas ofertadas por ampla concorrência em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de vagas ofertadas por ampla concorrência em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1550,7 +1736,7 @@ Número de vagas em cursos técnicos e de graduação (ALV)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de vagas ofertadas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de vagas ofertadas em cursos técnicos e de graduação, considerando as formas de ingresso “ampla concorrência” e “vagas reservadas”, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1619,7 +1805,7 @@ Número de vagas reservadas em cursos técnicos e de graduação (ALVR)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador apresenta o número total de vagas ofertadas por cotas (reserva de vagas), em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
+      <strong>Definição:</strong> Este indicador apresenta o número total de vagas ofertadas por cotas (reserva de vagas), em cursos técnicos e de graduação, conforme estabelecido na Lei das Cotas (Lei 11.711/2012) e Lei nº 14.723/2023.
     </td>
   </tr>
   <tr>
@@ -1679,7 +1865,7 @@ Percentual de oferta de vagas em cursos de graduação noturna presencial (ALVGN
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos de graduação presencial para o turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos de graduação presencial.  
+      <strong>Definição:</strong> Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos de graduação presencial para o turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos de graduação presencial.  
     </td>
   </tr>
   <tr>
@@ -1748,7 +1934,7 @@ Percentual de cursos de graduação noturna presencial (ALGN)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o total de cursos de graduação com turno noturno, em relação ao total de cursos oferecidos nos cursos de graduação presencial.  
+      <strong>Definição:</strong> Este indicador mede o total de cursos de graduação com turno noturno, em relação ao total de cursos oferecidos nos cursos de graduação presencial.  
     </td>
   </tr>
   <tr>
@@ -1818,7 +2004,7 @@ Percentual de matrículas equivalentes de graduação noturna presencial (ALMGN)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o total de matrículas equivalentes de graduação presencial para o turno noturno, em relação ao total de matrículas equivalentes nos cursos de graduação presencial.   
+      <strong>Definição:</strong> Este indicador mede o total de matrículas equivalentes de graduação presencial para o turno noturno, em relação ao total de matrículas equivalentes nos cursos de graduação presencial.   
     </td>
   </tr>
   <tr>
@@ -1887,7 +2073,7 @@ Percentual de matrículas equivalentes em cursos de educação de jovens e adult
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de matrículas equivalentes na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.   
+      <strong>Definição:</strong> Este indicador mede o percentual de matrículas equivalentes na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.   
     </td>
   </tr>
   <tr>
@@ -1956,7 +2142,7 @@ Percentual de matrículas equivalentes em cursos de educação profissional téc
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de matrículas equivalentes vinculadas a cursos de educação profissional técnica de nível médio, ou seja, cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.  
+      <strong>Definição:</strong> Este indicador mede o percentual de matrículas equivalentes vinculadas a cursos de educação profissional técnica de nível médio, ou seja, cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.  
     </td>
   </tr>
   <tr>
@@ -2026,7 +2212,7 @@ Percentual de matrículas equivalentes em cursos de formação de professores (A
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de matrículas equivalentes vinculadas à formação de professores. É aplicável apenas aos Institutos Federais.
+      <strong>Definição:</strong> Este indicador mede o percentual de matrículas equivalentes vinculadas à formação de professores. É aplicável apenas aos Institutos Federais.
     </td>
   </tr>
   <tr>
@@ -2096,7 +2282,7 @@ Percentual de oferta de vagas em cursos noturnos presenciais (ALVN)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos presenciais no turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos presenciais.
+      <strong>Definição:</strong> Este indicador mede o percentual de vagas de ingresso oferecidas nos cursos presenciais no turno noturno, em relação ao total de vagas de ingresso oferecidas nos cursos presenciais.
     </td>
   </tr>
   <tr>
@@ -2165,7 +2351,7 @@ Percentual de oferta de vagas em cursos de educação de jovens e adultos articu
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de oferta de vagas na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada de Trabalhadores (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.
+      <strong>Definição:</strong> Este indicador mede o percentual de oferta de vagas na modalidade EJA, tanto nos cursos de Formação Inicial e Continuada de Trabalhadores (FIC) quanto nos cursos de educação profissional técnica de nível médio contemplados no programa nacional de integração da educação profissional com a educação básica na modalidade EJA (PROEJA / EJA Integrada). É aplicável apenas aos Institutos Federais.
     </td>
   </tr>
   <tr>
@@ -2235,7 +2421,7 @@ Percentual de oferta de vagas em cursos de educação profissional técnica de n
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de oferta de vagas em cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.
+      <strong>Definição:</strong> Este indicador mede o percentual de oferta de vagas em cursos técnicos e de especialização técnica. É aplicável apenas aos Institutos Federais.
     </td>
   </tr>
   <tr>
@@ -2304,7 +2490,7 @@ Percentual de oferta de vagas em cursos de formação de professores (ALVFP)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador mede o percentual de oferta de vagas para formação de professores. É aplicável apenas aos Institutos Federais.
+      <strong>Definição:</strong> Este indicador mede o percentual de oferta de vagas para formação de professores. É aplicável apenas aos Institutos Federais.
     </td>
   </tr>
   <tr>
@@ -2374,7 +2560,7 @@ Relação entre matrícula equivalente e professor equivalente (ALRMP)
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador permite avaliar a relação entre o número de matrículas equivalentes e o número de professores equivalentes.
+      <strong>Definição:</strong> Este indicador permite avaliar a relação entre o número de matrículas equivalentes e o número de professores equivalentes.
     </td>
   </tr>
   <tr>
@@ -2444,7 +2630,7 @@ Relação entre matrícula equivalente presencial e professor equivalente (ALRAP
   </tr>
   <tr>
     <td colspan="2">
-      Este indicador permite avaliar a relação entre o número de matrículas equivalentes em cursos presenciais e o número de professores equivalentes.
+      <strong>Definição:</strong> Este indicador permite avaliar a relação entre o número de matrículas equivalentes em cursos presenciais e o número de professores equivalentes.
     </td>
   </tr>
   <tr>
