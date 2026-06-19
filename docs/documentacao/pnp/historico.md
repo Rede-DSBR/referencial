@@ -54,9 +54,14 @@ Quanto à forma de ingresso, a nova inconsistência foi gerada devido à Portari
 
 O último ajuste foi de cadastro em lote de servidores para as Escolas Técnicas Vinculadas às Universidades Federais (ETVs). O quadro de pessoal das ETVs precisa ser tratado de maneira diferente das demais instituições, devido ao fato de os servidores dessas unidades estarem lotados nas universidades e, quando migrados para a escola, aparecerem em quantidade menor. Assim, durante o Ciclos de Coleta e Validação (CCV), as instituições poderão carregar planilhas em formato CSV, que conste a matrícula Siape do servidor (sem o dígito adicional) e o respectivo código da UORG em que o servidor está lotado.
 
-Por fim, em 2025, este guia descreve os indicadores acadêmicos, de pessoal e de gastos, que já estavam contemplados na PNP, além de apresentar os novos indicadores que serão disponibilizados, tais como: forma de ingresso, pesquisa e inovação, extensão e polos de inovação.
+Em 2026, foi instituído o Comitê de Governança de Dados e Informações da Rede Federal de Educação Profissional, Científica e Tecnológica (CGDI) (Portaria Setec/MEC nº 11, de 18 de março de 2026), que substitui o grupo de especialistas da PNP. Conforme Art. 1º, parágrafo único mesma portaria, o CGDI tem a finalidade de “propor e acompanhar a implementação de diretrizes e padrões para a coleta, organização, validação, análise e disseminação de dados e informações da RFEPCT, garantindo a qualidade, a segurança e o uso ético desses dados e informações”.
 
-Para acessar as versões anteriores do Guia Metodológico da PNP, clique em uma das opções abaixo:
+No mesmo ano, foi publicada a portaria que Estabelece o Guia PNP Indicadores e os indicadores da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT), disponíveis na Plataforma Nilo Peçanha, definindo o “Guia PNP Indicadores como o documento técnico de referência metodológica obrigatória, contendo os fundamentos, o histórico, o marco regulatório, a relação dos indicadores, suas fichas técnicas, suas bases e fontes de dados, as formas de cálculo, os critérios de agregação, as regras de consistência, os fatores de equiparação de carga horária e de esforço de curso, a lista de termos e conceitos, bem como outros elementos necessários para a compreensão da Plataforma Nilo Peçanha”.
+
+Outra inovação abordada pela portaria é a organização dos indicadores por dimensão. O artigo 4º. definiu as seguintes dimensões: Ensino, Pesquisa e Inovação, Extensão, Polos de Inovação, Pessoal, Gastos, Acompanhamento Legal e Sustentabilidade. Desta forma, este guia abordará todos os indicadores estabelecidos pela refrida portaria.
+
+
+### Versões anteriores do Guia Metodológico da PNP:
 
 * [Guia de Referência Metodológica 2017](https://dadosabertos.mec.gov.br/pnp/item/65-2017-guia-de-referencia-metodologica){:target="_blank"}
 * [Guia de Referência Metodológica 2018](https://dadosabertos.mec.gov.br/images/conteudo/pnp/2019/guia-referencia-2019.pdf){:target="_blank"}
