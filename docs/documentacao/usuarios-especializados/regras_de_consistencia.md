@@ -119,7 +119,7 @@ title: "Regras de consistência"
   <tr>
     <td class="rule-text" colspan="3">
       <strong>Regra</strong><br>
-      Para permitir a correta identificação dos cursos para formação de professores, é necessário identificar de forma explícita quais cursos são de formação de professores. Essa inconsistência é aplicada apenas para cursos FIC e de pós-graduação. Os cursos de Licenciatura são automaticamente marcados como de formação de professores.
+      Para permitir a correta identificação dos cursos para formação de professores, é necessário identificar de forma explícita quais cursos são de formação de professores. Essa inconsistência é aplicada apenas para cursos FIC e de pós-graduação. Esses cursos somente devem ser identificados como formação de professores quando tiverem como objetivo a preparação para a docência (por exemplo: formação pedagógica, metodologias de ensino, especializações em docência, entre outros com foco direto na atuação docente).  Os cursos de Licenciatura são automaticamente marcados como de formação de professores.
     </td>
   </tr>
 
